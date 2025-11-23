@@ -1,0 +1,17 @@
+# Python virtual environments
+backend/.venv/
+
+# Node module dependencies
+frontend/node_modules/
+
+# IDE stuff
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variable files
+/backend/.env
+/frontend/.env

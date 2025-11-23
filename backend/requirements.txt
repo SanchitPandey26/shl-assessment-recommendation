@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+sentence-transformers
+numpy
+pandas
+chromadb
+beautifulsoup4
+requests
+python-dotenv
+lxml
+tqdm
+openpyxl
