@@ -6,11 +6,20 @@ from sentence_transformers import SentenceTransformer
 
 BASE_DIR = Path(__file__).resolve().parents[1]
 CLEAN_PATH = BASE_DIR / "data" / "shl_catalog_clean.json"
-EMB_PATH = BASE_DIR / "data" / "embeddings_bge_base.npy"
-META_PATH = BASE_DIR / "data" / "meta_bge_base.json"
+
+# BGE small model paths
+EMB_PATH = BASE_DIR / "data" / "embeddings_bge_small.npy"
+META_PATH = BASE_DIR / "data" / "meta_bge_small.json"
+
+#BGE Base model paths
+#EMB_PATH = BASE_DIR / "data" / "embeddings_bge_base.npy"
+#META_PATH = BASE_DIR / "data" / "meta_bge_base.json"
+
+# Small BGE model
+MODEL_NAME = "BAAI/bge-small-en-v1.5"
 
 # base BGE model
-MODEL_NAME = "BAAI/bge-base-en-v1.5"
+# MODEL_NAME = "BAAI/bge-base-en-v1.5"
 
 def load_clean_data():
     with open(CLEAN_PATH, "r", encoding="utf-8") as f:

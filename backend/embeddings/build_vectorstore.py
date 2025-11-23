@@ -6,11 +6,23 @@ import chromadb
 from chromadb.utils import embedding_functions
 
 BASE_DIR = Path(__file__).resolve().parents[1]
-EMB_PATH = BASE_DIR / "data" / "embeddings_bge_base.npy"
-META_PATH = BASE_DIR / "data" / "meta_bge_base.json"
-CHROMA_PATH = BASE_DIR / "vector_store_bge_base"
 
-MODEL_NAME = "BAAI/bge-base-en-v1.5"
+# BGE small model paths
+EMB_PATH = BASE_DIR / "data" / "embeddings_bge_small.npy"
+META_PATH = BASE_DIR / "data" / "meta_bge_small.json"
+CHROMA_PATH = BASE_DIR / "vector_store_bge_small"
+
+#BGE Base model paths
+# EMB_PATH = BASE_DIR / "data" / "embeddings_bge_base.npy"
+# META_PATH = BASE_DIR / "data" / "meta_bge_base.json"
+# CHROMA_PATH = BASE_DIR / "vector_store_bge_base"
+
+
+# Small BGE model
+MODEL_NAME = "BAAI/bge-small-en-v1.5"
+
+# Base BGE model
+# MODEL_NAME = "BAAI/bge-base-en-v1.5"
 
 
 def sanitize(value):

@@ -8,13 +8,25 @@ from sklearn.metrics.pairwise import cosine_similarity
 import re
 
 BASE_DIR = Path(__file__).resolve().parents[1]
-EMB_PATH = BASE_DIR / "data" / "embeddings_bge_base.npy"
-META_PATH = BASE_DIR / "data" / "meta_bge_base.json"
-MODEL_NAME = "BAAI/bge-base-en-v1.5"
+
+# BGE small model paths
+EMB_PATH = BASE_DIR / "data" / "embeddings_bge_small.npy"
+META_PATH = BASE_DIR / "data" / "meta_bge_small.json"
+
+#BGE Base model paths
+# EMB_PATH = BASE_DIR / "data" / "embeddings_bge_base.npy"
+# META_PATH = BASE_DIR / "data" / "meta_bge_base.json"
+
+# Small BGE model
+MODEL_NAME = "BAAI/bge-small-en-v1.5"
+
+# Base BGE model
+# MODEL_NAME = "BAAI/bge-base-en-v1.5"
 
 class HybridRetriever:
     def __init__(self, model_name=MODEL_NAME):
-        print("Initializing HybridRetriever (BGE-base)...")
+        print("Initializing HybridRetriever (BGE-small)...")
+        # print("Initializing HybridRetriever (BGE-base)...")
         self.model = SentenceTransformer(model_name)
         self.emb = np.load(EMB_PATH)
         with open(META_PATH, "r", encoding="utf-8") as f:
