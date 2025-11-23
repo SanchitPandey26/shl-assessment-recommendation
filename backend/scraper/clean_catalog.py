@@ -157,6 +157,28 @@ def build_structured_embed_text(item):
     kw = extract_keywords(" ".join([item.get("name",""), item.get("description","")]), top_n=10)
     if kw:
         parts.append("SKILL: " + " ".join(kw))
+
+    # -------------------------------------------------------
+    # ENRICHED METADATA (LLM Generated)
+    # -------------------------------------------------------
+    enrichment = item.get("enrichment")
+    if enrichment:
+        # Skills (Explicit from LLM)
+        if enrichment.get("skills"):
+            parts.append("LLM_SKILL: " + " ".join(enrichment["skills"]))
+        
+        # Synonyms
+        if enrichment.get("synonyms"):
+            parts.append("SYNONYM: " + " ".join(enrichment["synonyms"]))
+            
+        # Summary
+        if enrichment.get("summary"):
+            parts.append("SUMMARY: " + enrichment["summary"])
+            
+        # Synthetic Queries
+        if enrichment.get("synthetic_queries"):
+            parts.append("SYNTH_QUERY: " + " ".join(enrichment["synthetic_queries"]))
+    # -------------------------------------------------------
     # tags
     if item.get("tags"):
         if isinstance(item["tags"], list):
@@ -172,6 +194,18 @@ def clean_catalog():
     with open(RAW_PATH, "r", encoding="utf-8") as f:
         raw = json.load(f)
 
+    # Load enriched data map if available
+    enrichment_map = {}
+    ENRICHED_PATH = BASE_DIR / "data" / "shl_catalog_enriched.json"
+    if ENRICHED_PATH.exists():
+        print(f"Found enriched catalog at {ENRICHED_PATH}, loading partial enrichments...")
+        with open(ENRICHED_PATH, "r", encoding="utf-8") as f:
+            enriched_list = json.load(f)
+            for item in enriched_list:
+                if item.get("id") and item.get("enrichment"):
+                    enrichment_map[item["id"]] = item["enrichment"]
+        print(f"Loaded {len(enrichment_map)} enriched items.")
+
     cleaned = []
     url_seen = set()
     name_desc_seen = set()
@@ -180,6 +214,14 @@ def clean_catalog():
         name = normalize_text(rec.get("name"))
         url = canonical_url(rec.get("url"))
         desc = normalize_text(rec.get("description") or rec.get("summary") or "")
+        
+        # Temporary ID generation to match enrichment map (needs to match make_id logic)
+        # We need to construct the item first to get the ID, or move ID generation up.
+        # Let's move ID generation up or replicate it.
+        # Actually, make_id uses url, name, description.
+        # We can create a temporary item dict to generate ID.
+        temp_id = make_id({"url": url, "name": name, "description": desc})
+        
         job_levels = normalize_text(rec.get("job_levels") or rec.get("job level") or rec.get("job-levels"))
         remote_support = bool_from_yesno(rec.get("remote_support"))
         adaptive_support = bool_from_yesno(rec.get("adaptive_support"))
@@ -209,7 +251,7 @@ def clean_catalog():
             name_desc_seen.add(key)
 
         item = {
-            "id": make_id({"url": url, "name": name, "description": desc}),
+            "id": temp_id,
             "name": name,
             "url": url,
             "description": desc,
@@ -221,6 +263,7 @@ def clean_catalog():
             "adaptive_support": adaptive_support,
             "test_type_codes": list(map(lambda x: x.strip(), test_type_codes)) if test_type_codes else [],
             "test_type_expanded": test_type_expanded,
+            "enrichment": enrichment_map.get(temp_id)
         }
 
         item["tags"] = extract_tags(item)

@@ -54,6 +54,15 @@ class HybridRetriever:
                     parts.append(" ".join([t["name"] for t in m["test_types"]]))
                 else:
                     parts.append(str(m["test_types"]))
+            
+            # Enriched metadata for TF-IDF
+            if m.get("enrichment"):
+                e = m["enrichment"]
+                if e.get("skills"): parts.append(" ".join(e["skills"]))
+                if e.get("synonyms"): parts.append(" ".join(e["synonyms"]))
+                if e.get("summary"): parts.append(e["summary"])
+                if e.get("synthetic_queries"): parts.append(" ".join(e["synthetic_queries"]))
+
             corpus.append(" ".join(parts))
 
         self.tfidf = TfidfVectorizer(stop_words="english", max_features=20000)

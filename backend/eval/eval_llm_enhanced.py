@@ -123,9 +123,9 @@ def run_evaluation():
 
 
         # ------------------------------------------------------------
-        # STEP 2: HYBRID RETRIEVAL (20 candidates for reranking)
+        # STEP 2: HYBRID RETRIEVAL (40 candidates for reranking)
         # ------------------------------------------------------------
-        candidates = retriever.retrieve(rewritten_query, top_k=20)
+        candidates = retriever.retrieve(rewritten_query, top_k=40)
 
         formatted_candidates = []
         for c in candidates:

@@ -19,7 +19,7 @@ def run_test():
     print(json.dumps(parsed, indent=2))
 
     retriever = HybridRetriever()
-    candidates = retriever.retrieve(query, top_k=20)
+    candidates = retriever.retrieve(query, top_k=40)
 
     # -------- UPDATED: full metadata for reranker --------
     formatted = []

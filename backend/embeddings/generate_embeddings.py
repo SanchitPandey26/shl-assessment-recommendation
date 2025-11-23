@@ -87,6 +87,7 @@ def generate_embeddings():
             "remote_support": item.get("remote_support"),
             "adaptive_support": item.get("adaptive_support"),
             "embed_text": item.get("embed_text"),
+            "enrichment": item.get("enrichment"),
         })
 
     with open(META_PATH, "w", encoding="utf-8") as f:
