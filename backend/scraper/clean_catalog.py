@@ -30,7 +30,11 @@ def bool_from_yesno(v):
     if v is None:
         return None
     v = str(v).strip().lower()
-    return v in ("yes", "y", "true", "1")
+    if v in ("yes", "y", "true", "1"):
+        return True
+    if v in ("no", "n", "false", "0"):
+        return False
+    return None
 
 def canonical_url(url: str) -> str:
     if not url:
@@ -57,7 +61,7 @@ def expand_test_types(codes):
                 "code": p,
                 "name": TEST_TYPE_MAP.get(p, p)
             })
-    # dedupe
+    # dedupe preserving order
     seen = set()
     dedup = []
     for e in out:
@@ -67,33 +71,104 @@ def expand_test_types(codes):
             dedup.append(e)
     return dedup
 
+def extract_keywords(text, top_n=12):
+    """Very lightweight keyword extractor: finds common alpha words and returns unique top_n."""
+    if not text:
+        return []
+    words = re.findall(r"[A-Za-z]{3,}", text.lower())
+    # frequency order
+    freq = {}
+    for w in words:
+        freq[w] = freq.get(w, 0) + 1
+    sorted_words = sorted(freq.items(), key=lambda x: (-x[1], x[0]))
+    return [w for w, _ in sorted_words[:top_n]]
+
+def normalize_joblevels(jl: str):
+    if not jl:
+        return []
+    parts = [normalize_text(p) for p in re.split(r"[,\|;/]", jl) if p and p.strip()]
+    out = []
+    for p in parts:
+        pnorm = p.lower()
+        # canonical mapping (few examples)
+        if "entry" in pnorm or "graduate" in pnorm:
+            out.append("entry-level")
+        elif "manager" in pnorm or "supervisor" in pnorm:
+            out.append("manager")
+        elif "executive" in pnorm or "director" in pnorm:
+            out.append("senior")
+        elif "professional" in pnorm or "mid" in pnorm:
+            out.append("mid-professional")
+        else:
+            out.append(pnorm.replace(" ", "-"))
+    return list(dict.fromkeys(out))
+
 def extract_tags(item):
     tags = set()
-
     for tt in item.get("test_type_expanded", []):
         tags.add(tt["name"])
-
-    if item.get("job_levels"):
-        for part in re.split(r"[,\|;/]", item["job_levels"]):
+    jl = item.get("job_levels")
+    if jl:
+        for part in re.split(r"[,\|;/]", jl):
             p = normalize_text(part)
             if p:
                 tags.add(p)
-
-    if item.get("languages"):
-        for lang in item["languages"]:
-            tags.add(lang)
-
     name = item.get("name") or ""
     words = re.findall(r"[A-Za-z]{3,}", name)
     for w in words[:8]:
         tags.add(w)
-
-    for c in item.get("test_type_codes") or []:
+    for c in (item.get("test_type_codes") or []):
         tags.add(str(c).strip())
+    return sorted({t.strip() for t in tags if t and len(t.strip())>0})
 
-    return sorted(t.lower() for t in tags if t.strip())
+def build_structured_embed_text(item):
+    parts = []
+    if item.get("name"):
+        parts.append(item["name"])
+    if item.get("description"):
+        parts.append(item["description"])
+    # structured tokens
+    # Test types
+    if item.get("test_type_expanded"):
+        types = " ".join([t["name"] for t in item["test_type_expanded"]])
+        parts.append("TYPE: " + types)
+    # job levels
+    if item.get("job_levels"):
+        jls = normalize_joblevels(item.get("job_levels"))
+        if jls:
+            parts.append("JOBLEVEL: " + " ".join(jls))
+    # languages
+    if item.get("languages"):
+        if isinstance(item["languages"], list):
+            parts.append("LANG: " + " ".join(item["languages"]))
+        else:
+            parts.append("LANG: " + str(item["languages"]))
+    # duration
+    dm = item.get("duration_min")
+    dx = item.get("duration_max")
+    if dm is not None and dx is not None:
+        if dm == dx:
+            parts.append(f"DURATION: {dm}MIN")
+        else:
+            parts.append(f"DURATION: {dm}-{dx}MIN")
+    elif dm is not None:
+        parts.append(f"DURATION: {dm}MIN")
+    # keywords from description/name for skill tokens
+    kw = extract_keywords(" ".join([item.get("name",""), item.get("description","")]), top_n=10)
+    if kw:
+        parts.append("SKILL: " + " ".join(kw))
+    # tags
+    if item.get("tags"):
+        if isinstance(item["tags"], list):
+            parts.append("TAGS: " + " ".join(item["tags"]))
+        else:
+            parts.append("TAGS: " + str(item["tags"]))
+    return " \n ".join(parts)
 
 def clean_catalog():
+    if not RAW_PATH.exists():
+        raise FileNotFoundError(f"Raw catalog not found at: {RAW_PATH}")
+
     with open(RAW_PATH, "r", encoding="utf-8") as f:
         raw = json.load(f)
 
@@ -104,8 +179,8 @@ def clean_catalog():
     for rec in raw:
         name = normalize_text(rec.get("name"))
         url = canonical_url(rec.get("url"))
-        desc = normalize_text(rec.get("description"))
-        job_levels = normalize_text(rec.get("job_levels"))
+        desc = normalize_text(rec.get("description") or rec.get("summary") or "")
+        job_levels = normalize_text(rec.get("job_levels") or rec.get("job level") or rec.get("job-levels"))
         remote_support = bool_from_yesno(rec.get("remote_support"))
         adaptive_support = bool_from_yesno(rec.get("adaptive_support"))
 
@@ -116,13 +191,13 @@ def clean_catalog():
         duration_min = rec.get("duration_min")
         duration_max = rec.get("duration_max")
 
-        test_type_codes = rec.get("test_type_codes") or []
+        test_type_codes = rec.get("test_type_codes") or rec.get("test_type") or []
         if isinstance(test_type_codes, str):
             test_type_codes = re.split(r"[,/;\s]+", test_type_codes)
 
         test_type_expanded = expand_test_types(test_type_codes)
 
-        # dedupe logic
+        # dedupe
         if url:
             if url in url_seen:
                 continue
@@ -144,24 +219,12 @@ def clean_catalog():
             "duration_max": duration_max,
             "remote_support": remote_support,
             "adaptive_support": adaptive_support,
-            "test_type_codes": test_type_codes,
+            "test_type_codes": list(map(lambda x: x.strip(), test_type_codes)) if test_type_codes else [],
             "test_type_expanded": test_type_expanded,
         }
 
         item["tags"] = extract_tags(item)
-
-        parts = []
-        if name: parts.append(name)
-        if desc: parts.append(desc)
-        if job_levels: parts.append(job_levels)
-        if languages: parts.append(" ".join(languages))
-        if test_type_expanded:
-            parts.append(" ".join(t["name"] for t in test_type_expanded))
-
-        if duration_min:
-            parts.append(f"duration {duration_min} minutes")
-
-        item["embed_text"] = " \n ".join(parts)
+        item["embed_text"] = build_structured_embed_text(item)
 
         cleaned.append(item)
 
@@ -169,8 +232,9 @@ def clean_catalog():
         json.dump(cleaned, f, indent=2, ensure_ascii=False)
 
     print("Cleaning complete")
-    print(f"raw_count  = {len(raw)}")
-    print(f"clean_count= {len(cleaned)}")
+    print(f"  raw_count  = {len(raw)}")
+    print(f"  clean_count= {len(cleaned)}")
+    print(f"  saved -> {CLEAN_PATH}")
 
 if __name__ == "__main__":
     clean_catalog()
