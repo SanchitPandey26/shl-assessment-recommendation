@@ -47,8 +47,16 @@ def retrieve_assessments(query: str, top_k: int = 40):
         for c in candidates:
             meta = c["meta"]
 
-            desc = meta.get("description") or meta.get("embed_text") or ""
-            desc = desc.split(".")[0][:200]  # show first sentence
+            # Fix description handling
+            full_desc = meta.get("description") or meta.get("embed_text") or ""
+            
+            # Create short description for LLM context
+            if full_desc.startswith("."):
+                short_desc = full_desc[:200]
+            else:
+                short_desc = full_desc.split(".")[0][:200]
+                if not short_desc: # Fallback if split results in empty
+                    short_desc = full_desc[:200]
 
             def extract_strings(items):
                 if not items:
@@ -64,7 +72,8 @@ def retrieve_assessments(query: str, top_k: int = 40):
             formatted_candidates.append({
                 "url": c["url"],
                 "name": meta.get("name"),
-                "desc": desc,
+                "desc": short_desc,      # For LLM (short context)
+                "description": full_desc, # For UI (full text)
                 "duration_min": meta.get("duration_min"),
                 "duration_max": meta.get("duration_max"),
                 "job_levels": meta.get("job_levels"),

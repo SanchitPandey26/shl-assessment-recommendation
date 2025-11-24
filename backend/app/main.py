@@ -54,13 +54,16 @@ async def recommend(payload: QueryRequest):
 
         formatted_assessments = []
         for result in final_results:
-            meta = result.get("meta", {})
-
-            duration_min = meta.get("duration_min")
-            duration_max = meta.get("duration_max")
+            # Since reranker spreads candidate with **candidate, 
+            # fields are available directly on result
+            duration_min = result.get("duration_min")
+            duration_max = result.get("duration_max")
             duration = int(duration_max or duration_min or 0)
 
-            test_types = meta.get("test_types", [])
+            # Get full description from result
+            description = result.get("description", "")
+            
+            test_types = result.get("test_types", [])
             if isinstance(test_types, list):
                 test_type_names = [
                     t.get("name", str(t)) if isinstance(t, dict)
@@ -72,11 +75,11 @@ async def recommend(payload: QueryRequest):
 
             formatted_assessments.append({
                 "url": result.get("url", ""),
-                "name": meta.get("name", ""),
-                "adaptive_support": "Yes" if meta.get("adaptive_support") else "No",
-                "description": meta.get("description", "")[:200] + "...",
+                "name": result.get("name", ""),
+                "adaptive_support": "Yes" if result.get("adaptive_support") else "No",
+                "description": description,
                 "duration": duration,
-                "remote_support": "Yes" if meta.get("remote_support") else "No",
+                "remote_support": "Yes" if result.get("remote_support") else "No",
                 "test_type": test_type_names
             })
 
