@@ -46,9 +46,18 @@ def llm_rerank(query: str, rewritten: str, candidates: list):
 
     candidates_json = json.dumps(clean_list, ensure_ascii=False, indent=2)
 
-    # --- WEIGHTED RERANK PROMPT INSERTED HERE ---
+    # --- IMPROVED RERANK PROMPT FOR COMBINATION QUERIES ---
     weighted_prompt = """
 You are an expert at ranking assessment tests based on job requirements.
+
+=========================
+CRITICAL PRINCIPLE
+=========================
+
+**COMBINATION QUERIES**: If the query asks for MULTIPLE requirements (e.g., "Java + collaboration", "COO + cultural fit", "developer + analytical"),
+you MUST prioritize tests that address BOTH/ALL requirements, or recommend a COMBINATION of complementary tests.
+
+DO NOT over-rank tests that only match ONE dimension of multi-dimensional queries.
 
 =========================
 SCORING GUIDELINES
@@ -58,37 +67,63 @@ Assign final scores between 0 and 1.
 
 Use these weights:
 
-1. SKILL MATCH — weight 0.50 (VERY IMPORTANT)
-   - If the test does NOT directly measure the core skill (e.g., Java),
-     its score must be significantly lower.
-   - Skill match should dominate duration.
+1. **REQUIREMENT COVERAGE — weight 0.45** (HIGHEST PRIORITY)
+   - How many of the query's requirements does this test address?
+   - Example: "Java + collaboration" → Java test alone = 50% coverage, Collaboration test alone = 50%, Both = 100%
+   - Multi-requirement queries REQUIRE high coverage scores
 
-2. TEST TYPE RELEVANCE — weight 0.15
-   - Prefer technical, coding, or "Knowledge & Skills" tests for technical roles.
-   - Reduce score for cognitive/personality tests unless explicitly relevant.
+2. **SKILL MATCH — weight 0.25** (IMPORTANT)
+   - Does the test directly measure the PRIMARY skill?
+   - For technical roles: prefer Knowledge & Skills (K), Simulations (S), or practical tests
+   - For leadership/senior roles: include Personality & Behavior (P), Ability & Aptitude (A)
 
-3. DURATION ALIGNMENT — weight 0.15 (MODERATE IMPORTANCE)
-   - Prefer tests within ±10 minutes of target duration.
-   - Duration MUST NOT outweigh skill match.
+3. **TEST TYPE APPROPRIATENESS — weight 0.15**
+   - Technical roles: Coding tests ("Automata"), Knowledge tests
+   - Seni or/Executive: OPQ (Personality), Verify (Cognitive ability), Leadership reports
+   - "Cultural fit": OPQ Personality Questionnaires
+   - Entry-level: Simulations, basic knowledge tests
 
-4. JOB LEVEL MATCH — weight 0.10
-   - If seniority is specified, match it.
-   - If not specified, mid-level is neutral.
+4. **DURATION ALIGNMENT — weight 0.10** (MODERATE)
+   - Prefer tests within ±15 minutes of target
+   - Duration is a TIE-BREAKER, not primary factor
 
-5. SOFT SKILLS — weight 0.05
-   - Collaboration, teamwork, communication: small positive boost.
-
-6. LANGUAGE & TAGS — weight 0.05
-   - Small boost if languages or tags match the query context.
+5. **JOB LEVEL MATCH — weight 0.05**
+   - Match seniority if specified
 
 =========================
-ADDITIONAL RULES
+SPECIAL SCENARIOS
 =========================
 
-- NEVER rank a non-Java test above a Java assessment when the query requires Java skills.
-- A cognitive ability test may appear, but ALWAYS lower than any Java-aligned test.
-- Duration is a tie-breaker, not the primary factor.
-- Provide a short reason for each scoring decision.
+- **"Developer" + any role**: Boost "Automata" series (hands-on coding)
+- **"Cultural fit" / "Personality"**: Boost OPQ tests (occupational-personality-questionnaire)
+- **"Senior" / "Executive"**: Boost Verify (cognitive), OPQ-Leadership
+- **"Collaboration" / "Communication"**: Include soft skills tests (interpersonal-communications, business-communication)
+
+=========================
+EXAMPLES (FEW-SHOT)
+=========================
+
+**Example 1: "Java developer + collaboration, 40 minutes"**
+GOOD ranking:
+1. Automata-Fix (Java coding) - 0.85 - "Hands-on Java coding, addresses primary skill"
+2. Java 8 (Knowledge test) - 0.75 - "Core Java knowledge"
+3. Interpersonal Communications - 0.65 - "Addresses collaboration requirement"
+
+BAD ranking:
+1. Java Platform EE 7 - 0.90 - "Java match but ignores duration (60min) and collaboration"
+2. Core Java Advanced - 0.85 - "Perfect Java but no collaboration component"
+3. Business Communication - 0.20 - "Collaboration but no Java"
+
+**Example 2: "COO in China, cultural fit, 1 hour"**
+GOOD ranking:
+1. OPQ32r (Personality) - 0.90 - "Personality assessment for cultural fit"
+2. Global Skills Assessment - 0.80 - "Cross-cultural competencies, leadership"
+3. Operations Management (Knowledge) - 0.70 - "Domain knowledge for COO role"
+
+BAD ranking:
+1. Operations Management - 0.95 - "Domain match but ignores 'cultural fit' requirement"
+2. Financial Accounting - 0.60 - "Tangential skill"
+3. OPQ - 0.40 - "Low score despite being CRITICAL for cultural fit"
 
 =========================
 OUTPUT FORMAT
@@ -98,12 +133,12 @@ Return JSON ONLY:
 
 {
   "results": [
-    {"url": "...", "score": 0.87, "reason": "short reason"},
+    {"url": "...", "score": 0.87, "reason": "Covers X and Y requirements, appropriate test type"},
     ...
   ]
 }
 
-Begin now.
+Rank by descending score. Begin now.
 """
 
     # --- Build Gemini request contents ---

@@ -1,0 +1,676 @@
+{
+  "timestamp": "2025-11-24_09-57-02",
+  "mean_recall_at_10": 0.55,
+  "results": [
+    {
+      "query": "I am hiring for Java developers who can also collaborate effectively with my business teams. Looking for an assessment(s) that can be completed in 40 minutes.",
+      "rewrite": "Java developer technical assessment Java developer role assessment Collaboration skills assessment for developers \n SKILL: Java \n SOFT: collaboration, teamwork, communication \n JOBLEVEL: any \n DURATION: 40MIN \n SUMMARY: The user is hiring Java developers and needs an assessment that evaluates both Java technical skills and the ability to collaborate effectively with business teams, to be completed within 40 minutes.",
+      "ground_truth": [
+        "https://www.shl.com/products/product-catalog/view/automata-fix-new"
+      ],
+      "retrieved_final": [
+        "https://www.shl.com/products/product-catalog/view/java-8-new",
+        "https://www.shl.com/products/product-catalog/view/interpersonal-communications",
+        "https://www.shl.com/products/product-catalog/view/business-communication-adaptive",
+        "https://www.shl.com/products/product-catalog/view/core-java-advanced-level-new",
+        "https://www.shl.com/products/product-catalog/view/core-java-entry-level-new",
+        "https://www.shl.com/products/product-catalog/view/java-platform-enterprise-edition-7-java-ee-7",
+        "https://www.shl.com/products/product-catalog/view/business-communications",
+        "https://www.shl.com/products/product-catalog/view/java-frameworks-new",
+        "https://www.shl.com/products/product-catalog/view/programming-concepts",
+        "https://www.shl.com/products/product-catalog/view/java-web-services-new"
+      ],
+      "recall_at_10": 0.0,
+      "parsed": {
+        "skills": "Java",
+        "soft_skills": "collaboration, teamwork, communication",
+        "seniority": "any",
+        "duration_minutes": 40,
+        "languages": null,
+        "summary": "The user is hiring Java developers and needs an assessment that evaluates both Java technical skills and the ability to collaborate effectively with business teams, to be completed within 40 minutes.",
+        "search_queries": [
+          "Java developer technical assessment",
+          "Java developer role assessment",
+          "Collaboration skills assessment for developers"
+        ],
+        "rewrite": "Java developer technical assessment Java developer role assessment Collaboration skills assessment for developers \n SKILL: Java \n SOFT: collaboration, teamwork, communication \n JOBLEVEL: any \n DURATION: 40MIN \n SUMMARY: The user is hiring Java developers and needs an assessment that evaluates both Java technical skills and the ability to collaborate effectively with business teams, to be completed within 40 minutes."
+      }
+    },
+    {
+      "query": "I am hiring for Java developers who can also collaborate effectively with my business teams. Looking for an assessment(s) that can be completed in 40 minutes.",
+      "rewrite": "Java developer assessment Java developer collaboration assessment collaboration skills assessment for developers \n SKILL: Java \n SOFT: collaboration, teamwork, communication \n JOBLEVEL: any \n DURATION: 40MIN \n SUMMARY: Hiring Java developers who can collaborate effectively with business teams, seeking an assessment completable in 40 minutes.",
+      "ground_truth": [
+        "https://www.shl.com/products/product-catalog/view/core-java-entry-level-new"
+      ],
+      "retrieved_final": [
+        "https://www.shl.com/products/product-catalog/view/java-8-new",
+        "https://www.shl.com/products/product-catalog/view/business-communication-adaptive",
+        "https://www.shl.com/products/product-catalog/view/interpersonal-communications",
+        "https://www.shl.com/products/product-catalog/view/core-java-advanced-level-new",
+        "https://www.shl.com/products/product-catalog/view/core-java-entry-level-new",
+        "https://www.shl.com/products/product-catalog/view/java-platform-enterprise-edition-7-java-ee-7",
+        "https://www.shl.com/products/product-catalog/view/java-2-platform-enterprise-edition-1-4-fundamental",
+        "https://www.shl.com/products/product-catalog/view/business-communications",
+        "https://www.shl.com/products/product-catalog/view/java-frameworks-new",
+        "https://www.shl.com/products/product-catalog/view/java-web-services-new"
+      ],
+      "recall_at_10": 1.0,
+      "parsed": {
+        "skills": "Java",
+        "soft_skills": "collaboration, teamwork, communication",
+        "seniority": "any",
+        "duration_minutes": 40,
+        "languages": null,
+        "summary": "Hiring Java developers who can collaborate effectively with business teams, seeking an assessment completable in 40 minutes.",
+        "search_queries": [
+          "Java developer assessment",
+          "Java developer collaboration assessment",
+          "collaboration skills assessment for developers"
+        ],
+        "rewrite": "Java developer assessment Java developer collaboration assessment collaboration skills assessment for developers \n SKILL: Java \n SOFT: collaboration, teamwork, communication \n JOBLEVEL: any \n DURATION: 40MIN \n SUMMARY: Hiring Java developers who can collaborate effectively with business teams, seeking an assessment completable in 40 minutes."
+      }
+    },
+    {
+      "query": "I am hiring for Java developers who can also collaborate effectively with my business teams. Looking for an assessment(s) that can be completed in 40 minutes.",
+      "rewrite": "Java developer assessment Java developer collaboration assessment collaboration with business teams assessment \n SKILL: Java \n SOFT: collaboration, teamwork, communication \n JOBLEVEL: any \n DURATION: 40MIN \n SUMMARY: The user is hiring Java developers and needs an assessment that evaluates both Java technical skills and collaboration abilities with business teams, to be completed within 40 minutes.",
+      "ground_truth": [
+        "https://www.shl.com/products/product-catalog/view/java-8-new"
+      ],
+      "retrieved_final": [
+        "https://www.shl.com/products/product-catalog/view/java-8-new",
+        "https://www.shl.com/products/product-catalog/view/interpersonal-communications",
+        "https://www.shl.com/products/product-catalog/view/business-communication-adaptive",
+        "https://www.shl.com/products/product-catalog/view/core-java-advanced-level-new",
+        "https://www.shl.com/products/product-catalog/view/core-java-entry-level-new",
+        "https://www.shl.com/products/product-catalog/view/java-platform-enterprise-edition-7-java-ee-7",
+        "https://www.shl.com/products/product-catalog/view/business-communications",
+        "https://www.shl.com/products/product-catalog/view/java-frameworks-new",
+        "https://www.shl.com/products/product-catalog/view/java-web-services-new",
+        "https://www.shl.com/products/product-catalog/view/java-2-platform-enterprise-edition-1-4-fundamental"
+      ],
+      "recall_at_10": 1.0,
+      "parsed": {
+        "skills": "Java",
+        "soft_skills": "collaboration, teamwork, communication",
+        "seniority": "any",
+        "duration_minutes": 40,
+        "languages": null,
+        "summary": "The user is hiring Java developers and needs an assessment that evaluates both Java technical skills and collaboration abilities with business teams, to be completed within 40 minutes.",
+        "search_queries": [
+          "Java developer assessment",
+          "Java developer collaboration assessment",
+          "collaboration with business teams assessment"
+        ],
+        "rewrite": "Java developer assessment Java developer collaboration assessment collaboration with business teams assessment \n SKILL: Java \n SOFT: collaboration, teamwork, communication \n JOBLEVEL: any \n DURATION: 40MIN \n SUMMARY: The user is hiring Java developers and needs an assessment that evaluates both Java technical skills and collaboration abilities with business teams, to be completed within 40 minutes."
+      }
+    },
+    {
+      "query": "I am hiring for Java developers who can also collaborate effectively with my business teams. Looking for an assessment(s) that can be completed in 40 minutes.",
+      "rewrite": "Java developer assessment Java developer collaboration assessment collaboration teamwork communication assessment \n SKILL: Java \n SOFT: collaboration, teamwork, communication \n JOBLEVEL: any \n DURATION: 40MIN \n SUMMARY: Hiring Java developers who can collaborate effectively with business teams, seeking an assessment completable in 40 minutes.",
+      "ground_truth": [
+        "https://www.shl.com/products/product-catalog/view/core-java-advanced-level-new"
+      ],
+      "retrieved_final": [
+        "https://www.shl.com/products/product-catalog/view/java-8-new",
+        "https://www.shl.com/products/product-catalog/view/business-communication-adaptive",
+        "https://www.shl.com/products/product-catalog/view/interpersonal-communications",
+        "https://www.shl.com/products/product-catalog/view/core-java-advanced-level-new",
+        "https://www.shl.com/products/product-catalog/view/core-java-entry-level-new",
+        "https://www.shl.com/products/product-catalog/view/java-platform-enterprise-edition-7-java-ee-7",
+        "https://www.shl.com/products/product-catalog/view/business-communications",
+        "https://www.shl.com/products/product-catalog/view/java-frameworks-new",
+        "https://www.shl.com/products/product-catalog/view/java-2-platform-enterprise-edition-1-4-fundamental",
+        "https://www.shl.com/products/product-catalog/view/remoteworkq"
+      ],
+      "recall_at_10": 1.0,
+      "parsed": {
+        "skills": "Java",
+        "soft_skills": "collaboration, teamwork, communication",
+        "seniority": "any",
+        "duration_minutes": 40,
+        "languages": null,
+        "summary": "Hiring Java developers who can collaborate effectively with business teams, seeking an assessment completable in 40 minutes.",
+        "search_queries": [
+          "Java developer assessment",
+          "Java developer collaboration assessment",
+          "collaboration teamwork communication assessment"
+        ],
+        "rewrite": "Java developer assessment Java developer collaboration assessment collaboration teamwork communication assessment \n SKILL: Java \n SOFT: collaboration, teamwork, communication \n JOBLEVEL: any \n DURATION: 40MIN \n SUMMARY: Hiring Java developers who can collaborate effectively with business teams, seeking an assessment completable in 40 minutes."
+      }
+    },
+    {
+      "query": "I am hiring for Java developers who can also collaborate effectively with my business teams. Looking for an assessment(s) that can be completed in 40 minutes.",
+      "rewrite": "Java developer assessment Java developer collaboration assessment collaboration skills assessment for business teams \n SKILL: Java \n SOFT: collaboration, teamwork, communication \n JOBLEVEL: any \n DURATION: 40MIN \n SUMMARY: The user is hiring Java developers and needs an assessment that evaluates technical Java skills and the ability to collaborate effectively with business teams, to be completed within 40 minutes.",
+      "ground_truth": [
+        "https://www.shl.com/products/product-catalog/view/interpersonal-communications"
+      ],
+      "retrieved_final": [
+        "https://www.shl.com/products/product-catalog/view/java-8-new",
+        "https://www.shl.com/products/product-catalog/view/business-communications",
+        "https://www.shl.com/products/product-catalog/view/business-communication-adaptive",
+        "https://www.shl.com/products/product-catalog/view/interpersonal-communications",
+        "https://www.shl.com/products/product-catalog/view/core-java-advanced-level-new",
+        "https://www.shl.com/products/product-catalog/view/core-java-entry-level-new",
+        "https://www.shl.com/products/product-catalog/view/java-platform-enterprise-edition-7-java-ee-7",
+        "https://www.shl.com/products/product-catalog/view/java-frameworks-new",
+        "https://www.shl.com/products/product-catalog/view/java-2-platform-enterprise-edition-1-4-fundamental",
+        "https://www.shl.com/products/product-catalog/view/java-web-services-new"
+      ],
+      "recall_at_10": 1.0,
+      "parsed": {
+        "skills": "Java",
+        "soft_skills": "collaboration, teamwork, communication",
+        "seniority": "any",
+        "duration_minutes": 40,
+        "languages": null,
+        "summary": "The user is hiring Java developers and needs an assessment that evaluates technical Java skills and the ability to collaborate effectively with business teams, to be completed within 40 minutes.",
+        "search_queries": [
+          "Java developer assessment",
+          "Java developer collaboration assessment",
+          "collaboration skills assessment for business teams"
+        ],
+        "rewrite": "Java developer assessment Java developer collaboration assessment collaboration skills assessment for business teams \n SKILL: Java \n SOFT: collaboration, teamwork, communication \n JOBLEVEL: any \n DURATION: 40MIN \n SUMMARY: The user is hiring Java developers and needs an assessment that evaluates technical Java skills and the ability to collaborate effectively with business teams, to be completed within 40 minutes."
+      }
+    },
+    {
+      "query": "I want to hire new graduates for a sales role in my company, the budget is for about an hour for each test. Give me some options",
+      "rewrite": "SHL entry-level sales skills assessment SHL graduate sales role assessment SHL sales behavioral competencies new graduates \n SKILL: sales aptitude, basic sales techniques, lead generation, closing \n SOFT: communication, negotiation, persuasion, resilience, customer focus, interpersonal skills, problem-solving \n JOBLEVEL: entry \n DURATION: 60MIN \n SUMMARY: The user is looking for SHL assessment options for new graduates applying for a sales role, with a test duration of approximately one hour per candidate.",
+      "ground_truth": [
+        "https://www.shl.com/products/product-catalog/view/entry-level-sales-solution"
+      ],
+      "retrieved_final": [
+        "https://www.shl.com/products/product-catalog/view/entry-level-sales-solution",
+        "https://www.shl.com/products/product-catalog/view/writex-email-writing-sales-new",
+        "https://www.shl.com/products/product-catalog/view/retail-sales-and-service-simulation",
+        "https://www.shl.com/products/product-catalog/view/sales-and-service-phone-solution",
+        "https://www.shl.com/products/product-catalog/view/sales-and-service-phone-simulation",
+        "https://www.shl.com/products/product-catalog/view/business-communication-adaptive",
+        "https://www.shl.com/products/product-catalog/view/interpersonal-communications",
+        "https://www.shl.com/products/product-catalog/view/opq-mq-sales-report",
+        "https://www.shl.com/products/product-catalog/view/motivation-questionnaire-mqm5",
+        "https://www.shl.com/products/product-catalog/view/verify-inductive-reasoning-2014"
+      ],
+      "recall_at_10": 1.0,
+      "parsed": {
+        "skills": "sales aptitude, basic sales techniques, lead generation, closing",
+        "soft_skills": "communication, negotiation, persuasion, resilience, customer focus, interpersonal skills, problem-solving",
+        "seniority": "entry",
+        "duration_minutes": 60,
+        "languages": null,
+        "summary": "The user is looking for SHL assessment options for new graduates applying for a sales role, with a test duration of approximately one hour per candidate.",
+        "search_queries": [
+          "SHL entry-level sales skills assessment",
+          "SHL graduate sales role assessment",
+          "SHL sales behavioral competencies new graduates"
+        ],
+        "rewrite": "SHL entry-level sales skills assessment SHL graduate sales role assessment SHL sales behavioral competencies new graduates \n SKILL: sales aptitude, basic sales techniques, lead generation, closing \n SOFT: communication, negotiation, persuasion, resilience, customer focus, interpersonal skills, problem-solving \n JOBLEVEL: entry \n DURATION: 60MIN \n SUMMARY: The user is looking for SHL assessment options for new graduates applying for a sales role, with a test duration of approximately one hour per candidate."
+      }
+    },
+    {
+      "query": "I want to hire new graduates for a sales role in my company, the budget is for about an hour for each test. Give me some options",
+      "rewrite": "Entry-level sales skills assessment new graduates Graduate sales role assessment Sales behavioral competencies test entry-level \n SKILL: Sales aptitude, basic sales techniques \n SOFT: Communication, persuasion, negotiation, resilience, customer service \n JOBLEVEL: entry \n DURATION: 60MIN \n SUMMARY: Assessments for new graduates applying for a sales role, with a test duration of approximately one hour.",
+      "ground_truth": [
+        "https://www.shl.com/products/product-catalog/view/business-communication-adaptive"
+      ],
+      "retrieved_final": [
+        "https://www.shl.com/products/product-catalog/view/entry-level-sales-solution",
+        "https://www.shl.com/products/product-catalog/view/retail-sales-and-service-simulation",
+        "https://www.shl.com/products/product-catalog/view/sales-and-service-phone-solution",
+        "https://www.shl.com/products/product-catalog/view/sales-and-service-phone-simulation",
+        "https://www.shl.com/products/product-catalog/view/writex-email-writing-sales-new",
+        "https://www.shl.com/products/product-catalog/view/opq-mq-sales-report",
+        "https://www.shl.com/products/product-catalog/view/interpersonal-communications",
+        "https://www.shl.com/products/product-catalog/view/business-communication-adaptive",
+        "https://www.shl.com/products/product-catalog/view/business-communications",
+        "https://www.shl.com/products/product-catalog/view/mq-candidate-motivation-report"
+      ],
+      "recall_at_10": 1.0,
+      "parsed": {
+        "skills": "Sales aptitude, basic sales techniques",
+        "soft_skills": "Communication, persuasion, negotiation, resilience, customer service",
+        "seniority": "entry",
+        "duration_minutes": 60,
+        "languages": null,
+        "summary": "Assessments for new graduates applying for a sales role, with a test duration of approximately one hour.",
+        "search_queries": [
+          "Entry-level sales skills assessment new graduates",
+          "Graduate sales role assessment",
+          "Sales behavioral competencies test entry-level"
+        ],
+        "rewrite": "Entry-level sales skills assessment new graduates Graduate sales role assessment Sales behavioral competencies test entry-level \n SKILL: Sales aptitude, basic sales techniques \n SOFT: Communication, persuasion, negotiation, resilience, customer service \n JOBLEVEL: entry \n DURATION: 60MIN \n SUMMARY: Assessments for new graduates applying for a sales role, with a test duration of approximately one hour."
+      }
+    },
+    {
+      "query": "I want to hire new graduates for a sales role in my company, the budget is for about an hour for each test. Give me some options",
+      "rewrite": "SHL sales aptitude test entry-level SHL sales assessment new graduates 60 minutes SHL behavioral assessment sales communication persuasion \n SKILL: sales aptitude, basic sales principles, customer engagement \n SOFT: communication, persuasion, resilience, negotiation, customer service \n JOBLEVEL: entry \n DURATION: 60MIN \n SUMMARY: The user wants to hire new graduates for a sales role and is looking for SHL assessments that take approximately one hour per test.",
+      "ground_truth": [
+        "https://www.shl.com/products/product-catalog/view/svar-spoken-english-indian-accent-new"
+      ],
+      "retrieved_final": [
+        "https://www.shl.com/products/product-catalog/view/opq-mq-sales-report",
+        "https://www.shl.com/products/product-catalog/view/entry-level-sales-solution",
+        "https://www.shl.com/products/product-catalog/view/retail-sales-and-service-simulation",
+        "https://www.shl.com/products/product-catalog/view/sales-and-service-phone-solution",
+        "https://www.shl.com/products/product-catalog/view/occupational-personality-questionnaire-opq32r",
+        "https://www.shl.com/products/product-catalog/view/writex-email-writing-sales-new",
+        "https://www.shl.com/products/product-catalog/view/business-communication-adaptive",
+        "https://www.shl.com/products/product-catalog/view/interpersonal-communications",
+        "https://www.shl.com/products/product-catalog/view/business-communications",
+        "https://www.shl.com/products/product-catalog/view/mq-motivation-report-pack"
+      ],
+      "recall_at_10": 0.0,
+      "parsed": {
+        "skills": "sales aptitude, basic sales principles, customer engagement",
+        "soft_skills": "communication, persuasion, resilience, negotiation, customer service",
+        "seniority": "entry",
+        "duration_minutes": 60,
+        "languages": null,
+        "summary": "The user wants to hire new graduates for a sales role and is looking for SHL assessments that take approximately one hour per test.",
+        "search_queries": [
+          "SHL sales aptitude test entry-level",
+          "SHL sales assessment new graduates 60 minutes",
+          "SHL behavioral assessment sales communication persuasion"
+        ],
+        "rewrite": "SHL sales aptitude test entry-level SHL sales assessment new graduates 60 minutes SHL behavioral assessment sales communication persuasion \n SKILL: sales aptitude, basic sales principles, customer engagement \n SOFT: communication, persuasion, resilience, negotiation, customer service \n JOBLEVEL: entry \n DURATION: 60MIN \n SUMMARY: The user wants to hire new graduates for a sales role and is looking for SHL assessments that take approximately one hour per test."
+      }
+    },
+    {
+      "query": "I want to hire new graduates for a sales role in my company, the budget is for about an hour for each test. Give me some options",
+      "rewrite": "Entry-level sales skills assessment Graduate sales role assessment Sales behavioral competencies new graduates \n SKILL: Sales aptitude, basic sales techniques \n SOFT: Communication, persuasion, negotiation, resilience, customer service \n JOBLEVEL: entry \n DURATION: 60MIN \n SUMMARY: Assessments for new graduates applying for a sales role, with a test duration of approximately one hour.",
+      "ground_truth": [
+        "https://www.shl.com/products/product-catalog/view/interpersonal-communications"
+      ],
+      "retrieved_final": [
+        "https://www.shl.com/products/product-catalog/view/entry-level-sales-solution",
+        "https://www.shl.com/products/product-catalog/view/retail-sales-and-service-simulation",
+        "https://www.shl.com/products/product-catalog/view/sales-and-service-phone-solution",
+        "https://www.shl.com/products/product-catalog/view/sales-and-service-phone-simulation",
+        "https://www.shl.com/products/product-catalog/view/writex-email-writing-sales-new",
+        "https://www.shl.com/products/product-catalog/view/interpersonal-communications",
+        "https://www.shl.com/products/product-catalog/view/business-communication-adaptive",
+        "https://www.shl.com/products/product-catalog/view/business-communications",
+        "https://www.shl.com/products/product-catalog/view/opq-mq-sales-report",
+        "https://www.shl.com/products/product-catalog/view/mq-motivation-report-pack"
+      ],
+      "recall_at_10": 1.0,
+      "parsed": {
+        "skills": "Sales aptitude, basic sales techniques",
+        "soft_skills": "Communication, persuasion, negotiation, resilience, customer service",
+        "seniority": "entry",
+        "duration_minutes": 60,
+        "languages": null,
+        "summary": "Assessments for new graduates applying for a sales role, with a test duration of approximately one hour.",
+        "search_queries": [
+          "Entry-level sales skills assessment",
+          "Graduate sales role assessment",
+          "Sales behavioral competencies new graduates"
+        ],
+        "rewrite": "Entry-level sales skills assessment Graduate sales role assessment Sales behavioral competencies new graduates \n SKILL: Sales aptitude, basic sales techniques \n SOFT: Communication, persuasion, negotiation, resilience, customer service \n JOBLEVEL: entry \n DURATION: 60MIN \n SUMMARY: Assessments for new graduates applying for a sales role, with a test duration of approximately one hour."
+      }
+    },
+    {
+      "query": "I want to hire new graduates for a sales role in my company, the budget is for about an hour for each test. Give me some options",
+      "rewrite": "SHL sales aptitude test entry-level SHL graduate sales assessment SHL communication and influencing skills assessment \n SKILL: sales aptitude, negotiation, prospecting, closing \n SOFT: communication, persuasion, resilience, customer focus, interpersonal skills \n JOBLEVEL: entry \n DURATION: 60MIN \n SUMMARY: The user is looking for SHL assessment options to hire new graduates for a sales role, with a test duration of approximately one hour per candidate.",
+      "ground_truth": [
+        "https://www.shl.com/products/product-catalog/view/english-comprehension-new"
+      ],
+      "retrieved_final": [
+        "https://www.shl.com/products/product-catalog/view/entry-level-sales-solution",
+        "https://www.shl.com/products/product-catalog/view/sales-and-service-phone-solution",
+        "https://www.shl.com/products/product-catalog/view/retail-sales-and-service-simulation",
+        "https://www.shl.com/products/product-catalog/view/sales-and-service-phone-simulation",
+        "https://www.shl.com/products/product-catalog/view/opq-mq-sales-report",
+        "https://www.shl.com/products/product-catalog/view/writex-email-writing-sales-new",
+        "https://www.shl.com/products/product-catalog/view/interpersonal-communications",
+        "https://www.shl.com/products/product-catalog/view/business-communication-adaptive",
+        "https://www.shl.com/products/product-catalog/view/business-communications",
+        "https://www.shl.com/products/product-catalog/view/verify-verbal-ability-next-generation"
+      ],
+      "recall_at_10": 0.0,
+      "parsed": {
+        "skills": "sales aptitude, negotiation, prospecting, closing",
+        "soft_skills": "communication, persuasion, resilience, customer focus, interpersonal skills",
+        "seniority": "entry",
+        "duration_minutes": 60,
+        "languages": null,
+        "summary": "The user is looking for SHL assessment options to hire new graduates for a sales role, with a test duration of approximately one hour per candidate.",
+        "search_queries": [
+          "SHL sales aptitude test entry-level",
+          "SHL graduate sales assessment",
+          "SHL communication and influencing skills assessment"
+        ],
+        "rewrite": "SHL sales aptitude test entry-level SHL graduate sales assessment SHL communication and influencing skills assessment \n SKILL: sales aptitude, negotiation, prospecting, closing \n SOFT: communication, persuasion, resilience, customer focus, interpersonal skills \n JOBLEVEL: entry \n DURATION: 60MIN \n SUMMARY: The user is looking for SHL assessment options to hire new graduates for a sales role, with a test duration of approximately one hour per candidate."
+      }
+    },
+    {
+      "query": "I am looking for a COO for my company in China and I want to see if they are culturally a right fit for our company. Suggest me an assessment that they can complete in about an hour",
+      "rewrite": "SHL assessment COO operational excellence China strategy SHL leadership assessment Chief Operating Officer global SHL cultural intelligence assessment China leadership \n SKILL: Operations management, strategic planning, financial oversight \n SOFT: Cultural intelligence, cross-cultural communication, leadership, adaptability, stakeholder management \n JOBLEVEL: senior \n DURATION: 60MIN \n LANG: English \n SUMMARY: SHL assessment for a senior-level Chief Operating Officer (COO) in China, focusing on cultural fit, leadership competencies, and operational strategy, to be completed within approximately 60 minutes.",
+      "ground_truth": [
+        "https://www.shl.com/products/product-catalog/view/enterprise-leadership-report"
+      ],
+      "retrieved_final": [
+        "https://www.shl.com/products/product-catalog/view/occupational-personality-questionnaire-opq32r",
+        "https://www.shl.com/products/product-catalog/view/opq-leadership-report",
+        "https://www.shl.com/products/product-catalog/view/global-skills-assessment",
+        "https://www.shl.com/products/product-catalog/view/opq-universal-competency-report",
+        "https://www.shl.com/products/product-catalog/view/opq-emotional-intelligence-report",
+        "https://www.shl.com/products/product-catalog/view/opq-team-types-and-leadership-styles-report",
+        "https://www.shl.com/products/product-catalog/view/operations-management-new",
+        "https://www.shl.com/products/product-catalog/view/verify-g",
+        "https://www.shl.com/products/product-catalog/view/shl-verify-interactive-g"
+      ],
+      "recall_at_10": 0.0,
+      "parsed": {
+        "skills": "Operations management, strategic planning, financial oversight",
+        "soft_skills": "Cultural intelligence, cross-cultural communication, leadership, adaptability, stakeholder management",
+        "seniority": "senior",
+        "duration_minutes": 60,
+        "languages": "English",
+        "summary": "SHL assessment for a senior-level Chief Operating Officer (COO) in China, focusing on cultural fit, leadership competencies, and operational strategy, to be completed within approximately 60 minutes.",
+        "search_queries": [
+          "SHL assessment COO operational excellence China strategy",
+          "SHL leadership assessment Chief Operating Officer global",
+          "SHL cultural intelligence assessment China leadership"
+        ],
+        "rewrite": "SHL assessment COO operational excellence China strategy SHL leadership assessment Chief Operating Officer global SHL cultural intelligence assessment China leadership \n SKILL: Operations management, strategic planning, financial oversight \n SOFT: Cultural intelligence, cross-cultural communication, leadership, adaptability, stakeholder management \n JOBLEVEL: senior \n DURATION: 60MIN \n LANG: English \n SUMMARY: SHL assessment for a senior-level Chief Operating Officer (COO) in China, focusing on cultural fit, leadership competencies, and operational strategy, to be completed within approximately 60 minutes."
+      }
+    },
+    {
+      "query": "I am looking for a COO for my company in China and I want to see if they are culturally a right fit for our company. Suggest me an assessment that they can complete in about an hour",
+      "rewrite": "SHL COO assessment cultural fit China SHL executive leadership assessment China cultural adaptability SHL senior management cultural intelligence assessment for China \n SKILL: COO, Operations Management, Strategy \n SOFT: Cultural fit, Leadership, Cross-cultural communication, Adaptability, Strategic thinking \n JOBLEVEL: senior \n DURATION: 60MIN \n LANG: English \n SUMMARY: The user is seeking an SHL assessment for a senior-level COO position in China, with a primary focus on evaluating cultural fit. The assessment should be completable within approximately one hour.",
+      "ground_truth": [
+        "https://www.shl.com/products/product-catalog/view/occupational-personality-questionnaire-opq32r"
+      ],
+      "retrieved_final": [
+        "https://www.shl.com/products/product-catalog/view/occupational-personality-questionnaire-opq32r",
+        "https://www.shl.com/products/product-catalog/view/opq-leadership-report",
+        "https://www.shl.com/products/product-catalog/view/opq-universal-competency-report",
+        "https://www.shl.com/products/product-catalog/view/global-skills-assessment",
+        "https://www.shl.com/products/product-catalog/view/operations-management-new",
+        "https://www.shl.com/products/product-catalog/view/verify-g",
+        "https://www.shl.com/products/product-catalog/view/shl-verify-interactive-g"
+      ],
+      "recall_at_10": 1.0,
+      "parsed": {
+        "skills": "COO, Operations Management, Strategy",
+        "soft_skills": "Cultural fit, Leadership, Cross-cultural communication, Adaptability, Strategic thinking",
+        "seniority": "senior",
+        "duration_minutes": 60,
+        "languages": "English",
+        "summary": "The user is seeking an SHL assessment for a senior-level COO position in China, with a primary focus on evaluating cultural fit. The assessment should be completable within approximately one hour.",
+        "search_queries": [
+          "SHL COO assessment cultural fit China",
+          "SHL executive leadership assessment China cultural adaptability",
+          "SHL senior management cultural intelligence assessment for China"
+        ],
+        "rewrite": "SHL COO assessment cultural fit China SHL executive leadership assessment China cultural adaptability SHL senior management cultural intelligence assessment for China \n SKILL: COO, Operations Management, Strategy \n SOFT: Cultural fit, Leadership, Cross-cultural communication, Adaptability, Strategic thinking \n JOBLEVEL: senior \n DURATION: 60MIN \n LANG: English \n SUMMARY: The user is seeking an SHL assessment for a senior-level COO position in China, with a primary focus on evaluating cultural fit. The assessment should be completable within approximately one hour."
+      }
+    },
+    {
+      "query": "I am looking for a COO for my company in China and I want to see if they are culturally a right fit for our company. Suggest me an assessment that they can complete in about an hour",
+      "rewrite": "SHL assessment COO operations strategy financial oversight SHL assessment Chief Operating Officer leadership China SHL assessment cultural fit cross-cultural communication senior executive \n SKILL: operations management, strategic planning, financial oversight, business development \n SOFT: cultural intelligence, cross-cultural communication, adaptability, strategic thinking, leadership, decision-making, stakeholder management \n JOBLEVEL: senior \n DURATION: 60MIN \n LANG: English \n SUMMARY: The user is seeking an SHL assessment for a Chief Operating Officer (COO) role in China, with a primary focus on evaluating cultural fit and leadership competencies. The assessment should be completable within approximately one hour.",
+      "ground_truth": [
+        "https://www.shl.com/products/product-catalog/view/opq-leadership-report"
+      ],
+      "retrieved_final": [
+        "https://www.shl.com/products/product-catalog/view/occupational-personality-questionnaire-opq32r",
+        "https://www.shl.com/products/product-catalog/view/opq-leadership-report",
+        "https://www.shl.com/products/product-catalog/view/shl-verify-interactive-g",
+        "https://www.shl.com/products/product-catalog/view/verify-g",
+        "https://www.shl.com/products/product-catalog/view/motivation-questionnaire-mqm5",
+        "https://www.shl.com/products/product-catalog/view/operations-management-new",
+        "https://www.shl.com/products/product-catalog/view/financial-accounting-new",
+        "https://www.shl.com/products/product-catalog/view/business-communication-adaptive"
+      ],
+      "recall_at_10": 1.0,
+      "parsed": {
+        "skills": "operations management, strategic planning, financial oversight, business development",
+        "soft_skills": "cultural intelligence, cross-cultural communication, adaptability, strategic thinking, leadership, decision-making, stakeholder management",
+        "seniority": "senior",
+        "duration_minutes": 60,
+        "languages": "English",
+        "summary": "The user is seeking an SHL assessment for a Chief Operating Officer (COO) role in China, with a primary focus on evaluating cultural fit and leadership competencies. The assessment should be completable within approximately one hour.",
+        "search_queries": [
+          "SHL assessment COO operations strategy financial oversight",
+          "SHL assessment Chief Operating Officer leadership China",
+          "SHL assessment cultural fit cross-cultural communication senior executive"
+        ],
+        "rewrite": "SHL assessment COO operations strategy financial oversight SHL assessment Chief Operating Officer leadership China SHL assessment cultural fit cross-cultural communication senior executive \n SKILL: operations management, strategic planning, financial oversight, business development \n SOFT: cultural intelligence, cross-cultural communication, adaptability, strategic thinking, leadership, decision-making, stakeholder management \n JOBLEVEL: senior \n DURATION: 60MIN \n LANG: English \n SUMMARY: The user is seeking an SHL assessment for a Chief Operating Officer (COO) role in China, with a primary focus on evaluating cultural fit and leadership competencies. The assessment should be completable within approximately one hour."
+      }
+    },
+    {
+      "query": "I am looking for a COO for my company in China and I want to see if they are culturally a right fit for our company. Suggest me an assessment that they can complete in about an hour",
+      "rewrite": "SHL COO assessment leadership strategy operations SHL assessment for COO in China cultural fit SHL cultural fit assessment cross-cultural leadership adaptability \n SKILL: leadership, operations, strategy, finance \n SOFT: cultural intelligence, adaptability, cross-cultural communication, leadership, strategic thinking \n JOBLEVEL: senior \n DURATION: 60MIN \n LANG: English, Mandarin \n SUMMARY: The user is seeking an SHL assessment for a senior-level COO role in China, with a primary focus on evaluating cultural fit. The assessment should be completable within approximately one hour.",
+      "ground_truth": [
+        "https://www.shl.com/products/product-catalog/view/opq-team-types-and-leadership-styles-report"
+      ],
+      "retrieved_final": [
+        "https://www.shl.com/products/product-catalog/view/occupational-personality-questionnaire-opq32r",
+        "https://www.shl.com/products/product-catalog/view/opq-universal-competency-report",
+        "https://www.shl.com/products/product-catalog/view/opq-leadership-report",
+        "https://www.shl.com/products/product-catalog/view/global-skills-assessment",
+        "https://www.shl.com/products/product-catalog/view/shl-verify-interactive-g",
+        "https://www.shl.com/products/product-catalog/view/verify-g",
+        "https://www.shl.com/products/product-catalog/view/shl-verify-interactive-numerical-reasoning",
+        "https://www.shl.com/products/product-catalog/view/shl-verify-interactive-deductive-reasoning",
+        "https://www.shl.com/products/product-catalog/view/shl-verify-interactive-inductive-reasoning",
+        "https://www.shl.com/products/product-catalog/view/verify-numerical-ability"
+      ],
+      "recall_at_10": 0.0,
+      "parsed": {
+        "skills": "leadership, operations, strategy, finance",
+        "soft_skills": "cultural intelligence, adaptability, cross-cultural communication, leadership, strategic thinking",
+        "seniority": "senior",
+        "duration_minutes": 60,
+        "languages": "English, Mandarin",
+        "summary": "The user is seeking an SHL assessment for a senior-level COO role in China, with a primary focus on evaluating cultural fit. The assessment should be completable within approximately one hour.",
+        "search_queries": [
+          "SHL COO assessment leadership strategy operations",
+          "SHL assessment for COO in China cultural fit",
+          "SHL cultural fit assessment cross-cultural leadership adaptability"
+        ],
+        "rewrite": "SHL COO assessment leadership strategy operations SHL assessment for COO in China cultural fit SHL cultural fit assessment cross-cultural leadership adaptability \n SKILL: leadership, operations, strategy, finance \n SOFT: cultural intelligence, adaptability, cross-cultural communication, leadership, strategic thinking \n JOBLEVEL: senior \n DURATION: 60MIN \n LANG: English, Mandarin \n SUMMARY: The user is seeking an SHL assessment for a senior-level COO role in China, with a primary focus on evaluating cultural fit. The assessment should be completable within approximately one hour."
+      }
+    },
+    {
+      "query": "I am looking for a COO for my company in China and I want to see if they are culturally a right fit for our company. Suggest me an assessment that they can complete in about an hour",
+      "rewrite": "SHL COO assessment operations strategy cultural fit China SHL executive leadership assessment cultural intelligence China 60 minutes SHL cross-cultural leadership assessment China cultural fit adaptability \n SKILL: Operations management, strategic planning, financial oversight, business development \n SOFT: Cultural intelligence, cross-cultural communication, adaptability, executive leadership, strategic thinking \n JOBLEVEL: senior \n DURATION: 60MIN \n LANG: English \n SUMMARY: The user is seeking an SHL assessment for a Chief Operating Officer (COO) role in China, with a primary focus on evaluating cultural fit. The assessment should be completable within approximately one hour.",
+      "ground_truth": [
+        "https://www.shl.com/products/product-catalog/view/enterprise-leadership-report-2-0"
+      ],
+      "retrieved_final": [
+        "https://www.shl.com/products/product-catalog/view/occupational-personality-questionnaire-opq32r",
+        "https://www.shl.com/products/product-catalog/view/opq-universal-competency-report",
+        "https://www.shl.com/products/product-catalog/view/opq-leadership-report",
+        "https://www.shl.com/products/product-catalog/view/global-skills-assessment",
+        "https://www.shl.com/products/product-catalog/view/opq-emotional-intelligence-report",
+        "https://www.shl.com/products/product-catalog/view/operations-management-new",
+        "https://www.shl.com/products/product-catalog/view/verify-g",
+        "https://www.shl.com/products/product-catalog/view/shl-verify-interactive-g"
+      ],
+      "recall_at_10": 0.0,
+      "parsed": {
+        "skills": "Operations management, strategic planning, financial oversight, business development",
+        "soft_skills": "Cultural intelligence, cross-cultural communication, adaptability, executive leadership, strategic thinking",
+        "seniority": "senior",
+        "duration_minutes": 60,
+        "languages": "English",
+        "summary": "The user is seeking an SHL assessment for a Chief Operating Officer (COO) role in China, with a primary focus on evaluating cultural fit. The assessment should be completable within approximately one hour.",
+        "search_queries": [
+          "SHL COO assessment operations strategy cultural fit China",
+          "SHL executive leadership assessment cultural intelligence China 60 minutes",
+          "SHL cross-cultural leadership assessment China cultural fit adaptability"
+        ],
+        "rewrite": "SHL COO assessment operations strategy cultural fit China SHL executive leadership assessment cultural intelligence China 60 minutes SHL cross-cultural leadership assessment China cultural fit adaptability \n SKILL: Operations management, strategic planning, financial oversight, business development \n SOFT: Cultural intelligence, cross-cultural communication, adaptability, executive leadership, strategic thinking \n JOBLEVEL: senior \n DURATION: 60MIN \n LANG: English \n SUMMARY: The user is seeking an SHL assessment for a Chief Operating Officer (COO) role in China, with a primary focus on evaluating cultural fit. The assessment should be completable within approximately one hour."
+      }
+    },
+    {
+      "query": "I am looking for a COO for my company in China and I want to see if they are culturally a right fit for our company. Suggest me an assessment that they can complete in about an hour",
+      "rewrite": "SHL COO assessment China cultural fit SHL executive leadership assessment China SHL cultural intelligence assessment for senior leaders \n SKILL: Operations Management, Strategic Planning, Financial Acumen, Business Development \n SOFT: Cultural Intelligence, Leadership, Adaptability, Cross-cultural Communication, Stakeholder Management \n JOBLEVEL: senior \n DURATION: 60MIN \n LANG: Chinese \n SUMMARY: The user is seeking an SHL assessment for a Chief Operating Officer (COO) in China, with a focus on cultural fit, to be completed within approximately one hour.",
+      "ground_truth": [
+        "https://www.shl.com/products/product-catalog/view/global-skills-assessment"
+      ],
+      "retrieved_final": [
+        "https://www.shl.com/products/product-catalog/view/occupational-personality-questionnaire-opq32r",
+        "https://www.shl.com/products/product-catalog/view/opq-leadership-report",
+        "https://www.shl.com/products/product-catalog/view/global-skills-assessment",
+        "https://www.shl.com/products/product-catalog/view/opq-universal-competency-report",
+        "https://www.shl.com/products/product-catalog/view/opq-profile-report",
+        "https://www.shl.com/products/product-catalog/view/operations-management-new",
+        "https://www.shl.com/products/product-catalog/view/shl-verify-interactive-g",
+        "https://www.shl.com/products/product-catalog/view/verify-g"
+      ],
+      "recall_at_10": 1.0,
+      "parsed": {
+        "skills": "Operations Management, Strategic Planning, Financial Acumen, Business Development",
+        "soft_skills": "Cultural Intelligence, Leadership, Adaptability, Cross-cultural Communication, Stakeholder Management",
+        "seniority": "senior",
+        "duration_minutes": 60,
+        "languages": "Chinese",
+        "summary": "The user is seeking an SHL assessment for a Chief Operating Officer (COO) in China, with a focus on cultural fit, to be completed within approximately one hour.",
+        "search_queries": [
+          "SHL COO assessment China cultural fit",
+          "SHL executive leadership assessment China",
+          "SHL cultural intelligence assessment for senior leaders"
+        ],
+        "rewrite": "SHL COO assessment China cultural fit SHL executive leadership assessment China SHL cultural intelligence assessment for senior leaders \n SKILL: Operations Management, Strategic Planning, Financial Acumen, Business Development \n SOFT: Cultural Intelligence, Leadership, Adaptability, Cross-cultural Communication, Stakeholder Management \n JOBLEVEL: senior \n DURATION: 60MIN \n LANG: Chinese \n SUMMARY: The user is seeking an SHL assessment for a Chief Operating Officer (COO) in China, with a focus on cultural fit, to be completed within approximately one hour."
+      }
+    },
+    {
+      "query": "KEY RESPONSIBITILES:\n\nManage the sound-scape of the station through appropriate creative and marketing interventions to Increase or Maintain the listenership\nActs as an interface between Programming & sales team, thereby supporting the sales team by providing creative inputs in order to increase the overall ad spends by clients\nBuild brand Mirchi by ideating fresh programming initiatives on air campaigns, programming led on-ground events & new properties to ensure brand differentiation & thus increase brand recall at station level\nInvest time in local RJs to grow & develop them as local celebrities\nThrough strong networking, must focus on identifying the best of local talent and ensure to bring the creative minds from the market on board with Mirchi\nBuild radio as a category for both listeners & advertisers\nPeople Management\nIdentifying the right talent and investing time in developing them by frequent feedback on their performance\nMonitor, Coach and mentor team members on a regular basis\nDevelopment of Jocks as per guidelines\nMust have an eye to spot the local talent to fill up vacancies locally\n\n\n\n\nTECHNICAL SKILLS & QUALIFICATION REQUIRED:\n\nGraduation / Post Graduation (Any specialisation) with 8 -12 years of relevant experience\nExperience in digital content conceptualisation\nStrong branding focus\nMust be well-read in variety of areas and must keep up with the latest events in the city / cluster / country\nMust know to read, write & speak English \n\n\nPERSONAL ATTRIBUTES:\n\nExcellent communication skills\nGood interpersonal skills\nPeople management\n\n\nSuggest me some tests for the above jd. The duration should be at most 90 mins",
+      "rewrite": "digital content conceptualisation branding assessment radio programming manager content strategy assessment people management leadership communication networking creativity assessment \n SKILL: digital content conceptualisation, branding, market trends analysis \n SOFT: people management, communication, interpersonal skills, networking, creativity, coaching, mentoring, talent identification \n JOBLEVEL: senior \n DURATION: 90MIN \n LANG: English \n SUMMARY: The role involves managing the sound-scape and brand of a radio station, increasing listenership and ad spends through creative and marketing interventions, developing local talent (RJs), and leading a team. Key responsibilities include digital content conceptualisation, branding, programming initiatives, and strong people management.",
+      "ground_truth": [
+        "https://www.shl.com/products/product-catalog/view/verify-verbal-ability-next-generation"
+      ],
+      "retrieved_final": [
+        "https://www.shl.com/products/product-catalog/view/marketing-new",
+        "https://www.shl.com/products/product-catalog/view/digital-advertising-new",
+        "https://www.shl.com/products/product-catalog/view/verify-g",
+        "https://www.shl.com/products/product-catalog/view/interpersonal-communications",
+        "https://www.shl.com/products/product-catalog/view/business-communication-adaptive",
+        "https://www.shl.com/products/product-catalog/view/remoteworkq",
+        "https://www.shl.com/products/product-catalog/view/social-media-new",
+        "https://www.shl.com/products/product-catalog/view/writex-email-writing-managerial-new",
+        "https://www.shl.com/products/product-catalog/view/human-resources-new",
+        "https://www.shl.com/products/product-catalog/view/operations-management-new"
+      ],
+      "recall_at_10": 0.0,
+      "parsed": {
+        "skills": "digital content conceptualisation, branding, market trends analysis",
+        "soft_skills": "people management, communication, interpersonal skills, networking, creativity, coaching, mentoring, talent identification",
+        "seniority": "senior",
+        "duration_minutes": 90,
+        "languages": "English",
+        "summary": "The role involves managing the sound-scape and brand of a radio station, increasing listenership and ad spends through creative and marketing interventions, developing local talent (RJs), and leading a team. Key responsibilities include digital content conceptualisation, branding, programming initiatives, and strong people management.",
+        "search_queries": [
+          "digital content conceptualisation branding assessment",
+          "radio programming manager content strategy assessment",
+          "people management leadership communication networking creativity assessment"
+        ],
+        "rewrite": "digital content conceptualisation branding assessment radio programming manager content strategy assessment people management leadership communication networking creativity assessment \n SKILL: digital content conceptualisation, branding, market trends analysis \n SOFT: people management, communication, interpersonal skills, networking, creativity, coaching, mentoring, talent identification \n JOBLEVEL: senior \n DURATION: 90MIN \n LANG: English \n SUMMARY: The role involves managing the sound-scape and brand of a radio station, increasing listenership and ad spends through creative and marketing interventions, developing local talent (RJs), and leading a team. Key responsibilities include digital content conceptualisation, branding, programming initiatives, and strong people management."
+      }
+    },
+    {
+      "query": "KEY RESPONSIBITILES:\n\nManage the sound-scape of the station through appropriate creative and marketing interventions to Increase or Maintain the listenership\nActs as an interface between Programming & sales team, thereby supporting the sales team by providing creative inputs in order to increase the overall ad spends by clients\nBuild brand Mirchi by ideating fresh programming initiatives on air campaigns, programming led on-ground events & new properties to ensure brand differentiation & thus increase brand recall at station level\nInvest time in local RJs to grow & develop them as local celebrities\nThrough strong networking, must focus on identifying the best of local talent and ensure to bring the creative minds from the market on board with Mirchi\nBuild radio as a category for both listeners & advertisers\nPeople Management\nIdentifying the right talent and investing time in developing them by frequent feedback on their performance\nMonitor, Coach and mentor team members on a regular basis\nDevelopment of Jocks as per guidelines\nMust have an eye to spot the local talent to fill up vacancies locally\n\n\n\n\nTECHNICAL SKILLS & QUALIFICATION REQUIRED:\n\nGraduation / Post Graduation (Any specialisation) with 8 -12 years of relevant experience\nExperience in digital content conceptualisation\nStrong branding focus\nMust be well-read in variety of areas and must keep up with the latest events in the city / cluster / country\nMust know to read, write & speak English \n\n\nPERSONAL ATTRIBUTES:\n\nExcellent communication skills\nGood interpersonal skills\nPeople management\n\n\nSuggest me some tests for the above jd. The duration should be at most 90 mins",
+      "rewrite": "SHL digital content conceptualisation, branding strategy, marketing effectiveness, talent acquisition assessment SHL leadership potential, strategic thinking, content management, brand development assessment SHL communication skills, interpersonal effectiveness, creativity and innovation, people management assessment \n SKILL: digital content conceptualisation, branding, marketing interventions, programming initiatives, on-air campaigns, on-ground events, talent identification, talent development, coaching, mentoring, people management, networking \n SOFT: excellent communication, good interpersonal skills, creativity, strategic thinking, leadership, team management, problem-solving, adaptability \n JOBLEVEL: senior \n DURATION: 90MIN \n LANG: English \n SUMMARY: The role involves managing the station's sound-scape, increasing listenership, acting as a liaison between programming and sales, and building the brand through creative initiatives and events. Key responsibilities include developing local RJs and talent, building the radio category, and comprehensive people management. The ideal candidate will have strong digital content conceptualization, branding focus, excellent communication, interpersonal skills, and leadership abilities, with 8-12 years of relevant experience.",
+      "ground_truth": [
+        "https://www.shl.com/products/product-catalog/view/shl-verify-interactive-inductive-reasoning"
+      ],
+      "retrieved_final": [
+        "https://www.shl.com/products/product-catalog/view/marketing-new",
+        "https://www.shl.com/products/product-catalog/view/global-skills-assessment",
+        "https://www.shl.com/products/product-catalog/view/business-communication-adaptive",
+        "https://www.shl.com/products/product-catalog/view/interpersonal-communications",
+        "https://www.shl.com/products/product-catalog/view/shl-verify-interactive-g",
+        "https://www.shl.com/products/product-catalog/view/verify-g",
+        "https://www.shl.com/products/product-catalog/view/digital-advertising-new",
+        "https://www.shl.com/products/product-catalog/view/social-media-new",
+        "https://www.shl.com/products/product-catalog/view/verify-verbal-ability-next-generation",
+        "https://www.shl.com/products/product-catalog/view/training-development"
+      ],
+      "recall_at_10": 0.0,
+      "parsed": {
+        "skills": "digital content conceptualisation, branding, marketing interventions, programming initiatives, on-air campaigns, on-ground events, talent identification, talent development, coaching, mentoring, people management, networking",
+        "soft_skills": "excellent communication, good interpersonal skills, creativity, strategic thinking, leadership, team management, problem-solving, adaptability",
+        "seniority": "senior",
+        "duration_minutes": 90,
+        "languages": "English",
+        "summary": "The role involves managing the station's sound-scape, increasing listenership, acting as a liaison between programming and sales, and building the brand through creative initiatives and events. Key responsibilities include developing local RJs and talent, building the radio category, and comprehensive people management. The ideal candidate will have strong digital content conceptualization, branding focus, excellent communication, interpersonal skills, and leadership abilities, with 8-12 years of relevant experience.",
+        "search_queries": [
+          "SHL digital content conceptualisation, branding strategy, marketing effectiveness, talent acquisition assessment",
+          "SHL leadership potential, strategic thinking, content management, brand development assessment",
+          "SHL communication skills, interpersonal effectiveness, creativity and innovation, people management assessment"
+        ],
+        "rewrite": "SHL digital content conceptualisation, branding strategy, marketing effectiveness, talent acquisition assessment SHL leadership potential, strategic thinking, content management, brand development assessment SHL communication skills, interpersonal effectiveness, creativity and innovation, people management assessment \n SKILL: digital content conceptualisation, branding, marketing interventions, programming initiatives, on-air campaigns, on-ground events, talent identification, talent development, coaching, mentoring, people management, networking \n SOFT: excellent communication, good interpersonal skills, creativity, strategic thinking, leadership, team management, problem-solving, adaptability \n JOBLEVEL: senior \n DURATION: 90MIN \n LANG: English \n SUMMARY: The role involves managing the station's sound-scape, increasing listenership, acting as a liaison between programming and sales, and building the brand through creative initiatives and events. Key responsibilities include developing local RJs and talent, building the radio category, and comprehensive people management. The ideal candidate will have strong digital content conceptualization, branding focus, excellent communication, interpersonal skills, and leadership abilities, with 8-12 years of relevant experience."
+      }
+    },
+    {
+      "query": "KEY RESPONSIBITILES:\n\nManage the sound-scape of the station through appropriate creative and marketing interventions to Increase or Maintain the listenership\nActs as an interface between Programming & sales team, thereby supporting the sales team by providing creative inputs in order to increase the overall ad spends by clients\nBuild brand Mirchi by ideating fresh programming initiatives on air campaigns, programming led on-ground events & new properties to ensure brand differentiation & thus increase brand recall at station level\nInvest time in local RJs to grow & develop them as local celebrities\nThrough strong networking, must focus on identifying the best of local talent and ensure to bring the creative minds from the market on board with Mirchi\nBuild radio as a category for both listeners & advertisers\nPeople Management\nIdentifying the right talent and investing time in developing them by frequent feedback on their performance\nMonitor, Coach and mentor team members on a regular basis\nDevelopment of Jocks as per guidelines\nMust have an eye to spot the local talent to fill up vacancies locally\n\n\n\n\nTECHNICAL SKILLS & QUALIFICATION REQUIRED:\n\nGraduation / Post Graduation (Any specialisation) with 8 -12 years of relevant experience\nExperience in digital content conceptualisation\nStrong branding focus\nMust be well-read in variety of areas and must keep up with the latest events in the city / cluster / country\nMust know to read, write & speak English \n\n\nPERSONAL ATTRIBUTES:\n\nExcellent communication skills\nGood interpersonal skills\nPeople management\n\n\nSuggest me some tests for the above jd. The duration should be at most 90 mins",
+      "rewrite": "digital content conceptualisation, branding strategy, programming management Radio Station Head, Programming Director, Brand & Content Manager, Talent Development Lead Leadership, People Management, Communication, Interpersonal Skills, Creative Thinking, Strategic Planning, Networking, Talent Development \n SKILL: digital content conceptualisation, branding strategy, marketing strategy, programming management, content creation, sales support, event management \n SOFT: communication, interpersonal skills, people management, talent development, coaching, mentoring, networking, creative thinking, strategic thinking \n JOBLEVEL: senior \n DURATION: 90MIN \n LANG: English \n SUMMARY: A senior role focused on managing radio station programming, brand building, digital content conceptualization, and people management, specifically developing RJs and local talent, while also supporting sales through creative interventions.",
+      "ground_truth": [
+        "https://www.shl.com/products/product-catalog/view/marketing-new"
+      ],
+      "retrieved_final": [
+        "https://www.shl.com/products/product-catalog/view/business-communication-adaptive",
+        "https://www.shl.com/products/product-catalog/view/interpersonal-communications",
+        "https://www.shl.com/products/product-catalog/view/verify-verbal-ability-next-generation",
+        "https://www.shl.com/products/product-catalog/view/marketing-new",
+        "https://www.shl.com/products/product-catalog/view/shl-verify-interactive-g",
+        "https://www.shl.com/products/product-catalog/view/digital-advertising-new",
+        "https://www.shl.com/products/product-catalog/view/social-media-new",
+        "https://www.shl.com/products/product-catalog/view/verify-inductive-reasoning-2014",
+        "https://www.shl.com/products/product-catalog/view/verify-deductive-reasoning",
+        "https://www.shl.com/products/product-catalog/view/human-resources-new"
+      ],
+      "recall_at_10": 1.0,
+      "parsed": {
+        "skills": "digital content conceptualisation, branding strategy, marketing strategy, programming management, content creation, sales support, event management",
+        "soft_skills": "communication, interpersonal skills, people management, talent development, coaching, mentoring, networking, creative thinking, strategic thinking",
+        "seniority": "senior",
+        "duration_minutes": 90,
+        "languages": "English",
+        "summary": "A senior role focused on managing radio station programming, brand building, digital content conceptualization, and people management, specifically developing RJs and local talent, while also supporting sales through creative interventions.",
+        "search_queries": [
+          "digital content conceptualisation, branding strategy, programming management",
+          "Radio Station Head, Programming Director, Brand & Content Manager, Talent Development Lead",
+          "Leadership, People Management, Communication, Interpersonal Skills, Creative Thinking, Strategic Planning, Networking, Talent Development"
+        ],
+        "rewrite": "digital content conceptualisation, branding strategy, programming management Radio Station Head, Programming Director, Brand & Content Manager, Talent Development Lead Leadership, People Management, Communication, Interpersonal Skills, Creative Thinking, Strategic Planning, Networking, Talent Development \n SKILL: digital content conceptualisation, branding strategy, marketing strategy, programming management, content creation, sales support, event management \n SOFT: communication, interpersonal skills, people management, talent development, coaching, mentoring, networking, creative thinking, strategic thinking \n JOBLEVEL: senior \n DURATION: 90MIN \n LANG: English \n SUMMARY: A senior role focused on managing radio station programming, brand building, digital content conceptualization, and people management, specifically developing RJs and local talent, while also supporting sales through creative interventions."
+      }
+    },
+    {
+      "query": "KEY RESPONSIBITILES:\n\nManage the sound-scape of the station through appropriate creative and marketing interventions to Increase or Maintain the listenership\nActs as an interface between Programming & sales team, thereby supporting the sales team by providing creative inputs in order to increase the overall ad spends by clients\nBuild brand Mirchi by ideating fresh programming initiatives on air campaigns, programming led on-ground events & new properties to ensure brand differentiation & thus increase brand recall at station level\nInvest time in local RJs to grow & develop them as local celebrities\nThrough strong networking, must focus on identifying the best of local talent and ensure to bring the creative minds from the market on board with Mirchi\nBuild radio as a category for both listeners & advertisers\nPeople Management\nIdentifying the right talent and investing time in developing them by frequent feedback on their performance\nMonitor, Coach and mentor team members on a regular basis\nDevelopment of Jocks as per guidelines\nMust have an eye to spot the local talent to fill up vacancies locally\n\n\n\n\nTECHNICAL SKILLS & QUALIFICATION REQUIRED:\n\nGraduation / Post Graduation (Any specialisation) with 8 -12 years of relevant experience\nExperience in digital content conceptualisation\nStrong branding focus\nMust be well-read in variety of areas and must keep up with the latest events in the city / cluster / country\nMust know to read, write & speak English \n\n\nPERSONAL ATTRIBUTES:\n\nExcellent communication skills\nGood interpersonal skills\nPeople management\n\n\nSuggest me some tests for the above jd. The duration should be at most 90 mins",
+      "rewrite": "digital content conceptualisation, branding, marketing strategy, programming management Radio Station Manager, Brand Development, Talent Management, Digital Content Strategy, Sales Support Leadership, People Management, Strategic Thinking, Communication, Creativity, Influence \n SKILL: Digital content conceptualisation, Branding, Marketing strategy, Programming management, Campaign development, Event management, Talent scouting, Content strategy, Sales support, Market analysis, Radio production \n SOFT: People management, Communication, Interpersonal skills, Networking, Coaching, Mentoring, Creative thinking, Strategic thinking, Leadership, Influence \n JOBLEVEL: senior \n DURATION: 90MIN \n LANG: English \n SUMMARY: A senior role focused on managing a radio station's sound-scape, driving creative and marketing initiatives to boost listenership and ad revenue. Key responsibilities include brand building through innovative programming and events, digital content conceptualization, and developing local talent. Requires strong branding focus, excellent people management, and communication skills.",
+      "ground_truth": [
+        "https://www.shl.com/products/product-catalog/view/english-comprehension-new"
+      ],
+      "retrieved_final": [
+        "https://www.shl.com/products/product-catalog/view/marketing-new",
+        "https://www.shl.com/products/product-catalog/view/business-communication-adaptive",
+        "https://www.shl.com/products/product-catalog/view/interpersonal-communications",
+        "https://www.shl.com/products/product-catalog/view/verify-g",
+        "https://www.shl.com/products/product-catalog/view/human-resources-new",
+        "https://www.shl.com/products/product-catalog/view/digital-advertising-new",
+        "https://www.shl.com/products/product-catalog/view/operations-management-new",
+        "https://www.shl.com/products/product-catalog/view/verify-verbal-ability-next-generation",
+        "https://www.shl.com/products/product-catalog/view/writex-email-writing-managerial-new",
+        "https://www.shl.com/products/product-catalog/view/social-media-new"
+      ],
+      "recall_at_10": 0.0,
+      "parsed": {
+        "skills": "Digital content conceptualisation, Branding, Marketing strategy, Programming management, Campaign development, Event management, Talent scouting, Content strategy, Sales support, Market analysis, Radio production",
+        "soft_skills": "People management, Communication, Interpersonal skills, Networking, Coaching, Mentoring, Creative thinking, Strategic thinking, Leadership, Influence",
+        "seniority": "senior",
+        "duration_minutes": 90,
+        "languages": "English",
+        "summary": "A senior role focused on managing a radio station's sound-scape, driving creative and marketing initiatives to boost listenership and ad revenue. Key responsibilities include brand building through innovative programming and events, digital content conceptualization, and developing local talent. Requires strong branding focus, excellent people management, and communication skills.",
+        "search_queries": [
+          "digital content conceptualisation, branding, marketing strategy, programming management",
+          "Radio Station Manager, Brand Development, Talent Management, Digital Content Strategy, Sales Support",
+          "Leadership, People Management, Strategic Thinking, Communication, Creativity, Influence"
+        ],
+        "rewrite": "digital content conceptualisation, branding, marketing strategy, programming management Radio Station Manager, Brand Development, Talent Management, Digital Content Strategy, Sales Support Leadership, People Management, Strategic Thinking, Communication, Creativity, Influence \n SKILL: Digital content conceptualisation, Branding, Marketing strategy, Programming management, Campaign development, Event management, Talent scouting, Content strategy, Sales support, Market analysis, Radio production \n SOFT: People management, Communication, Interpersonal skills, Networking, Coaching, Mentoring, Creative thinking, Strategic thinking, Leadership, Influence \n JOBLEVEL: senior \n DURATION: 90MIN \n LANG: English \n SUMMARY: A senior role focused on managing a radio station's sound-scape, driving creative and marketing initiatives to boost listenership and ad revenue. Key responsibilities include brand building through innovative programming and events, digital content conceptualization, and developing local talent. Requires strong branding focus, excellent people management, and communication skills."
+      }
+    }
+  ]
+}
