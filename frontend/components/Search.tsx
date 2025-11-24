@@ -40,8 +40,7 @@ export default function Search() {
         setResults(null);
 
         try {
-            const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
-            const response = await fetch(`${apiUrl}/recommend`, {
+            const response = await fetch(`/api/recommend`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
