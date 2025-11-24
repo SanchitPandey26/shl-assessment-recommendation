@@ -38,10 +38,12 @@ def rerank_results(query: str, retrieval_results: dict, top_k: int = 10):
             # Find corresponding candidate
             candidate = next((c for c in candidates if c["url"] == item["url"]), None)
             if candidate:
+                # Merge candidate data with reranking scores
                 enriched_results.append({
                     **candidate,
                     "relevance_score": item["score"],
-                    "relevance_reason": item["reason"]
+                    "relevance_reason": item["reason"],
+                    "meta": candidate  # Include full metadata for response formatting
                 })
         
         return enriched_results

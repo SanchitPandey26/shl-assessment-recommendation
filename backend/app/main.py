@@ -46,11 +46,40 @@ def recommend(payload: QueryRequest):
             top_k=payload.top_k
         )
         
+        # Format response to match simplified schema
+        formatted_assessments = []
+        for result in final_results:
+            meta = result.get('meta', {})
+            
+            # Get duration (prefer single value or average, ensure int)
+            duration_min = meta.get('duration_min')
+            duration_max = meta.get('duration_max')
+            if duration_max:
+                duration = int(duration_max)
+            elif duration_min:
+                duration = int(duration_min)
+            else:
+                duration = 0  # Default to 0 if no duration info
+            
+            # Get test types
+            test_types = meta.get('test_types', [])
+            if isinstance(test_types, list):
+                test_type_names = [t.get('name', str(t)) if isinstance(t, dict) else str(t) for t in test_types]
+            else:
+                test_type_names = [str(test_types)] if test_types else []
+            
+            formatted_assessments.append({
+                "url": result.get('url', ''),
+                "name": meta.get('name', ''),
+                "adaptive_support": "Yes" if meta.get('adaptive_support') else "No",
+                "description": meta.get('description', '')[:200] + "..." if meta.get('description', '') else '',
+                "duration": duration,
+                "remote_support": "Yes" if meta.get('remote_support') else "No",
+                "test_type": test_type_names
+            })
+        
         return RecommendationResponse(
-            query=payload.query,
-            rewritten_query=raw_results["rewritten_query"],
-            assessments=final_results,
-            total_results=len(final_results)
+            recommended_assessments=formatted_assessments
         )
     
     except Exception as e:

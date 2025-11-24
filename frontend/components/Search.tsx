@@ -5,22 +5,15 @@ import { useState, useEffect } from 'react';
 interface Assessment {
     url: string;
     name: string;
-    desc: string;
-    duration_min: number;
-    duration_max: number;
-    job_levels: string;
-    languages: string[];
-    test_types: string[];
-    tags: string[];
-    relevance_score: number;
-    relevance_reason: string;
+    adaptive_support: string;
+    description: string;
+    duration: number;
+    remote_support: string;
+    test_type: string[];
 }
 
 interface SearchResult {
-    query: string;
-    rewritten_query: string;
-    assessments: Assessment[];
-    total_results: number;
+    recommended_assessments: Assessment[];
 }
 
 export default function Search() {
@@ -99,11 +92,11 @@ export default function Search() {
             {results && (
                 <div className="space-y-6">
                     <div className="flex items-center justify-between text-sm text-gray-500 dark:text-gray-400">
-                        <p>Found {results.total_results} recommendations</p>
+                        <p>Found {results.recommended_assessments.length} recommendations</p>
                     </div>
 
                     <div className="grid gap-6">
-                        {results.assessments.map((assessment, index) => (
+                        {results.recommended_assessments.map((assessment, index) => (
                             <div
                                 key={index}
                                 className="p-6 bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700 hover:shadow-md transition-shadow"
@@ -114,30 +107,33 @@ export default function Search() {
                                             {assessment.name}
                                         </a>
                                     </h3>
-                                    <span className="px-3 py-1 text-xs font-medium bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-300 rounded-full">
-                                        Score: {Math.round(assessment.relevance_score * 100)}%
-                                    </span>
                                 </div>
 
-                                <p className="text-gray-600 dark:text-gray-300 mb-4 line-clamp-2">
-                                    {assessment.desc}
+                                <p className="text-gray-600 dark:text-gray-300 mb-4">
+                                    {assessment.description}
                                 </p>
 
-                                <div className="flex flex-wrap gap-2 mb-4">
-                                    {assessment.test_types.map((type, i) => (
-                                        <span key={i} className="px-2 py-1 text-xs bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 rounded">
+                                <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-4">
+                                    <div className="flex items-center gap-2 text-sm">
+                                        <span className="font-semibold text-gray-700 dark:text-gray-300">Duration:</span>
+                                        <span className="text-gray-600 dark:text-gray-400">{assessment.duration} min</span>
+                                    </div>
+                                    <div className="flex items-center gap-2 text-sm">
+                                        <span className="font-semibold text-gray-700 dark:text-gray-300">Remote:</span>
+                                        <span className="text-gray-600 dark:text-gray-400">{assessment.remote_support}</span>
+                                    </div>
+                                    <div className="flex items-center gap-2 text-sm">
+                                        <span className="font-semibold text-gray-700 dark:text-gray-300">Adaptive:</span>
+                                        <span className="text-gray-600 dark:text-gray-400">{assessment.adaptive_support}</span>
+                                    </div>
+                                </div>
+
+                                <div className="flex flex-wrap gap-2">
+                                    {assessment.test_type.map((type, i) => (
+                                        <span key={i} className="px-3 py-1 text-xs bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-300 rounded-full">
                                             {type}
                                         </span>
                                     ))}
-                                    {assessment.job_levels && (
-                                        <span className="px-2 py-1 text-xs bg-purple-100 dark:bg-purple-900/30 text-purple-800 dark:text-purple-300 rounded">
-                                            {assessment.job_levels.split(',')[0]}
-                                        </span>
-                                    )}
-                                </div>
-
-                                <div className="text-sm text-gray-500 dark:text-gray-400 border-t border-gray-100 dark:border-gray-700 pt-3 mt-3">
-                                    <span className="font-medium">Why relevant:</span> {assessment.relevance_reason}
                                 </div>
                             </div>
                         ))}
