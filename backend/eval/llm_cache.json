@@ -12532,5 +12532,4320 @@
       "score": -0.9500000000000002,
       "reason": "fallback"
     }
+  ],
+  "1078ac3b410ea2dcf1d6a7a0214311ddd71442ee": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-8-new/",
+      "score": 1.0,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/core-java-advanced-level-new/",
+      "score": 0.95,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-web-services-new/",
+      "score": 0.9,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/core-java-entry-level-new/",
+      "score": 0.85,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-frameworks-new/",
+      "score": 0.8,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/enterprise-java-beans-new/",
+      "score": 0.75,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-design-patterns-new/",
+      "score": 0.7,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-platform-enterprise-edition-7-java-ee-7/",
+      "score": 0.6499999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/swing-new/",
+      "score": 0.6,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-2-platform-enterprise-edition-1-4-fundamental/",
+      "score": 0.55,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/spring-new/",
+      "score": 0.5,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/hibernate-new/",
+      "score": 0.44999999999999996,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sap-business-objects-webi-new/",
+      "score": 0.3999999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/software-business-analysis/",
+      "score": 0.35,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/agile-software-development/",
+      "score": 0.29999999999999993,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/javascript-new/",
+      "score": 0.25,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/struts-new/",
+      "score": 0.19999999999999996,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/salesforce-development-new/",
+      "score": 0.1499999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/android-development-new/",
+      "score": 0.09999999999999998,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/maven-new/",
+      "score": 0.04999999999999993,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/agile-testing-new/",
+      "score": 0.0,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/mulesoft-development-new/",
+      "score": -0.050000000000000044,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/apache-spark-new/",
+      "score": -0.10000000000000009,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communications/",
+      "score": -0.15000000000000013,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/time-management-u-s/",
+      "score": -0.20000000000000018,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sap-bw-business-warehouse-new/",
+      "score": -0.25,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/dojo-new/",
+      "score": -0.30000000000000004,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/git-new/",
+      "score": -0.3500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/html5-new/",
+      "score": -0.40000000000000013,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/microservices-new/",
+      "score": -0.4500000000000002,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communication-adaptive/",
+      "score": -0.5,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/ruby-new/",
+      "score": -0.55,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/node-js-new/",
+      "score": -0.6000000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/job-control-language-new/",
+      "score": -0.6500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/python-new/",
+      "score": -0.7000000000000002,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/cobol-programming-new/",
+      "score": -0.75,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/htmlcss-new/",
+      "score": -0.8,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/writex-email-writing-sales-new/",
+      "score": -0.8500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/shell-scripting-new/",
+      "score": -0.9000000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/load-runner-new/",
+      "score": -0.9500000000000002,
+      "reason": "fallback"
+    }
+  ],
+  "a5d6a08e8563f217818d381314b52ea081d5b05b": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/entry-level-sales-solution/",
+      "score": 1.0,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-mq-sales-report/",
+      "score": 0.95,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/retail-sales-and-service-simulation/",
+      "score": 0.9,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sales-interview-guide/",
+      "score": 0.85,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sales-transformation-report-sales-manager/",
+      "score": 0.8,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sales-transformation-report-2-0-sales-manager/",
+      "score": 0.75,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sales-and-service-phone-solution/",
+      "score": 0.7,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sales-and-service-phone-simulation/",
+      "score": 0.6499999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/writex-email-writing-sales-new/",
+      "score": 0.6,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sales-profiler-cards/",
+      "score": 0.55,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sap-sd-sales-and-distribution-new/",
+      "score": 0.5,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/salestransformationreport2-0-individualcontributor/",
+      "score": 0.44999999999999996,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sales-transformation-report-individual-contributor/",
+      "score": 0.3999999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/marketing-new/",
+      "score": 0.35,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/data-entry-new/",
+      "score": 0.29999999999999993,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/salesforce-development-new/",
+      "score": 0.25,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/entry-level-customer-service-general-solution/",
+      "score": 0.19999999999999996,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/entry-level-cashier-solution/",
+      "score": 0.1499999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/accounts-payable-simulation-new/",
+      "score": 0.09999999999999998,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/what-is-the-value-us/",
+      "score": 0.04999999999999993,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/financial-accounting-new/",
+      "score": 0.0,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/entry-level-customer-serv-retail-and-contact-center/",
+      "score": -0.050000000000000044,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/entry-level-technical-support-solution/",
+      "score": -0.10000000000000009,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/entry-level-hotel-front-desk-solution/",
+      "score": -0.15000000000000013,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/time-management-u-s/",
+      "score": -0.20000000000000018,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/metallurgical-engineering-new/",
+      "score": -0.25,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/count-out-the-money/",
+      "score": -0.30000000000000004,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/ms-access-new/",
+      "score": -0.3500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/agile-software-development/",
+      "score": -0.40000000000000013,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/mechatronics-engineering-new/",
+      "score": -0.4500000000000002,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/ms-excel-new/",
+      "score": -0.5,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/english-comprehension-new/",
+      "score": -0.55,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/accounts-receivable-simulation-new/",
+      "score": -0.6000000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/filing-names-r1/",
+      "score": -0.6500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/oracle-dba-entry-level-new/",
+      "score": -0.7000000000000002,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sap-materials-management-new/",
+      "score": -0.75,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/accounts-payable-new/",
+      "score": -0.8,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/digital-advertising-new/",
+      "score": -0.8500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/front-office-management-new/",
+      "score": -0.9000000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/human-resources-new/",
+      "score": -0.9500000000000002,
+      "reason": "fallback"
+    }
+  ],
+  "12134943d839f15053a3baae9e061eb268c177f9": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/smart-interview-on-demand/",
+      "score": 1.0,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/pjm-selection-report/",
+      "score": 0.95,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/time-management-u-s/",
+      "score": 0.9,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/managerial-scenarios-narrative-report/",
+      "score": 0.85,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/interviewing-and-hiring-concepts-u-s/",
+      "score": 0.8,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/enterprise-leadership-report/",
+      "score": 0.75,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/enterprise-leadership-report-2-0/",
+      "score": 0.7,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/management-scenarios/",
+      "score": 0.6499999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/ibm-sterling-order-management-system-new/",
+      "score": 0.6,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/managerial-scenarios-profile-report/",
+      "score": 0.55,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-manager-plus-report/",
+      "score": 0.5,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/operations-management-new/",
+      "score": 0.44999999999999996,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/virtual-assessment-and-development-centers/",
+      "score": 0.3999999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-profile-report/",
+      "score": 0.35,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sap-business-objects-webi-new/",
+      "score": 0.29999999999999993,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/managerial-scenarios-candidate-report/",
+      "score": 0.25,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/entry-level-hotel-front-desk-solution/",
+      "score": 0.19999999999999996,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-universal-competency-report/",
+      "score": 0.1499999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sap-materials-management-new/",
+      "score": 0.09999999999999998,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/writex-email-writing-managerial-new/",
+      "score": 0.04999999999999993,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/human-resources-new/",
+      "score": 0.0,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/pjm-development-report/",
+      "score": -0.050000000000000044,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/occupational-personality-questionnaire-opq32r/",
+      "score": -0.10000000000000009,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/global-skills-assessment/",
+      "score": -0.15000000000000013,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/front-office-management-new/",
+      "score": -0.20000000000000018,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/agile-software-development/",
+      "score": -0.25,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sap-bw-business-warehouse-new/",
+      "score": -0.30000000000000004,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-manager-plus-report-2-0/",
+      "score": -0.3500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/global-skills-development-report/",
+      "score": -0.40000000000000013,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/remoteworkq/",
+      "score": -0.4500000000000002,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-leadership-report/",
+      "score": -0.5,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/writex-email-writing-customer-service-new/",
+      "score": -0.55,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/workplace-administration-skills-new/",
+      "score": -0.6000000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/housekeeping-new/",
+      "score": -0.6500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/salesforce-development-new/",
+      "score": -0.7000000000000002,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/hipo-assessment-report-2-0/",
+      "score": -0.75,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/enterprise-java-beans-new/",
+      "score": -0.8,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/marketing-new/",
+      "score": -0.8500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/executive-scenarios/",
+      "score": -0.9000000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-team-types-and-leadership-styles-report/",
+      "score": -0.9500000000000002,
+      "reason": "fallback"
+    }
+  ],
+  "d8d98aee36f26f5096bb5be4fea80562daf96f8d": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/marketing-new/",
+      "score": 1.0,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/ms-excel-new/",
+      "score": 0.95,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/microsoft-excel-365-new/",
+      "score": 0.9,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/entry-level-sales-solution/",
+      "score": 0.85,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/writex-email-writing-sales-new/",
+      "score": 0.8,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/microsoft-excel-365-essentials-new/",
+      "score": 0.75,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sales-and-service-phone-solution/",
+      "score": 0.7,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/retail-sales-and-service-simulation/",
+      "score": 0.6499999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sales-and-service-phone-simulation/",
+      "score": 0.6,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communications/",
+      "score": 0.55,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/interpersonal-communications/",
+      "score": 0.5,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/digital-advertising-new/",
+      "score": 0.44999999999999996,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communication-adaptive/",
+      "score": 0.3999999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/data-entry-ten-key-split-screen/",
+      "score": 0.35,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sap-sd-sales-and-distribution-new/",
+      "score": 0.29999999999999993,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/search-engine-optimization-new/",
+      "score": 0.25,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/r-programming-new/",
+      "score": 0.19999999999999996,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/social-media-new/",
+      "score": 0.1499999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/ms-office-basic-computer-literacy-new/",
+      "score": 0.09999999999999998,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sap-business-objects-webi-new/",
+      "score": 0.04999999999999993,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/c-programming-new-4122/",
+      "score": 0.0,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/programming-concepts/",
+      "score": -0.050000000000000044,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/writex-email-writing-customer-service-new/",
+      "score": -0.10000000000000009,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/writex-email-writing-managerial-new/",
+      "score": -0.15000000000000013,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/agile-software-development/",
+      "score": -0.20000000000000018,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/remoteworkq/",
+      "score": -0.25,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/entry-level-hotel-front-desk-solution/",
+      "score": -0.30000000000000004,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/front-office-management-new/",
+      "score": -0.3500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/contact-center-call-simulation-new/",
+      "score": -0.40000000000000013,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/salesforce-development-new/",
+      "score": -0.4500000000000002,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/cobol-programming-new/",
+      "score": -0.5,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/time-management-u-s/",
+      "score": -0.55,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/c-programming-new/",
+      "score": -0.6000000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/ms-powerpoint-new/",
+      "score": -0.6500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/entry-level-customer-service-general-solution/",
+      "score": -0.7000000000000002,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/entry-level-customer-serv-retail-and-contact-center/",
+      "score": -0.75,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/dependability-and-safety-instrument-dsi/",
+      "score": -0.8,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/verify-interactive-process-monitoring/",
+      "score": -0.8500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/microsoft-dynamics-development-new/",
+      "score": -0.9000000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/instrumentation-engineering-new/",
+      "score": -0.9500000000000002,
+      "reason": "fallback"
+    }
+  ],
+  "76610d0c60e74f2f83494cfb6d2a25dd41f0c932": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/search-engine-optimization-new/",
+      "score": 1.0,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/written-english-v1/",
+      "score": 0.95,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/writex-email-writing-managerial-new/",
+      "score": 0.9,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/writex-email-writing-customer-service-new/",
+      "score": 0.85,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/writex-email-writing-sales-new/",
+      "score": 0.8,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/svar-spoken-english-us-new/",
+      "score": 0.75,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/svar-spoken-english-u-k/",
+      "score": 0.7,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/svar-spoken-english-aus/",
+      "score": 0.6499999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/english-comprehension-new/",
+      "score": 0.6,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/svar-spoken-english-indian-accent-new/",
+      "score": 0.55,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/spelling-u-s-new/",
+      "score": 0.5,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/reading-comprehension-english-v1/",
+      "score": 0.44999999999999996,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/drupal-new/",
+      "score": 0.3999999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/digital-advertising-new/",
+      "score": 0.35,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/proofreading-v1/",
+      "score": 0.29999999999999993,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/reading-comprehension-v2/",
+      "score": 0.25,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/social-media-new/",
+      "score": 0.19999999999999996,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/verify-verbal-ability-next-generation/",
+      "score": 0.1499999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/ms-word-new/",
+      "score": 0.09999999999999998,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/verify-working-with-information/",
+      "score": 0.04999999999999993,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/written-spanish/",
+      "score": 0.0,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/filing-names-r1/",
+      "score": -0.050000000000000044,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/reviewing-forms-us-r1/",
+      "score": -0.10000000000000009,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/global-skills-development-report/",
+      "score": -0.15000000000000013,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/htmlcss-new/",
+      "score": -0.20000000000000018,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/filing-numbers/",
+      "score": -0.25,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/css3-new/",
+      "score": -0.30000000000000004,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/agile-software-development/",
+      "score": -0.3500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/microsoft-word-365-essentials-new/",
+      "score": -0.40000000000000013,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/microsoft-word-365-new/",
+      "score": -0.4500000000000002,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/entry-level-hotel-front-desk-solution/",
+      "score": -0.5,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/php-new/",
+      "score": -0.55,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/html5-new/",
+      "score": -0.6000000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/marketing-new/",
+      "score": -0.6500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/global-skills-assessment/",
+      "score": -0.7000000000000002,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/adobe-experience-manager-new/",
+      "score": -0.75,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/restful-web-services-new/",
+      "score": -0.8,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/ms-powerpoint-new/",
+      "score": -0.8500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/javascript-new/",
+      "score": -0.9000000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sap-business-objects-webi-new/",
+      "score": -0.9500000000000002,
+      "reason": "fallback"
+    }
+  ],
+  "1332a90b3777b502bed351a5a33f0cc5a4433432": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/selenium-new/",
+      "score": 1.0,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/automata-selenium/",
+      "score": 0.95,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/ms-excel-new/",
+      "score": 0.9,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sql-new/",
+      "score": 0.85,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/verify-working-with-information/",
+      "score": 0.8,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/core-java-advanced-level-new/",
+      "score": 0.75,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-8-new/",
+      "score": 0.7,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-web-services-new/",
+      "score": 0.6499999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sql-server-new/",
+      "score": 0.6,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-frameworks-new/",
+      "score": 0.55,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/core-java-entry-level-new/",
+      "score": 0.5,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/oracle-plsql-new/",
+      "score": 0.44999999999999996,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/microsoft-excel-365-new/",
+      "score": 0.3999999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/microsoft-sql-server-2014-programming/",
+      "score": 0.35,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/shl-verify-interactive-g/",
+      "score": 0.29999999999999993,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/enterprise-java-beans-new/",
+      "score": 0.25,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/microsoft-excel-365-essentials-new/",
+      "score": 0.19999999999999996,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/shl-verify-interactive-numerical-reasoning/",
+      "score": 0.1499999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/remoteworkq/",
+      "score": 0.09999999999999998,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/shl-verify-interactive-numerical-calculation/",
+      "score": 0.04999999999999993,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-platform-enterprise-edition-7-java-ee-7/",
+      "score": 0.0,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/verify-interactive-process-monitoring/",
+      "score": -0.050000000000000044,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/global-skills-assessment/",
+      "score": -0.10000000000000009,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/job-control-language-new/",
+      "score": -0.15000000000000013,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/verify-inductive-reasoning-2014/",
+      "score": -0.20000000000000018,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-design-patterns-new/",
+      "score": -0.25,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/verify-g/",
+      "score": -0.30000000000000004,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/verify-verbal-ability-next-generation/",
+      "score": -0.3500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/shl-verify-interactive-deductive-reasoning/",
+      "score": -0.40000000000000013,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communication-adaptive/",
+      "score": -0.4500000000000002,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/swing-new/",
+      "score": -0.5,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/verify-numerical-ability/",
+      "score": -0.55,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/hibernate-new/",
+      "score": -0.6000000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/shl-verify-interactive-inductive-reasoning/",
+      "score": -0.6500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/verify-deductive-reasoning/",
+      "score": -0.7000000000000002,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/writex-email-writing-customer-service-new/",
+      "score": -0.75,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communications/",
+      "score": -0.8,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/writex-email-writing-sales-new/",
+      "score": -0.8500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/verify-technical-checking-next-generation/",
+      "score": -0.9000000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/computer-science-new/",
+      "score": -0.9500000000000002,
+      "reason": "fallback"
+    }
+  ],
+  "71eaa35b428ea8cc6313216e84d8f00908a1047f": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/adobe-experience-manager-new/",
+      "score": 1.0,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/workplace-administration-skills-new/",
+      "score": 0.95,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sap-basis-new/",
+      "score": 0.9,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/linux-administration-new/",
+      "score": 0.85,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/financial-and-banking-services-new/",
+      "score": 0.8,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/typing-new/",
+      "score": 0.75,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/financial-accounting-new/",
+      "score": 0.7,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/housekeeping-new/",
+      "score": 0.6499999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/count-out-the-money/",
+      "score": 0.6,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/verify-numerical-ability/",
+      "score": 0.55,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/following-instructions-v1-us-r2/",
+      "score": 0.5,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sap-abap-intermediate-level-new/",
+      "score": 0.44999999999999996,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/what-is-the-value-us/",
+      "score": 0.3999999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/adobe-photoshop-cc/",
+      "score": 0.35,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/data-entry-new/",
+      "score": 0.29999999999999993,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/following-instructions-v1-uk-r1/",
+      "score": 0.25,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/marketing-new/",
+      "score": 0.19999999999999996,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/split-screen-typing-test-form-1/",
+      "score": 0.1499999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/ibm-sterling-order-management-system-new/",
+      "score": 0.09999999999999998,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/accounts-receivable-simulation-new/",
+      "score": 0.04999999999999993,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/proofreading-v1/",
+      "score": 0.0,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/agile-software-development/",
+      "score": -0.050000000000000044,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/ms-access-new/",
+      "score": -0.10000000000000009,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/oracle-dba-entry-level-new/",
+      "score": -0.15000000000000013,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/reviewing-forms-us-r1/",
+      "score": -0.20000000000000018,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/salesforce-development-new/",
+      "score": -0.25,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sap-business-objects-webi-new/",
+      "score": -0.30000000000000004,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/filing-names-r1/",
+      "score": -0.3500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sap-abap-advanced-level-new/",
+      "score": -0.40000000000000013,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/htmlcss-new/",
+      "score": -0.4500000000000002,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/verify-general-ability-screen/",
+      "score": -0.5,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/oracle-dba-advanced-level-new/",
+      "score": -0.55,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/itil-it-infrastructure-library-new/",
+      "score": -0.6000000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/time-management-u-s/",
+      "score": -0.6500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/zabbix-new/",
+      "score": -0.7000000000000002,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/accounts-payable-simulation-new/",
+      "score": -0.75,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/ms-excel-new/",
+      "score": -0.8,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/nursing-new/",
+      "score": -0.8500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/verify-following-instructions/",
+      "score": -0.9000000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/cardiology-and-diabetes-management-new/",
+      "score": -0.9500000000000002,
+      "reason": "fallback"
+    }
+  ],
+  "1c3ce9b68f4e3298a9f961083d24154369331afa": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/marketing-new/",
+      "score": 1.0,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sales-transformation-report-2-0-sales-manager/",
+      "score": 0.95,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sales-transformation-report-sales-manager/",
+      "score": 0.9,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sales-interview-guide/",
+      "score": 0.85,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/entry-level-sales-solution/",
+      "score": 0.8,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sales-profiler-cards/",
+      "score": 0.75,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/salestransformationreport2-0-individualcontributor/",
+      "score": 0.7,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/search-engine-optimization-new/",
+      "score": 0.6499999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/digital-advertising-new/",
+      "score": 0.6,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sales-transformation-report-individual-contributor/",
+      "score": 0.55,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/social-media-new/",
+      "score": 0.5,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-mq-sales-report/",
+      "score": 0.44999999999999996,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-team-types-and-leadership-styles-report/",
+      "score": 0.3999999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-team-types-and-leadership-styles-profile/",
+      "score": 0.35,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-team-impact-selection-report/",
+      "score": 0.29999999999999993,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/writex-email-writing-sales-new/",
+      "score": 0.25,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/enterprise-leadership-report/",
+      "score": 0.19999999999999996,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/retail-sales-and-service-simulation/",
+      "score": 0.1499999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communication-adaptive/",
+      "score": 0.09999999999999998,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sales-and-service-phone-solution/",
+      "score": 0.04999999999999993,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-team-impact-group-development-report/",
+      "score": 0.0,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/enterprise-leadership-report-2-0/",
+      "score": -0.050000000000000044,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-team-impact-individual-development-report/",
+      "score": -0.10000000000000009,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/interpersonal-communications/",
+      "score": -0.15000000000000013,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-leadership-report/",
+      "score": -0.20000000000000018,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sales-and-service-phone-simulation/",
+      "score": -0.25,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/global-skills-development-report/",
+      "score": -0.30000000000000004,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/universal-competency-framework-job-profiling-guide/",
+      "score": -0.3500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communications/",
+      "score": -0.40000000000000013,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/operations-management-new/",
+      "score": -0.4500000000000002,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/mq-candidate-motivation-report/",
+      "score": -0.5,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/remoteworkq-manager-report/",
+      "score": -0.55,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/pjm-selection-report/",
+      "score": -0.6000000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/writex-email-writing-managerial-new/",
+      "score": -0.6500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/mq-motivation-report-pack/",
+      "score": -0.7000000000000002,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-ucf-development-action-planner-report/",
+      "score": -0.75,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/remoteworkq/",
+      "score": -0.8,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/hipo-unlocking-potential-report-2-0/",
+      "score": -0.8500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sap-sd-sales-and-distribution-new/",
+      "score": -0.9000000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/software-business-analysis/",
+      "score": -0.9500000000000002,
+      "reason": "fallback"
+    }
+  ],
+  "500c23b8b50ada563e24609ebc78e5a9f24a6b68": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/entry-level-sales-solution/",
+      "score": 1.0,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sales-and-service-phone-simulation/",
+      "score": 0.95,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sales-and-service-phone-solution/",
+      "score": 0.9,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/writex-email-writing-sales-new/",
+      "score": 0.85,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/retail-sales-and-service-simulation/",
+      "score": 0.8,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/entry-level-hotel-front-desk-solution/",
+      "score": 0.75,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/data-entry-new/",
+      "score": 0.7,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/entry-level-customer-service-general-solution/",
+      "score": 0.6499999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/customer-service-phone-simulation/",
+      "score": 0.6,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sap-sd-sales-and-distribution-new/",
+      "score": 0.55,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communications/",
+      "score": 0.5,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/entry-level-customer-serv-retail-and-contact-center/",
+      "score": 0.44999999999999996,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/contact-center-call-simulation-new/",
+      "score": 0.3999999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/marketing-new/",
+      "score": 0.35,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sap-business-objects-webi-new/",
+      "score": 0.29999999999999993,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/salesforce-development-new/",
+      "score": 0.25,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/data-entry-ten-key-split-screen/",
+      "score": 0.19999999999999996,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/financial-accounting-new/",
+      "score": 0.1499999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/front-office-management-new/",
+      "score": 0.09999999999999998,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/typing-new/",
+      "score": 0.04999999999999993,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communication-adaptive/",
+      "score": 0.0,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/oracle-dba-entry-level-new/",
+      "score": -0.050000000000000044,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/entry-level-technical-support-solution/",
+      "score": -0.10000000000000009,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/interpersonal-communications/",
+      "score": -0.15000000000000013,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/verify-working-with-information/",
+      "score": -0.20000000000000018,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/writex-email-writing-managerial-new/",
+      "score": -0.25,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/writex-email-writing-customer-service-new/",
+      "score": -0.30000000000000004,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/accounts-payable-simulation-new/",
+      "score": -0.3500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sap-basis-new/",
+      "score": -0.40000000000000013,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/agile-software-development/",
+      "score": -0.4500000000000002,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/entry-level-cashier-solution/",
+      "score": -0.5,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/filing-names-r1/",
+      "score": -0.55,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/proofreading-v1/",
+      "score": -0.6000000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/time-management-u-s/",
+      "score": -0.6500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/jenkins-new/",
+      "score": -0.7000000000000002,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/reviewing-forms-us-r1/",
+      "score": -0.75,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/microsoft-dynamics-development-new/",
+      "score": -0.8,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/digital-advertising-new/",
+      "score": -0.8500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/interviewing-and-hiring-concepts-u-s/",
+      "score": -0.9000000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/data-entry-alphanumeric-split-screen-us/",
+      "score": -0.9500000000000002,
+      "reason": "fallback"
+    }
+  ],
+  "ca7f4566f3c4f782ccfa42730eaf30bf2932e116": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/python-new/",
+      "score": 1.0,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/ms-excel-new/",
+      "score": 0.95,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sql-new/",
+      "score": 0.9,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/microsoft-excel-365-new/",
+      "score": 0.85,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/microsoft-excel-365-essentials-new/",
+      "score": 0.8,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sql-server-new/",
+      "score": 0.75,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/oracle-plsql-new/",
+      "score": 0.7,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/microsoft-sql-server-2014-programming/",
+      "score": 0.6499999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sql-server-analysis-services-%28ssas%29-%28new%29/",
+      "score": 0.6,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sql-server-integration-services-ssis-new/",
+      "score": 0.55,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sql-server-reporting-services-ssrs-new/",
+      "score": 0.5,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/data-warehousing-concepts/",
+      "score": 0.44999999999999996,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/teradata-development-new/",
+      "score": 0.3999999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/data-entry-new/",
+      "score": 0.35,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/software-business-analysis/",
+      "score": 0.29999999999999993,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/data-science-new/",
+      "score": 0.25,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/salesforce-development-new/",
+      "score": 0.19999999999999996,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/etl-testing-new/",
+      "score": 0.1499999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/statistical-analysis-system-new/",
+      "score": 0.09999999999999998,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/tableau-new/",
+      "score": 0.04999999999999993,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/ms-office-basic-computer-literacy-new/",
+      "score": 0.0,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/r-programming-new/",
+      "score": -0.050000000000000044,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/ms-access-new/",
+      "score": -0.10000000000000009,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/oracle-dba-advanced-level-new/",
+      "score": -0.15000000000000013,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/verify-numerical-ability/",
+      "score": -0.20000000000000018,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/oracle-dba-entry-level-new/",
+      "score": -0.25,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/informatica-developer-new/",
+      "score": -0.30000000000000004,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/verify-working-with-information/",
+      "score": -0.3500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/workplace-administration-skills-new/",
+      "score": -0.40000000000000013,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sap-business-objects-webi-new/",
+      "score": -0.4500000000000002,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sap-bw-business-warehouse-new/",
+      "score": -0.5,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/data-entry-ten-key-split-screen/",
+      "score": -0.55,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/c-programming-new/",
+      "score": -0.6000000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/ibm-datastage-new/",
+      "score": -0.6500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/mongodb-new/",
+      "score": -0.7000000000000002,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sap-basis-new/",
+      "score": -0.75,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/informatica-architecture-new/",
+      "score": -0.8,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/data-entry-alphanumeric-split-screen-us/",
+      "score": -0.8500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/apache-pig-new/",
+      "score": -0.9000000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/accounts-payable-simulation-new/",
+      "score": -0.9500000000000002,
+      "reason": "fallback"
+    }
+  ],
+  "5781d1f53402f452660405276d01a4715f2c60dc": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communications/",
+      "score": 0.7,
+      "reason": "Combines Java skills (through other assessments) with business communication skills, fitting the collaboration aspect. Duration is within the acceptable range."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/software-business-analysis/",
+      "score": 0.65,
+      "reason": "Assesses understanding business requirements, which aligns with collaboration. Can be combined with a Java assessment."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communication-adaptive/",
+      "score": 0.6,
+      "reason": "Addresses business communication skills, relevant to collaboration. Duration is good. Needs to be paired with a Java assessment."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-platform-enterprise-edition-7-java-ee-7/",
+      "score": 0.55,
+      "reason": "Focuses on Java EE 7 knowledge. Good duration. Lacks collaboration assessment."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-2-platform-enterprise-edition-1-4-fundamental/",
+      "score": 0.5,
+      "reason": "Tests Java 2 Platform Enterprise Edition knowledge. Good duration. Lacks collaboration assessment."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-8-new/",
+      "score": 0.45,
+      "reason": "Measures Java 8 knowledge. Shorter duration. Needs a separate collaboration assessment."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/core-java-advanced-level-new/",
+      "score": 0.4,
+      "reason": "Assesses core Java knowledge at an advanced level. Short duration. Requires a separate collaboration assessment."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/core-java-entry-level-new/",
+      "score": 0.35,
+      "reason": "Tests core Java knowledge at an entry level. Short duration. Needs a separate collaboration assessment."
+    }
+  ],
+  "9c9b281f2eb7ad1aac2e2eaa96dcbd44db48b3d0": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/software-business-analysis/",
+      "score": 0.75,
+      "reason": "Addresses business analysis and collaboration aspects, relevant for Java developers working with business teams. Duration is within range."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communications/",
+      "score": 0.7,
+      "reason": "Focuses on communication skills, crucial for collaboration with business teams. Duration is close to the target."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communication-adaptive/",
+      "score": 0.68,
+      "reason": "Adaptive test measuring communication skills, important for collaboration. Duration is suitable."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-platform-enterprise-edition-7-java-ee-7/",
+      "score": 0.65,
+      "reason": "Assesses Java EE knowledge, important for Java developers. Duration is within the acceptable range."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-8-new/",
+      "score": 0.55,
+      "reason": "Measures core Java knowledge. Good for assessing Java skills, but does not address collaboration."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/core-java-advanced-level-new/",
+      "score": 0.5,
+      "reason": "Assesses advanced Java concepts. Suitable for evaluating Java expertise, but lacks collaboration assessment."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-2-platform-enterprise-edition-1-4-fundamental/",
+      "score": 0.5,
+      "reason": "Tests Java EE fundamentals. Relevant for Java skills, but doesn't cover collaboration."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-frameworks-new/",
+      "score": 0.45,
+      "reason": "Evaluates knowledge of Java frameworks. Useful for Java skill assessment, but no collaboration component."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-web-services-new/",
+      "score": 0.4,
+      "reason": "Measures Java web services knowledge. Good for Java skills, but doesn't address collaboration."
+    }
+  ],
+  "6ca47db5a164e260ddea50b3b6cc63a96467db50": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communications/",
+      "score": 0.75,
+      "reason": "Addresses collaboration/communication requirement and duration is within range. Includes Java skills."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communication-adaptive/",
+      "score": 0.7,
+      "reason": "Addresses collaboration/communication requirement and duration is within range. Includes Java skills."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-platform-enterprise-edition-7-java-ee-7/",
+      "score": 0.65,
+      "reason": "Matches Java skill and duration is within range."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/software-business-analysis/",
+      "score": 0.6,
+      "reason": "Indirectly addresses collaboration through business analysis skills. Includes Java skills."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-8-new/",
+      "score": 0.55,
+      "reason": "Matches Java skill, but does not address collaboration. Duration is shorter than requested."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/core-java-advanced-level-new/",
+      "score": 0.55,
+      "reason": "Matches Java skill, but does not address collaboration. Duration is shorter than requested."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/core-java-entry-level-new/",
+      "score": 0.55,
+      "reason": "Matches Java skill, but does not address collaboration. Duration is shorter than requested."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-frameworks-new/",
+      "score": 0.5,
+      "reason": "Matches Java skill, but does not address collaboration. Duration is shorter than requested."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-web-services-new/",
+      "score": 0.5,
+      "reason": "Matches Java skill, but does not address collaboration. Duration is shorter than requested."
+    }
+  ],
+  "7bdc1bb9996f87d8ad4d58ac181a0198a481e1c0": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/software-business-analysis/",
+      "score": 0.75,
+      "reason": "Addresses collaboration with business teams and assesses skills relevant to software development. Duration is within range."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communications/",
+      "score": 0.7,
+      "reason": "Addresses collaboration with business teams and communication skills. Duration is within range."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communication-adaptive/",
+      "score": 0.7,
+      "reason": "Addresses collaboration with business teams and communication skills. Duration is within range."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-platform-enterprise-edition-7-java-ee-7/",
+      "score": 0.65,
+      "reason": "Measures Java knowledge and has a duration within the specified range."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-8-new/",
+      "score": 0.6,
+      "reason": "Measures Java knowledge. Duration is within range."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/core-java-advanced-level-new/",
+      "score": 0.6,
+      "reason": "Measures Java knowledge. Duration is within range."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/core-java-entry-level-new/",
+      "score": 0.6,
+      "reason": "Measures Java knowledge. Duration is within range."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-frameworks-new/",
+      "score": 0.55,
+      "reason": "Measures Java knowledge. Duration is within range."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-2-platform-enterprise-edition-1-4-fundamental/",
+      "score": 0.55,
+      "reason": "Measures Java knowledge and has a duration within the specified range."
+    }
+  ],
+  "3472fac3efcad2b00333433853e11502c14ea037": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/entry-level-sales-solution/",
+      "score": 0.85,
+      "reason": "High coverage of requirements: entry-level sales role. Includes competencies and personality/behavioral aspects. Duration is within a reasonable range."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/retail-sales-and-service-simulation/",
+      "score": 0.8,
+      "reason": "Good coverage of requirements: entry-level sales role. Includes simulations and skills assessment. Duration is within the target range."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sales-and-service-phone-solution/",
+      "score": 0.78,
+      "reason": "Good coverage of requirements: entry-level sales role. Includes simulations and behavioral tests. Duration is within the target range."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sales-and-service-phone-simulation/",
+      "score": 0.75,
+      "reason": "Good coverage of requirements: entry-level sales role. Includes simulations. Duration is within the target range."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/writex-email-writing-sales-new/",
+      "score": 0.7,
+      "reason": "Addresses sales and communication skills, suitable for entry-level. Duration is good. Focuses on written communication."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communications/",
+      "score": 0.65,
+      "reason": "Measures communication knowledge, relevant for sales. Duration is acceptable. Lacks specific sales focus."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communication-adaptive/",
+      "score": 0.65,
+      "reason": "Measures communication knowledge, relevant for sales. Duration is acceptable. Lacks specific sales focus."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/interpersonal-communications/",
+      "score": 0.6,
+      "reason": "Measures interpersonal communication knowledge, relevant for sales. Duration is acceptable. Lacks specific sales focus."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-mq-sales-report/",
+      "score": 0.55,
+      "reason": "Provides personality insights relevant to sales success. No specific duration mentioned. Focuses on personality rather than skills."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/global-skills-assessment/",
+      "score": 0.5,
+      "reason": "Measures a wide range of skills, including some relevant to sales. Duration is good. General assessment, not sales-specific."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/verify-verbal-ability-next-generation/",
+      "score": 0.45,
+      "reason": "Measures verbal ability, important for sales communication. Duration is good. Not sales-specific."
+    }
+  ],
+  "4ec829d9cce13f0013910bbd3287c0e28fc6d569": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/entry-level-sales-solution/",
+      "score": 0.85,
+      "reason": "High coverage of sales aptitude and entry-level requirements. Includes competencies and personality assessment relevant for new graduates in sales."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sales-and-service-phone-solution/",
+      "score": 0.8,
+      "reason": "Good coverage of sales and service skills for entry-level roles. Includes simulations and behavioral tests, suitable for assessing communication and sales potential."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/retail-sales-and-service-simulation/",
+      "score": 0.75,
+      "reason": "Measures sales and service techniques, suitable for entry-level. Includes simulations and knowledge/skills assessment."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sales-and-service-phone-simulation/",
+      "score": 0.7,
+      "reason": "Focuses on sales-related behaviors and simulations, relevant for entry-level sales roles. Includes biodata and situational judgement."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-mq-sales-report/",
+      "score": 0.65,
+      "reason": "Provides insights into personality traits critical for sales success. Useful for understanding sales potential, though duration is not specified."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communications/",
+      "score": 0.6,
+      "reason": "Measures communication knowledge, important for sales roles. Aligns with soft skills requirement, but doesn't directly assess sales aptitude."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communication-adaptive/",
+      "score": 0.55,
+      "reason": "Adaptive test measuring communication knowledge, relevant for sales roles. Aligns with soft skills requirement, but doesn't directly assess sales aptitude."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/writex-email-writing-sales-new/",
+      "score": 0.5,
+      "reason": "Evaluates email writing ability, useful for sales communication. However, it doesn't cover broader sales aptitude."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/interpersonal-communications/",
+      "score": 0.45,
+      "reason": "Measures interpersonal communication skills, important for sales. Aligns with soft skills, but doesn't directly assess sales aptitude."
+    }
+  ],
+  "f861c7a03357a35f725fedae3043539f762f5e60": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/entry-level-sales-solution/",
+      "score": 0.85,
+      "reason": "Addresses entry-level sales role with competencies and personality assessment. Good duration and job level match."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sales-and-service-phone-solution/",
+      "score": 0.75,
+      "reason": "Suitable for entry-level sales roles involving phone interactions, includes simulations and behavioral tests. Good duration and job level match."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/retail-sales-and-service-simulation/",
+      "score": 0.7,
+      "reason": "Measures sales and service techniques in a retail setting through simulations. Good duration and job level match."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sales-and-service-phone-simulation/",
+      "score": 0.65,
+      "reason": "Focuses on sales-related behaviors in contact center roles through simulations. Good duration and job level match."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-mq-sales-report/",
+      "score": 0.6,
+      "reason": "Provides insights into an individual's natural style critical to sales success using OPQ. Suitable for graduate level."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sales-interview-guide/",
+      "score": 0.55,
+      "reason": "Provides a guide for sales interviews, mapped to the SHL Universal Competency Model. Suitable for entry-level."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/global-skills-assessment/",
+      "score": 0.5,
+      "reason": "Measures a wide range of skills/behaviors, including competencies relevant to sales. Duration is reasonable."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/writex-email-writing-sales-new/",
+      "score": 0.45,
+      "reason": "Evaluates email writing ability in a sales context. Shorter duration."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communications/",
+      "score": 0.4,
+      "reason": "Measures knowledge of communicating in the workplace, relevant for sales roles. Good duration."
+    }
+  ],
+  "7a917f1a79479c00bbe22ab284cc54b25c00ed53": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/entry-level-sales-solution/",
+      "score": 0.85,
+      "reason": "Addresses entry-level sales role with competencies and personality assessment, aligning well with the requirements and duration."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sales-and-service-phone-solution/",
+      "score": 0.75,
+      "reason": "Suitable for entry-level sales roles, incorporating simulations and behavioral tests, though slightly shorter than the target duration."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/retail-sales-and-service-simulation/",
+      "score": 0.7,
+      "reason": "Good fit for entry-level sales with a focus on simulations and skills, but the duration is shorter than the desired one hour."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sales-and-service-phone-simulation/",
+      "score": 0.65,
+      "reason": "Relevant for entry-level sales, using simulations and situational judgement, but the duration is significantly shorter than the target."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-mq-sales-report/",
+      "score": 0.6,
+      "reason": "Provides insights into personality traits critical for sales success, suitable for entry-level, but lacks a defined duration."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/global-skills-assessment/",
+      "score": 0.55,
+      "reason": "Measures a wide range of skills and behaviors, potentially relevant for sales, but doesn't specifically target sales roles and has a shorter duration."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communications/",
+      "score": 0.5,
+      "reason": "Measures communication knowledge, a soft skill relevant to sales, but doesn't directly assess sales aptitude and has a shorter duration."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communication-adaptive/",
+      "score": 0.45,
+      "reason": "Assesses communication skills, which are important for sales, but doesn't focus on sales-specific skills and has a shorter duration."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/entry-level-customer-service-general-solution/",
+      "score": 0.4,
+      "reason": "Focuses on customer service, which overlaps with some sales skills, but not directly targeted at sales roles and has a shorter duration."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/entry-level-customer-serv-retail-and-contact-center/",
+      "score": 0.35,
+      "reason": "Similar to customer service solutions, relevant for some sales aspects but not a direct fit, and has a shorter duration."
+    }
+  ],
+  "f6d7f3599d3a28110cab16087aaa0254d2109122": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/entry-level-sales-solution/",
+      "score": 0.85,
+      "reason": "Addresses the sales role requirement and entry-level job level. Includes competencies and personality assessments relevant for sales."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sales-and-service-phone-solution/",
+      "score": 0.8,
+      "reason": "Suitable for entry-level sales roles, focusing on phone-based interactions. Includes simulations and behavioral tests."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/retail-sales-and-service-simulation/",
+      "score": 0.75,
+      "reason": "Relevant for entry-level sales and service roles, particularly in retail. Uses simulations to assess skills."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sales-and-service-phone-simulation/",
+      "score": 0.7,
+      "reason": "Focuses on phone-based sales and service interactions, suitable for entry-level. Uses simulations and situational judgement."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-mq-sales-report/",
+      "score": 0.65,
+      "reason": "Provides a personality report tailored for sales roles, useful for understanding sales potential. Suitable for graduates."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communications/",
+      "score": 0.6,
+      "reason": "Measures communication knowledge, a soft skill important for sales. Duration aligns well with the request."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communication-adaptive/",
+      "score": 0.6,
+      "reason": "Measures communication knowledge, a soft skill important for sales. Duration aligns well with the request and suitable for entry level."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/shl-verify-interactive-g/",
+      "score": 0.55,
+      "reason": "Assesses general cognitive ability, useful for graduates. Duration is within the acceptable range."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/global-skills-assessment/",
+      "score": 0.5,
+      "reason": "Measures a wide range of skills, including some relevant to sales. Duration is shorter than the target."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/shl-verify-interactive-numerical-reasoning/",
+      "score": 0.5,
+      "reason": "Assesses numerical reasoning, which can be relevant in sales. Duration is shorter than the target."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/shl-verify-interactive-deductive-reasoning/",
+      "score": 0.5,
+      "reason": "Assesses deductive reasoning, which can be relevant in sales. Duration is shorter than the target."
+    }
+  ],
+  "86c90d9990e930c23ac7e0d179d3513f37da7ae7": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/global-skills-assessment/",
+      "score": 0.85,
+      "reason": "High coverage of requirements: assesses cross-cultural competencies relevant for a COO in China and strategic leadership. Includes multiple language options and suitable duration."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/remoteworkq/",
+      "score": 0.75,
+      "reason": "Addresses cultural fit and behavioral tendencies, available in multiple languages including Chinese and English. Suitable for senior roles, but less focused on operations management skills."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/shl-verify-interactive-g/",
+      "score": 0.7,
+      "reason": "Assesses general cognitive ability, important for strategic planning and decision-making in a COO role. Available in multiple languages and suitable for senior roles. Does not directly assess cultural fit."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/operations-management-new/",
+      "score": 0.65,
+      "reason": "Measures knowledge of operations management, a core skill for a COO. However, it does not address the cultural fit requirement and has limited language options."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communication-adaptive/",
+      "score": 0.6,
+      "reason": "Focuses on communication skills, important for stakeholder management. Does not address cultural fit or operations management skills, but is relevant for a leadership role."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/shl-verify-interactive-deductive-reasoning/",
+      "score": 0.55,
+      "reason": "Assesses deductive reasoning, relevant for strategic planning. Available in multiple languages. Does not address cultural fit or operations management skills."
+    }
+  ],
+  "d9601d301c911a3c341e2c551c20f27fb862de67": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/global-skills-assessment/",
+      "score": 0.85,
+      "reason": "High coverage of requirements: Assesses a wide range of skills including cross-cultural communication and adaptability, relevant for a COO in China. Includes both competencies and knowledge/skills. Duration is reasonable. Supports multiple languages including Chinese."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/remoteworkq/",
+      "score": 0.7,
+      "reason": "Addresses cultural fit and behavioral tendencies, suitable for senior roles. Duration is good. Supports multiple languages including Chinese. Less focus on COO-specific skills."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/operations-management-new/",
+      "score": 0.6,
+      "reason": "Addresses operations management skills, relevant for a COO. However, it does not cover cultural fit or leadership competencies. Duration is short. Job levels are appropriate."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communications/",
+      "score": 0.55,
+      "reason": "Addresses communication skills, important for leadership. Does not cover cultural fit or operations management. Duration is within range."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/verify-numerical-ability/",
+      "score": 0.5,
+      "reason": "Assesses numerical ability, relevant for financial oversight. Supports multiple languages including Chinese. Does not address cultural fit or operations management directly. Duration is acceptable."
+    }
+  ],
+  "12adb689ed8f84d864540a33af3bdbcb9c36f877": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/global-skills-assessment/",
+      "score": 0.85,
+      "reason": "Addresses cultural fit and leadership aspects, relevant for a COO in China. Covers cross-cultural communication and adaptability. Duration is within reasonable range."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/remoteworkq/",
+      "score": 0.75,
+      "reason": "Competency based assessment that measures behavioral tendencies. Includes multiple languages including Chinese Simplified. Duration is within the requested time."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/shl-verify-interactive-g/",
+      "score": 0.65,
+      "reason": "Assesses general cognitive ability, which is important for senior leadership roles. Available in Chinese Simplified and Traditional. Duration is appropriate."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communications/",
+      "score": 0.6,
+      "reason": "Measures knowledge of communicating in the workplace, relevant for a COO role. Duration is within the requested time."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/project-management-2013/",
+      "score": 0.55,
+      "reason": "Measures knowledge of how to manage projects to ensure that objectives are completed on time and within budget. Duration is within the requested time."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/operations-management-new/",
+      "score": 0.5,
+      "reason": "Measures knowledge of planning, product design and development, quality management and supply chain management. Duration is within the requested time."
+    }
+  ],
+  "209d02c47b36056443c1ac6ba7953ae6dc4086b4": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/global-skills-assessment/",
+      "score": 0.85,
+      "reason": "High coverage of requirements: assesses a broad range of skills including cross-cultural competencies and adaptability, suitable for a senior executive role in China. Addresses cultural fit and leadership. Good duration."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communications/",
+      "score": 0.65,
+      "reason": "Addresses communication skills which are important for cultural fit and stakeholder management. Decent duration. Lacks specific cultural intelligence assessment."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/operations-management-new/",
+      "score": 0.6,
+      "reason": "Addresses operations management skills, relevant for a COO role. However, it does not directly assess cultural fit or leadership. Good duration."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/shl-verify-interactive-g/",
+      "score": 0.6,
+      "reason": "Assesses general cognitive ability, important for senior roles. Good duration. Does not address cultural fit directly."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/financial-accounting-new/",
+      "score": 0.5,
+      "reason": "Addresses financial acumen, a relevant skill for a COO. However, it does not assess cultural fit or leadership. Good duration."
+    }
+  ],
+  "635222227b9c3be97d710f63c1e898bceaf822a8": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/global-skills-assessment/",
+      "score": 0.85,
+      "reason": "High coverage of requirements: assesses competencies relevant to a COO role in a global context, including cross-cultural skills and leadership. Supports English and Chinese Simplified. Duration is reasonable."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/remoteworkq/",
+      "score": 0.75,
+      "reason": "Good coverage of requirements: assesses competencies relevant to leadership and adaptability, which are important for cultural fit. Supports English and Chinese Simplified. Duration is reasonable."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/shl-verify-interactive-g/",
+      "score": 0.7,
+      "reason": "Assesses general cognitive ability, important for senior roles. Supports English and Chinese Simplified. Duration is reasonable."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communication-adaptive/",
+      "score": 0.65,
+      "reason": "Addresses communication skills, important for leadership roles. Duration is reasonable. However, it only supports English (USA)."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/interpersonal-communications/",
+      "score": 0.6,
+      "reason": "Addresses interpersonal communication skills, important for leadership roles. Duration is reasonable. However, it only supports English (USA)."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/operations-management-new/",
+      "score": 0.55,
+      "reason": "Measures knowledge of operations management, relevant to the COO role. However, it doesn't address cultural fit. Duration is short. Only supports English (USA)."
+    }
+  ],
+  "27d6a4d5b870a9f52b116b167550ed5670e31669": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-leadership-report/",
+      "score": 0.85,
+      "reason": "Strong focus on leadership and personality, crucial for cultural fit assessment in a senior role. Addresses senior level and cultural fit."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/global-skills-assessment/",
+      "score": 0.82,
+      "reason": "Covers a wide range of competencies relevant to a COO role, including cross-cultural skills. Supports cultural fit assessment and leadership skills."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/enterprise-leadership-report/",
+      "score": 0.75,
+      "reason": "Focuses on leadership impact and business results, suitable for a senior executive role. Addresses senior level and leadership."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/operations-management-new/",
+      "score": 0.65,
+      "reason": "Measures knowledge of operations management, a key skill for a COO. Addresses operations management skill."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/financial-accounting-new/",
+      "score": 0.6,
+      "reason": "Assesses financial accounting knowledge, relevant for a COO's financial leadership responsibilities. Addresses financial leadership skill."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/shl-verify-interactive-g/",
+      "score": 0.55,
+      "reason": "Assesses general cognitive ability, important for senior leadership roles. Addresses senior level."
+    }
+  ],
+  "edbf09fb66fc411c3d67051b0671d62b7611a5c9": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/marketing-new/",
+      "score": 0.85,
+      "reason": "Strongly aligns with marketing strategy and branding requirements. Assesses knowledge of marketing principles, brand management, and advertisement management. Suitable for a senior role."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/interpersonal-communications/",
+      "score": 0.82,
+      "reason": "Addresses the communication and interpersonal skills needed for people management and networking. Measures knowledge of effective verbal and non-verbal communication."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/digital-advertising-new/",
+      "score": 0.8,
+      "reason": "Directly assesses knowledge of digital advertising, which aligns with the digital content conceptualization requirement. Relevant for a senior role requiring marketing and branding skills."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communication-adaptive/",
+      "score": 0.78,
+      "reason": "Measures knowledge of communicating in the workplace, important for people management and strategic thinking. Adaptive format provides a more precise assessment."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/training-development/",
+      "score": 0.75,
+      "reason": "Covers talent development and coaching aspects. Measures knowledge of developing and delivering training programs, aligning with people management responsibilities."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/social-media-new/",
+      "score": 0.7,
+      "reason": "Assesses knowledge of social media platforms, which is relevant for branding and marketing strategy. Supports digital content conceptualization."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/writex-email-writing-managerial-new/",
+      "score": 0.65,
+      "reason": "Evaluates the ability to write proper emails, important for communication and sales enablement. Simulation test type is suitable for assessing practical skills."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/project-management-2013/",
+      "score": 0.6,
+      "reason": "Measures knowledge of project management, which can be relevant for managing programming initiatives and on-ground events. Aligns with strategic thinking."
+    }
+  ],
+  "49ae8abd6abaf66d946c408c6f17317b6d5cd5cc": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/marketing-new/",
+      "score": 0.85,
+      "reason": "Covers marketing, branding, and aligns with the job level. Good coverage of requirements."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/interpersonal-communications/",
+      "score": 0.82,
+      "reason": "Addresses communication and interpersonal skills, crucial for people management. Good fit for soft skills assessment."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communications/",
+      "score": 0.8,
+      "reason": "Focuses on workplace communication, relevant for the interface role. Aligns well with communication requirements."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/digital-advertising-new/",
+      "score": 0.78,
+      "reason": "Measures knowledge of digital advertising, important for content conceptualization. Good for assessing digital skills."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/human-resources-new/",
+      "score": 0.75,
+      "reason": "Assesses knowledge of HR management, relevant for people management responsibilities. Covers HR aspects."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/training-development/",
+      "score": 0.72,
+      "reason": "Measures knowledge of training program development, useful for developing RJs. Aligns with talent development."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/writex-email-writing-managerial-new/",
+      "score": 0.7,
+      "reason": "Evaluates email writing ability, important for communication. Good for assessing written communication."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/verify-verbal-ability-next-generation/",
+      "score": 0.68,
+      "reason": "Measures verbal ability, important for communication skills. Assesses comprehension and interpretation."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/social-media-new/",
+      "score": 0.65,
+      "reason": "Measures knowledge of social media platforms, relevant for digital content. Good for assessing social media skills."
+    }
+  ],
+  "1045dbb693b54e4b50b0541f380ec931fc900741": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/global-skills-assessment/",
+      "score": 0.85,
+      "reason": "Comprehensive assessment covering multiple skills including communication, interpersonal skills, and competencies relevant to people management and leadership. Addresses branding and strategic thinking indirectly through competency assessment. Good duration fit."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/marketing-new/",
+      "score": 0.75,
+      "reason": "Directly assesses marketing knowledge, including branding and advertising. Relevant for the role's focus on increasing listenership and ad revenue. Good duration fit."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/digital-advertising-new/",
+      "score": 0.7,
+      "reason": "Assesses knowledge of digital advertising, which is relevant to the role's focus on marketing interventions. Good duration fit."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/writex-email-writing-managerial-new/",
+      "score": 0.65,
+      "reason": "Evaluates managerial email writing skills, relevant for communication and sales support aspects of the role. Good duration fit."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/interpersonal-communications/",
+      "score": 0.6,
+      "reason": "Measures knowledge of effective communication and conflict management, important for interpersonal skills and people management. Good duration fit."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communication-adaptive/",
+      "score": 0.55,
+      "reason": "Assesses knowledge of workplace communication, relevant for the role's communication and sales support aspects. Good duration fit."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/human-resources-new/",
+      "score": 0.5,
+      "reason": "Assesses knowledge of HR management concepts, relevant for the people management aspect of the role. Good duration fit."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/shl-verify-interactive-g/",
+      "score": 0.45,
+      "reason": "Assesses general cognitive ability, including deductive and inductive reasoning, which can be useful for strategic thinking and problem-solving. Good duration fit."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/time-management-u-s/",
+      "score": 0.4,
+      "reason": "Assesses knowledge of time management, which is a useful skill for any role. Good duration fit."
+    }
+  ],
+  "b786937fc5276492bf5e8d0287bead00b2b7e4c5": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/global-skills-assessment/",
+      "score": 0.85,
+      "reason": "High coverage of requirements: Assesses a broad range of skills/behaviors relevant to the role, including competencies and knowledge. Good fit for a senior role requiring people management and strategic thinking."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communication-adaptive/",
+      "score": 0.8,
+      "reason": "Addresses communication skills, which are critical for this role. Adaptive format is a plus. Good duration."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/interpersonal-communications/",
+      "score": 0.78,
+      "reason": "Directly assesses interpersonal communication skills, important for people management and networking. Good duration."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/marketing-new/",
+      "score": 0.75,
+      "reason": "Measures knowledge of marketing principles, brand management, and advertisement management, aligning with the branding and marketing aspects of the role. Good duration."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/digital-advertising-new/",
+      "score": 0.72,
+      "reason": "Assesses knowledge of digital advertising, relevant to the digital content conceptualization aspect of the role. Good duration."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/writex-email-writing-managerial-new/",
+      "score": 0.7,
+      "reason": "Evaluates managerial email writing skills, important for communication and leadership. Good duration."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/verify-verbal-ability-next-generation/",
+      "score": 0.68,
+      "reason": "Measures verbal ability, important for communication and understanding written information. Good duration."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/shl-verify-interactive-g/",
+      "score": 0.65,
+      "reason": "Assesses general cognitive ability, including deductive, inductive, and numerical reasoning. Relevant for strategic thinking and problem-solving. Duration is acceptable."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/verify-deductive-reasoning/",
+      "score": 0.62,
+      "reason": "Measures deductive reasoning, important for problem-solving and decision-making. Good duration."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/remoteWorkQ/",
+      "score": 0.55,
+      "reason": "Measures behavioral tendencies, which can be helpful for understanding the candidate's approach to work and leadership. Good duration."
+    }
+  ],
+  "4561d8142b62dac22959dc87a3f4c6300a28757e": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/global-skills-assessment/",
+      "score": 0.85,
+      "reason": "Comprehensive assessment covering multiple skills: communication, leadership, and potentially some aspects of branding and strategy. Aligns well with the senior role and includes behavioral competencies."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/marketing-new/",
+      "score": 0.75,
+      "reason": "Strong focus on marketing principles and brand management, directly relevant to the role's responsibilities. Good coverage of branding and marketing strategy aspects."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communications/",
+      "score": 0.7,
+      "reason": "Directly assesses communication skills, a critical soft skill for this role. Also touches upon interpersonal skills required for team management and stakeholder interaction."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/digital-advertising-new/",
+      "score": 0.65,
+      "reason": "Measures knowledge of digital advertising, which is relevant to the digital content conceptualization aspect of the role. Good for assessing specific digital marketing skills."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/interpersonal-communications/",
+      "score": 0.6,
+      "reason": "Focuses on interpersonal communication skills, important for managing relationships with RJs, the sales team, and external talent. Addresses a key soft skill requirement."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/leadership-report-opq/",
+      "score": 0.55,
+      "reason": "Provides insights into leadership potential and people management skills, crucial for a senior role involving team development and mentoring. Requires OPQ."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/training-development/",
+      "score": 0.5,
+      "reason": "Assesses knowledge of training program development, relevant to the role's responsibility of developing local RJs. Covers the talent development aspect."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/project-management-2013/",
+      "score": 0.45,
+      "reason": "While not a primary skill, project management knowledge can be useful for managing programming initiatives and on-ground events. Provides a general management perspective."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/verify-verbal-ability-next-generation/",
+      "score": 0.4,
+      "reason": "Measures verbal ability, which is important for communication and content creation. However, it doesn't directly address the core skills of branding, marketing, or people management."
+    }
+  ],
+  "cb1d663878760d187cef7e3de6b3327f77a2d86d": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/search-engine-optimization-new/",
+      "score": 0.85,
+      "reason": "Directly assesses SEO knowledge and skills, which is a key requirement. Also, it is a knowledge and skills test, which is appropriate for this role. English language is covered."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/written-english-v1/",
+      "score": 0.8,
+      "reason": "Directly assesses written English skills, which is a key requirement. Also, it is a knowledge and skills test, which is appropriate for this role. English language is covered."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/english-comprehension-new/",
+      "score": 0.75,
+      "reason": "Assesses English comprehension skills, which is important for a content writer. It is a knowledge and skills test, which is appropriate for this role. English language is covered."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communications/",
+      "score": 0.7,
+      "reason": "Assesses knowledge of communicating in the workplace, which is relevant for a content writer. English language is covered."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communication-adaptive/",
+      "score": 0.7,
+      "reason": "Assesses knowledge of communicating in the workplace, which is relevant for a content writer. English language is covered."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/reading-comprehension-english-v1/",
+      "score": 0.65,
+      "reason": "Assesses English reading comprehension, which is important for a content writer. English language is covered."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/reading-comprehension-v2/",
+      "score": 0.65,
+      "reason": "Assesses English reading comprehension, which is important for a content writer. English language is covered."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/verify-verbal-ability-next-generation/",
+      "score": 0.6,
+      "reason": "Measures verbal ability, including reading comprehension and interpreting text, which is relevant for a content writer. English language is covered."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/digital-advertising-new/",
+      "score": 0.55,
+      "reason": "Assesses knowledge about digital advertising, which can be relevant for SEO content writing. English language is covered."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/social-media-new/",
+      "score": 0.5,
+      "reason": "Assesses knowledge about social media platforms, which can be relevant for SEO content writing. English language is covered."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/writex-email-writing-managerial-new/",
+      "score": 0.45,
+      "reason": "Evaluates the ability to write proper emails in English. English language is covered."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/writex-email-writing-customer-service-new/",
+      "score": 0.45,
+      "reason": "Evaluates the ability to write proper emails in English. English language is covered."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/writex-email-writing-sales-new/",
+      "score": 0.45,
+      "reason": "Evaluates the ability to write proper emails in English. English language is covered."
+    }
+  ],
+  "0bf0321c9e19f0a930cfcfd9d3c7f09a68a8acc8": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/search-engine-optimization-new/",
+      "score": 0.85,
+      "reason": "Strongly covers SEO knowledge and skills, relevant for a content writer. Also assesses knowledge and skills."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/written-english-v1/",
+      "score": 0.8,
+      "reason": "Directly measures written English skills, crucial for a content writer. Assesses knowledge and skills."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/writex-email-writing-managerial-new/",
+      "score": 0.75,
+      "reason": "Evaluates the ability to write proper emails in English, relevant for content creation. Uses simulations."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/writex-email-writing-customer-service-new/",
+      "score": 0.75,
+      "reason": "Evaluates the ability to write proper emails in English, relevant for content creation. Uses simulations."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/writex-email-writing-sales-new/",
+      "score": 0.75,
+      "reason": "Evaluates the ability to write proper emails in English, relevant for content creation. Uses simulations."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communications/",
+      "score": 0.7,
+      "reason": "Measures knowledge of communicating in the workplace, important for content creation. Assesses knowledge and skills."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communication-adaptive/",
+      "score": 0.7,
+      "reason": "Measures knowledge of communicating in the workplace, important for content creation. Assesses knowledge and skills."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/english-comprehension-new/",
+      "score": 0.65,
+      "reason": "Measures vocabulary, grammar, and reading comprehension, foundational for content writing. Assesses knowledge and skills."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/reading-comprehension-english-v1/",
+      "score": 0.65,
+      "reason": "Provides a general measure of English reading comprehension, important for content creation. Assesses ability and aptitude."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/reading-comprehension-v2/",
+      "score": 0.65,
+      "reason": "Provides a general measure of English reading comprehension, important for content creation. Assesses ability and aptitude."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/verify-verbal-ability-next-generation/",
+      "score": 0.6,
+      "reason": "Measures the ability to read written passages and comprehend the text, interpret tone and author intent, identify main ideas, and predict author responses. Assesses ability and aptitude."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/digital-advertising-new/",
+      "score": 0.55,
+      "reason": "Measures knowledge about use of AdWords and tools to analyze ad performance on digital media. Assesses knowledge and skills."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/interpersonal-communications/",
+      "score": 0.5,
+      "reason": "Measures the candidate's knowledge of how to employ effective verbal and non-verbal communication. Assesses knowledge and skills."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/proofreading-v1/",
+      "score": 0.5,
+      "reason": "Measures ability to read for errors involving spelling, punctuation, grammar and word choice. Assesses knowledge and skills."
+    }
+  ],
+  "11b8d847e5300f94b8e45334f7fb419d4e48a760": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/search-engine-optimization-new/",
+      "score": 0.85,
+      "reason": "High coverage of SEO knowledge, relevant for content writing, and appropriate for senior level."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/written-english-v1/",
+      "score": 0.8,
+      "reason": "Directly measures English grammar and reading comprehension, crucial for content writing, suitable for senior level."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/verify-verbal-ability-next-generation/",
+      "score": 0.75,
+      "reason": "Measures verbal ability, reading comprehension, and interpretation skills, important for content writing, and appropriate for senior level."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communications/",
+      "score": 0.7,
+      "reason": "Measures knowledge of communicating in the workplace, relevant for content writing, and appropriate for senior level."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communication-adaptive/",
+      "score": 0.65,
+      "reason": "Adaptive test measuring knowledge of workplace communication, relevant for content writing, and suitable for senior level."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/reading-comprehension-english-v1/",
+      "score": 0.6,
+      "reason": "Measures English reading comprehension, important for content writing, and suitable for senior level."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/reading-comprehension-v2/",
+      "score": 0.6,
+      "reason": "Measures English reading comprehension, important for content writing, and suitable for senior level."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/english-comprehension-new/",
+      "score": 0.55,
+      "reason": "Measures vocabulary, grammar, and reading comprehension, relevant for content writing, but more suitable for entry-level."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/writex-email-writing-managerial-new/",
+      "score": 0.5,
+      "reason": "Evaluates ability to write proper emails in English, relevant for content writing, but focuses on email writing."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/writex-email-writing-customer-service-new/",
+      "score": 0.5,
+      "reason": "Evaluates ability to write proper emails in English, relevant for content writing, but focuses on customer service emails."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/writex-email-writing-sales-new/",
+      "score": 0.5,
+      "reason": "Evaluates ability to write proper emails in English, relevant for content writing, but focuses on sales emails."
+    }
+  ],
+  "a9284cc147a6101a0a13a55b46a6a538d5338517": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/search-engine-optimization-new/",
+      "score": 0.85,
+      "reason": "High coverage of SEO knowledge, relevant for content writing, and assesses knowledge and skills."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/written-english-v1/",
+      "score": 0.8,
+      "reason": "Measures written English proficiency, a core requirement for a content writer, and assesses knowledge and skills."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/writex-email-writing-managerial-new/",
+      "score": 0.7,
+      "reason": "Evaluates writing ability in English, relevant for content creation, and uses simulations."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/writex-email-writing-customer-service-new/",
+      "score": 0.7,
+      "reason": "Evaluates writing ability in English, relevant for content creation, and uses simulations."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/writex-email-writing-sales-new/",
+      "score": 0.7,
+      "reason": "Evaluates writing ability in English, relevant for content creation, and uses simulations."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/english-comprehension-new/",
+      "score": 0.65,
+      "reason": "Measures English comprehension skills, important for content writing, and assesses knowledge and skills."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/reading-comprehension-english-v1/",
+      "score": 0.6,
+      "reason": "Measures English reading comprehension, a foundational skill for content writing, and assesses ability and aptitude."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/reading-comprehension-v2/",
+      "score": 0.6,
+      "reason": "Measures English reading comprehension, a foundational skill for content writing, and assesses ability and aptitude."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communication-adaptive/",
+      "score": 0.55,
+      "reason": "Measures knowledge of communication in the workplace, relevant for content creation, and assesses knowledge and skills."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communications/",
+      "score": 0.55,
+      "reason": "Measures knowledge of communication in the workplace, relevant for content creation, and assesses knowledge and skills."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/verify-verbal-ability-next-generation/",
+      "score": 0.5,
+      "reason": "Measures verbal ability, important for content writing, and assesses ability and aptitude."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/proofreading-v1/",
+      "score": 0.5,
+      "reason": "Measures proofreading ability, useful for content writing, and assesses knowledge and skills."
+    }
+  ],
+  "19537259894d7af5c86c1373ed2a94eace179d96": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/search-engine-optimization-new/",
+      "score": 0.85,
+      "reason": "Directly assesses SEO knowledge and skills, which is a primary requirement. Also assesses knowledge of SEO strategies."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/written-english-v1/",
+      "score": 0.8,
+      "reason": "Directly assesses written English skills, which is a primary requirement. Suitable for senior level."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/writex-email-writing-managerial-new/",
+      "score": 0.7,
+      "reason": "Assesses the ability to write proper emails in English, relevant for content writing. Suitable for senior level."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/writex-email-writing-customer-service-new/",
+      "score": 0.7,
+      "reason": "Assesses the ability to write proper emails in English, relevant for content writing. Suitable for senior level."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/writex-email-writing-sales-new/",
+      "score": 0.7,
+      "reason": "Assesses the ability to write proper emails in English, relevant for content writing. Suitable for senior level."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communications/",
+      "score": 0.6,
+      "reason": "Measures knowledge of communicating in the workplace, relevant for content writing."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communication-adaptive/",
+      "score": 0.6,
+      "reason": "Adaptive test that measures knowledge of communicating in the workplace, relevant for content writing. Suitable for senior level."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/verify-verbal-ability-next-generation/",
+      "score": 0.55,
+      "reason": "Measures verbal ability and reading comprehension, important for content writing. Suitable for senior level."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/reading-comprehension-english-v1/",
+      "score": 0.5,
+      "reason": "Measures English reading comprehension, important for content writing. Suitable for senior level."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/reading-comprehension-v2/",
+      "score": 0.5,
+      "reason": "Measures English reading comprehension, important for content writing. Suitable for senior level."
+    }
+  ],
+  "463232bb421a4b25ad647fb043804dcd136aa927": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/automata-selenium/",
+      "score": 0.85,
+      "reason": "Addresses automation testing using Selenium scripts, aligns with the QA Engineer role and required skills. Duration matches the 60-minute requirement. Includes simulation."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/manual-testing-new/",
+      "score": 0.75,
+      "reason": "Addresses manual testing skills, which are essential for the QA Engineer role. Aligns with the required skills. However, the duration is only 10 minutes."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/htmlcss-new/",
+      "score": 0.7,
+      "reason": "Addresses HTML/CSS skills, which are listed as essential. Aligns with the required skills. However, the duration is only 12 minutes."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/javascript-new/",
+      "score": 0.7,
+      "reason": "Addresses JavaScript skills, which are listed as essential. Aligns with the required skills. However, the duration is only 9 minutes."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sql-server-new/",
+      "score": 0.7,
+      "reason": "Addresses SQL Server knowledge, which is listed as essential. Aligns with the required skills. However, the duration is only 11 minutes."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/selenium-new/",
+      "score": 0.65,
+      "reason": "Addresses Selenium knowledge, which is listed as essential. Aligns with the required skills. However, the duration is only 10 minutes."
+    }
+  ],
+  "76dabd4501306560ebc53498cb55068f66173a41": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/automata-selenium/",
+      "score": 0.85,
+      "reason": "Addresses Java/JavaScript, Selenium WebDriver skills with a simulation-based assessment, aligns with the QA Engineer role and 60-minute duration."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/automata-front-end/",
+      "score": 0.75,
+      "reason": "Simulation based test that measures the front-end development capabilities using HTML, CSS, and JavaScript. Good skill match but does not cover Selenium."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/manual-testing-new/",
+      "score": 0.7,
+      "reason": "Addresses manual testing skills, relevant for QA role, but lacks automation and other technical skills. Good job level match."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-8-new/",
+      "score": 0.65,
+      "reason": "Covers Java knowledge, but does not address other skills like Selenium or front-end technologies. Good job level match."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/javascript-new/",
+      "score": 0.65,
+      "reason": "Covers JavaScript knowledge, but does not address other skills like Selenium or back-end technologies. Good job level match."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sql-server-new/",
+      "score": 0.6,
+      "reason": "Covers SQL Server knowledge, but does not address other skills. Good job level match."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/selenium-new/",
+      "score": 0.6,
+      "reason": "Covers Selenium knowledge, but does not address other skills. Good job level match."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/htmlcss-new/",
+      "score": 0.6,
+      "reason": "Covers HTML/CSS knowledge, but does not address other skills. Good job level match."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communication-adaptive/",
+      "score": 0.5,
+      "reason": "Addresses communication skills, but does not cover any of the technical skills required. Good job level match."
+    }
+  ],
+  "0dd4843df5bffcd98e4a8a9f2408d2d36fbe42ab": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/automata-selenium/",
+      "score": 0.85,
+      "reason": "Addresses Java/JavaScript, Selenium WebDriver, and automation skills with a simulation-based assessment. Aligns with the senior QA Engineer role and the need for practical testing skills. Duration is perfect."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/automata-front-end/",
+      "score": 0.75,
+      "reason": "Covers HTML, CSS, and JavaScript skills with a simulation-based assessment. Good fit for front-end testing aspects of the QA role. However, it doesn't cover Selenium or SQL."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/microsoft-sql-server-2014-programming/",
+      "score": 0.65,
+      "reason": "Addresses SQL Server knowledge. Good for database testing aspects. However, it doesn't cover other essential skills like Java/JavaScript, Selenium, or automation."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/microsoft-windows-server-2012-administration/",
+      "score": 0.6,
+      "reason": "Addresses SQL Server knowledge. Good for database testing aspects. However, it doesn't cover other essential skills like Java/JavaScript, Selenium, or automation."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-platform-enterprise-edition-7-java-ee-7/",
+      "score": 0.55,
+      "reason": "Addresses Java skills. Good for Java testing aspects. However, it doesn't cover other essential skills like JavaScript, Selenium, or automation."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-2-platform-enterprise-edition-1-4-fundamental/",
+      "score": 0.5,
+      "reason": "Addresses Java skills. Good for Java testing aspects. However, it doesn't cover other essential skills like JavaScript, Selenium, or automation."
+    }
+  ],
+  "532927258df9f32cee9bde90af496d4e624b99cd": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/automata-selenium/",
+      "score": 0.85,
+      "reason": "Addresses Java/JavaScript, Selenium WebDriver, and Automation Testing requirements with a coding simulation. Duration aligns well. Good fit for a Senior QA Engineer role."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sql-server-new/",
+      "score": 0.7,
+      "reason": "Addresses SQL Server knowledge requirement. Good for assessing database skills. Aligns with the QA Engineer role."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/manual-testing-new/",
+      "score": 0.65,
+      "reason": "Addresses Manual Testing requirement. Useful for evaluating fundamental testing skills. Aligns with the QA Engineer role."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/javascript-new/",
+      "score": 0.6,
+      "reason": "Addresses JavaScript knowledge requirement. Useful for evaluating front-end development skills. Aligns with the QA Engineer role."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/htmlcss-new/",
+      "score": 0.55,
+      "reason": "Addresses HTML/CSS knowledge requirement. Useful for evaluating front-end development skills. Aligns with the QA Engineer role."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-frameworks-new/",
+      "score": 0.5,
+      "reason": "Addresses Java knowledge requirement. Useful for evaluating back-end development skills. Aligns with the QA Engineer role."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/microsoft-sql-server-2014-programming/",
+      "score": 0.45,
+      "reason": "Addresses SQL Server knowledge requirement. Good for assessing database skills. Aligns with the QA Engineer role."
+    }
+  ],
+  "d33b06b58fe790f9f828c0034cfdc6badd984783": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/automata-selenium/",
+      "score": 0.85,
+      "reason": "Combines Selenium automation testing simulation with a practical coding environment, aligning with the QA Engineer role and skills like Selenium WebDriver. Duration matches the requirement."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/manual-testing-new/",
+      "score": 0.75,
+      "reason": "Addresses the Manual Testing skill requirement. Good fit for the QA Engineer role, though it doesn't cover the automation aspects. Shorter duration allows for combination with other tests."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/javascript-new/",
+      "score": 0.7,
+      "reason": "Covers JavaScript knowledge, essential for a QA Engineer with automation responsibilities. Aligns with the required languages. Can be combined with other tests to cover other skills."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sql-server-new/",
+      "score": 0.7,
+      "reason": "Addresses SQL Server knowledge, a key requirement for the QA Engineer role. Good for data-related testing. Can be combined with other tests to cover other skills."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/htmlcss-new/",
+      "score": 0.65,
+      "reason": "Covers HTML/CSS knowledge, relevant for front-end testing aspects of the QA Engineer role. Can be combined with other tests to cover other skills."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-8-new/",
+      "score": 0.65,
+      "reason": "Covers Java knowledge, essential for a QA Engineer with automation responsibilities. Aligns with the required languages. Can be combined with other tests to cover other skills."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/automata-front-end/",
+      "score": 0.6,
+      "reason": "Simulation based test that measures the front-end development capabilities using HTML, CSS, and JavaScript. Covers multiple languages but is shorter than the requested duration."
+    }
+  ],
+  "d7eb87bff4c92eaa373c792a3979d34247fa40e2": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/automata-selenium/",
+      "score": 0.85,
+      "reason": "Addresses Java/JavaScript, Selenium WebDriver, and Test Automation requirements with a simulation-based assessment. Aligns with the 60-minute duration and is suitable for a QA Engineer role."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/manual-testing-new/",
+      "score": 0.75,
+      "reason": "Addresses Manual Testing requirement. Good for assessing basic testing knowledge. Aligns with the job description."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sql-server-new/",
+      "score": 0.7,
+      "reason": "Addresses SQL Server knowledge requirement. Useful for evaluating database skills. Aligns with the job description."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/javascript-new/",
+      "score": 0.65,
+      "reason": "Addresses JavaScript knowledge requirement. Useful for evaluating front-end development skills. Aligns with the job description."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/htmlcss-new/",
+      "score": 0.6,
+      "reason": "Addresses HTML/CSS knowledge requirement. Useful for evaluating front-end development skills. Aligns with the job description."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-8-new/",
+      "score": 0.6,
+      "reason": "Addresses Java knowledge requirement. Useful for evaluating back-end development skills. Aligns with the job description."
+    }
+  ],
+  "6fb47647c29342ca1605830988d4a6e29043e521": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/automata-selenium/",
+      "score": 0.85,
+      "reason": "Addresses Java, JavaScript, Selenium WebDriver skills through a coding simulation. Aligns with the QA Engineer role and automation testing focus. Duration is perfect."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-8-new/",
+      "score": 0.7,
+      "reason": "Measures Java knowledge, a core skill. Good for assessing fundamental Java concepts. Lacks Selenium/WebDriver focus and is shorter than the desired duration."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/selenium-new/",
+      "score": 0.65,
+      "reason": "Measures Selenium knowledge. Relevant to the automation testing aspect of the role. Does not cover Java/JavaScript and is much shorter than the desired duration."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/javascript-new/",
+      "score": 0.6,
+      "reason": "Measures JavaScript knowledge. Relevant to the front-end development aspect. Does not cover Java/Selenium and is much shorter than the desired duration."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/htmlcss-new/",
+      "score": 0.55,
+      "reason": "Measures HTML/CSS knowledge, relevant for front-end. Does not cover Java/Selenium/JavaScript and is much shorter than the desired duration."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sql-server-new/",
+      "score": 0.5,
+      "reason": "Measures SQL Server knowledge. Relevant to the database aspect of the role. Does not cover Java/Selenium/JavaScript and is much shorter than the desired duration."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/manual-testing-new/",
+      "score": 0.45,
+      "reason": "Measures manual testing knowledge. Relevant to the QA role. Does not cover Java/Selenium/JavaScript and is much shorter than the desired duration."
+    }
+  ],
+  "bf809883b7a082103af76fcc199d5150bc956eca": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/automata-selenium/",
+      "score": 0.85,
+      "reason": "Addresses Java, JavaScript, Selenium WebDriver skills with a simulation-based assessment and aligns with the duration requirement."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-8-new/",
+      "score": 0.7,
+      "reason": "Measures Java knowledge and aligns with the English language requirement. Good skill match."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/javascript-new/",
+      "score": 0.7,
+      "reason": "Measures JavaScript knowledge and aligns with the English language requirement. Good skill match."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sql-server-new/",
+      "score": 0.65,
+      "reason": "Measures SQL Server knowledge and aligns with the English language requirement. Good skill match."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/manual-testing-new/",
+      "score": 0.6,
+      "reason": "Measures knowledge of manual testing and aligns with the English language requirement. Good skill match."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/htmlcss-new/",
+      "score": 0.55,
+      "reason": "Measures knowledge of HTML/CSS and aligns with the English language requirement. Good skill match."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communication-adaptive/",
+      "score": 0.5,
+      "reason": "Addresses communication skills and aligns with the English language requirement. Partially covers soft skills."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/shl-verify-interactive-g/",
+      "score": 0.45,
+      "reason": "Assesses general cognitive ability, which is relevant for a senior role. Partially covers soft skills."
+    }
+  ],
+  "d9cd7fab1e2523ad4aa1b1e64e4ff5c7d12869d5": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/workplace-administration-skills-new/",
+      "score": 0.85,
+      "reason": "High coverage of required skills (office administration, data entry, basic computer skills), appropriate for entry-level, and duration is acceptable."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/data-entry-new/",
+      "score": 0.8,
+      "reason": "Directly measures data entry skills, appropriate for entry-level, but short duration."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communications/",
+      "score": 0.75,
+      "reason": "Covers communication skills which are important for admin roles, duration aligns well, but doesn't cover other admin skills."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/ms-office-basic-computer-literacy-sim-new/",
+      "score": 0.7,
+      "reason": "Measures basic computer skills, relevant for the role, but short duration and doesn't cover other admin skills."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/time-management-u-s/",
+      "score": 0.65,
+      "reason": "Measures time management, a soft skill relevant to the role, duration is acceptable, but doesn't cover core admin skills."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/verify-working-with-information/",
+      "score": 0.6,
+      "reason": "Measures ability to process information, relevant for data entry, but short duration and doesn't cover other admin skills."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/data-entry-alphanumeric-split-screen-us/",
+      "score": 0.55,
+      "reason": "Measures data entry speed and accuracy, but short duration and doesn't cover other admin skills."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communication-adaptive/",
+      "score": 0.5,
+      "reason": "Measures communication skills, but doesn't cover other admin skills. Duration is acceptable."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/global-skills-assessment/",
+      "score": 0.4,
+      "reason": "Broad assessment, but doesn't focus specifically on the required admin skills. Duration is acceptable."
+    }
+  ],
+  "383446a24b9a600eb7e6da13d5ab849c29c24246": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/workplace-administration-skills-new/",
+      "score": 0.85,
+      "reason": "High coverage of admin skills, data maintenance, and workplace organization. Good fit for entry-level admin role."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/data-entry-new/",
+      "score": 0.8,
+      "reason": "Directly measures data entry skills, which is a primary requirement. Appropriate for entry-level."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communications/",
+      "score": 0.75,
+      "reason": "Measures communication skills, important for admin roles. Duration aligns well."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/front-office-management-new/",
+      "score": 0.7,
+      "reason": "Measures knowledge of front office operations, relevant to the role. Good for entry-level."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/time-management-u-s/",
+      "score": 0.65,
+      "reason": "Measures time management skills, important for admin roles. Good for entry-level."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/ms-office-basic-computer-literacy-new/",
+      "score": 0.6,
+      "reason": "Measures basic computer literacy, relevant for admin tasks. Good for entry-level."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/data-entry-alphanumeric-split-screen-us/",
+      "score": 0.55,
+      "reason": "Measures speed and accuracy at typing text and numbers, relevant for data entry tasks."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/verify-working-with-information/",
+      "score": 0.5,
+      "reason": "Measures ability to process information, relevant for admin tasks. Good for entry-level."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communication-adaptive/",
+      "score": 0.45,
+      "reason": "Measures knowledge of communicating in the workplace. Duration is slightly shorter."
+    }
+  ],
+  "a26ba59552448e047eea1f4860d3a7573feeb6bf": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-team-types-and-leadership-styles-profile/",
+      "score": 0.85,
+      "reason": "Addresses team leadership, personality, and management styles, aligning with strategic thinking and team building requirements. Suitable for a senior role."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-team-types-and-leadership-styles-report/",
+      "score": 0.85,
+      "reason": "Addresses team leadership, personality, and management styles, aligning with strategic thinking and team building requirements. Suitable for a senior role."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-leadership-report/",
+      "score": 0.8,
+      "reason": "Provides detailed analysis of leadership potential, aligning with the strategic and team leadership aspects of the role. Suitable for a senior role."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/marketing-new/",
+      "score": 0.75,
+      "reason": "Measures knowledge of marketing principles, market research, and brand management, covering key skills for the Marketing Manager role."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/digital-advertising-new/",
+      "score": 0.7,
+      "reason": "Measures knowledge about digital advertising and tools, relevant for demand generation and social media engagement."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/social-media-new/",
+      "score": 0.7,
+      "reason": "Measures knowledge about different social media platforms, relevant for community growth and social media engagement."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-manager-plus-report/",
+      "score": 0.65,
+      "reason": "Designed for use with managers, assesses personality and behavior, relevant for leadership and team management."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-manager-plus-report-2-0/",
+      "score": 0.65,
+      "reason": "Designed for use with managers, assesses personality and behavior, relevant for leadership and team management."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-profile-report/",
+      "score": 0.6,
+      "reason": "Provides a graphical profile chart presenting results across the 32 OPQ scales, useful for understanding personality and behavior."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-team-impact-selection-report/",
+      "score": 0.6,
+      "reason": "Focuses on team processes, relevant for team building and collaboration aspects of the role."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-team-impact-group-development-report/",
+      "score": 0.6,
+      "reason": "Focuses on team processes, relevant for team building and collaboration aspects of the role."
+    }
+  ],
+  "c30cfdc0de18371863ca730eccd235d590a8d12c": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-team-impact-group-development-report/",
+      "score": 0.85,
+      "reason": "High coverage of requirements: Assesses personality and behavior relevant to team impact and leadership, aligning with community building and team building aspects. Also suitable for senior level."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-team-impact-selection-report/",
+      "score": 0.85,
+      "reason": "High coverage of requirements: Assesses personality and behavior relevant to team impact and leadership, aligning with community building and team building aspects. Also suitable for senior level."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-team-types-and-leadership-styles-profile/",
+      "score": 0.82,
+      "reason": "Good coverage of requirements: Assesses leadership styles and team types, aligning with team building and strategic thinking aspects. Suitable for senior level."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-team-types-and-leadership-styles-report/",
+      "score": 0.82,
+      "reason": "Good coverage of requirements: Assesses leadership styles and team types, aligning with team building and strategic thinking aspects. Suitable for senior level."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-team-impact-individual-development-report/",
+      "score": 0.8,
+      "reason": "Good coverage of requirements: Assesses personality and behavior relevant to team impact, aligning with community building and team building aspects. Also suitable for senior level."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/marketing-new/",
+      "score": 0.75,
+      "reason": "Addresses marketing knowledge and skills, relevant to the role's core function. Suitable for manager level."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/enterprise-leadership-report-2-0/",
+      "score": 0.7,
+      "reason": "Addresses leadership qualities, aligning with the strategic and team building aspects of the role. Suitable for senior level."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/enterprise-leadership-report/",
+      "score": 0.7,
+      "reason": "Addresses leadership qualities, aligning with the strategic and team building aspects of the role. Suitable for senior level."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communication-adaptive/",
+      "score": 0.65,
+      "reason": "Addresses communication skills, important for brand communication and storytelling. Suitable for manager level."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/digital-advertising-new/",
+      "score": 0.6,
+      "reason": "Addresses digital advertising knowledge, relevant to demand generation. Suitable for manager level."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/social-media-new/",
+      "score": 0.6,
+      "reason": "Addresses social media knowledge, relevant to community engagement. Suitable for manager level."
+    }
+  ],
+  "e5927f84006a83c10fc9665a8e8eb5e0f5bfe3af": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-team-types-and-leadership-styles-profile/",
+      "score": 0.85,
+      "reason": "Addresses leadership, team building, and personality aspects, suitable for a senior marketing manager role."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-team-types-and-leadership-styles-report/",
+      "score": 0.85,
+      "reason": "Addresses leadership, team building, and personality aspects, suitable for a senior marketing manager role."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-emotional-intelligence-report/",
+      "score": 0.8,
+      "reason": "Assesses emotional intelligence, important for relationship building and team leadership."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/marketing-new/",
+      "score": 0.75,
+      "reason": "Covers marketing principles and brand management, relevant to the role's responsibilities."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/social-media-new/",
+      "score": 0.7,
+      "reason": "Measures knowledge of social media platforms, important for community engagement and social media strategy."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/digital-advertising-new/",
+      "score": 0.7,
+      "reason": "Assesses knowledge of digital advertising, relevant to demand generation and marketing strategy."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communication-adaptive/",
+      "score": 0.65,
+      "reason": "Measures communication skills, important for brand communication and relationship building."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-manager-plus-report-2-0/",
+      "score": 0.6,
+      "reason": "Provides insights into personality traits relevant to management and leadership."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-manager-plus-report/",
+      "score": 0.6,
+      "reason": "Provides insights into personality traits relevant to management and leadership."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/search-engine-optimization-new/",
+      "score": 0.55,
+      "reason": "Measures knowledge of SEO, relevant to demand generation and market intelligence."
+    }
+  ],
+  "e27dad090f61acc0b92e08d75b655711021939d2": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-team-types-and-leadership-styles-profile/",
+      "score": 0.85,
+      "reason": "Addresses team building, leadership styles, and personality, aligning with strategic marketing leadership and team building aspects. Suitable for senior roles."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/marketing-new/",
+      "score": 0.8,
+      "reason": "Covers marketing principles, brand management, and advertisement management, aligning with brand positioning and marketing strategy. Suitable for manager level."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-team-types-and-leadership-styles-report/",
+      "score": 0.78,
+      "reason": "Addresses team dynamics and leadership styles, aligning with team building and strategic leadership. Suitable for senior roles."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/digital-advertising-new/",
+      "score": 0.75,
+      "reason": "Measures knowledge of digital advertising and ad performance analysis, aligning with demand generation and market intelligence. Suitable for manager level."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/social-media-new/",
+      "score": 0.72,
+      "reason": "Measures knowledge of social media platforms, aligning with community building and social media engagement. Suitable for manager level."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/enterprise-leadership-report-2-0/",
+      "score": 0.7,
+      "reason": "Assesses leadership against enterprise leadership model, aligning with strategic marketing leadership. Suitable for senior roles."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/enterprise-leadership-report/",
+      "score": 0.68,
+      "reason": "Assesses leadership against enterprise leadership model, aligning with strategic marketing leadership. Suitable for senior roles."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communication-adaptive/",
+      "score": 0.65,
+      "reason": "Measures knowledge of communicating in the workplace, aligning with brand communication and collaboration. "
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-leadership-report/",
+      "score": 0.6,
+      "reason": "Provides analysis of leadership potential, aligning with strategic marketing leadership. Suitable for senior roles."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/time-management-u-s/",
+      "score": 0.5,
+      "reason": "Measures knowledge of time management, which is a tangential but useful skill for a marketing manager."
+    }
+  ],
+  "28d94cef3cc8d03c51292f44be48107522bf413d": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/global-skills-assessment/",
+      "score": 0.85,
+      "reason": "Addresses multiple requirements: talent assessment, talent management, and communication skills. Aligns with mid-level job and provides a broad skills assessment."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/project-management-2013/",
+      "score": 0.75,
+      "reason": "Covers project management skills, relevant to the consultant role. Good duration and job level match."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/r-programming-new/",
+      "score": 0.7,
+      "reason": "Assesses R programming skills, important for statistical analysis. Good duration and job level match."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/statistical-analysis-system-new/",
+      "score": 0.7,
+      "reason": "Assesses knowledge of SAS, relevant for statistical analysis. Good duration and job level match."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communications/",
+      "score": 0.65,
+      "reason": "Measures communication skills, a key soft skill for the role. Decent duration match."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communication-adaptive/",
+      "score": 0.65,
+      "reason": "Measures communication skills, a key soft skill for the role. Decent duration match."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/human-resources-new/",
+      "score": 0.6,
+      "reason": "Assesses knowledge of HR concepts, relevant to talent management. Short duration."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/time-management-u-s/",
+      "score": 0.55,
+      "reason": "Assesses time management skills, relevant to planning and organizing. Short duration."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/remoteworkq/",
+      "score": 0.5,
+      "reason": "Assesses competencies, but less directly related to the core requirements of the role."
+    }
+  ],
+  "37d91ec454464cddf38659aac7067fa90fe3a98b": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/global-skills-assessment/",
+      "score": 0.85,
+      "reason": "High coverage of required skills (Decision Making, Collaboration, Building Relationships, Communication, Adaptability, Delivering Results), assesses competencies, and aligns with senior job level."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communications/",
+      "score": 0.75,
+      "reason": "Addresses communication skills, relevant for a consultant role, and has a reasonable duration."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/project-management-2013/",
+      "score": 0.7,
+      "reason": "Covers project management skills which are important for consultant role, aligns with mid-professional to professional individual contributor job levels."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/r-programming-new/",
+      "score": 0.65,
+      "reason": "Measures knowledge of R programming, relevant for talent analytics and data insights, and aligns with mid-professional to professional individual contributor job levels."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/statistical-analysis-system-new/",
+      "score": 0.65,
+      "reason": "Measures ability to use SAS software for statistical analysis, relevant for talent analytics and data insights, and aligns with mid-professional to professional individual contributor job levels."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/human-resources-new/",
+      "score": 0.6,
+      "reason": "Measures knowledge of HR management concepts, relevant for talent assessment and development, and aligns with manager and professional individual contributor job levels."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/writex-email-writing-managerial-new/",
+      "score": 0.55,
+      "reason": "Evaluates ability to write proper emails, relevant for communication skills, and aligns with manager and professional individual contributor job levels."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communication-adaptive/",
+      "score": 0.5,
+      "reason": "Measures knowledge of communicating in the workplace, relevant for communication skills, and aligns with manager and professional individual contributor job levels."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/operations-management-new/",
+      "score": 0.45,
+      "reason": "Measures knowledge of planning, product design and development, quality management and supply chain management, aligns with manager and professional individual contributor job levels."
+    }
+  ],
+  "ed3eda06afe1935eda4aad582ab043d7c72a0a65": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/global-skills-assessment/",
+      "score": 0.85,
+      "reason": "High coverage of requirements: assesses a wide range of skills/behaviors relevant to consulting, including competencies and knowledge. Good match for mid-level role. Addresses collaboration and communication skills. Duration is acceptable."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communications/",
+      "score": 0.75,
+      "reason": "Addresses communication skills, which are crucial for a consultant role. Decent duration. Aligns with the need for strong communication and presentation skills. Mid level role."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/project-management-2013/",
+      "score": 0.7,
+      "reason": "Measures knowledge of project management, a key skill for consultants. Good duration. Aligns with the project leadership aspect of the role. Mid level role."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/statistical-analysis-system-new/",
+      "score": 0.65,
+      "reason": "Measures ability to use SAS for statistical analysis, aligning with the need for statistical proficiency. Good duration. Aligns with the talent analytics aspect of the role. Mid level role."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/r-programming-new/",
+      "score": 0.65,
+      "reason": "Measures knowledge of R programming, aligning with the need for statistical proficiency. Good duration. Aligns with the talent analytics aspect of the role. Mid level role."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/human-resources-new/",
+      "score": 0.6,
+      "reason": "Assesses knowledge of HR management concepts, relevant to talent assessment and development. Good duration. Aligns with the general HR knowledge required for the role. Mid level role."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/verify-verbal-ability-next-generation/",
+      "score": 0.55,
+      "reason": "Measures verbal ability, important for communication and presenting. Good duration. Aligns with the need for strong communication skills. Mid level role."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/verify-numerical-ability/",
+      "score": 0.5,
+      "reason": "Measures numerical ability, relevant for data analysis and ROI demonstration. Good duration. Aligns with the talent analytics aspect of the role. Mid level role."
+    }
+  ],
+  "45fd3ea5d37e5c4663f5d64cda34f4c484965dc2": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/python-new/",
+      "score": 0.85,
+      "reason": "Covers Python skill, aligns with senior level, and contributes to overall skill assessment."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/ms-excel-new/",
+      "score": 0.85,
+      "reason": "Covers Excel skill, aligns with senior level, and contributes to overall skill assessment."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sql-new/",
+      "score": 0.85,
+      "reason": "Covers SQL skill, aligns with senior level, and contributes to overall skill assessment."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/microsoft-excel-365-new/",
+      "score": 0.75,
+      "reason": "Covers Excel skill, simulation test type, contributes to overall skill assessment."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/microsoft-excel-365-essentials-new/",
+      "score": 0.75,
+      "reason": "Covers Excel skill, simulation test type, contributes to overall skill assessment."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sql-server-new/",
+      "score": 0.7,
+      "reason": "Covers SQL skill, aligns with senior level, and contributes to overall skill assessment."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/microsoft-sql-server-2014-programming/",
+      "score": 0.65,
+      "reason": "Covers SQL skill, aligns with senior level, and contributes to overall skill assessment."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/oracle-plsql-new/",
+      "score": 0.65,
+      "reason": "Covers SQL skill, aligns with senior level, and contributes to overall skill assessment."
+    }
+  ],
+  "d4abe270d37baaff20f44b8a055ff630923d6ced": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/python-new/",
+      "score": 0.85,
+      "reason": "Addresses Python skill, suitable for a senior data analyst role, and can be combined with SQL and Excel tests to meet all requirements."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/ms-excel-new/",
+      "score": 0.85,
+      "reason": "Addresses Excel skill, suitable for a senior data analyst role, and can be combined with SQL and Python tests to meet all requirements."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sql-new/",
+      "score": 0.85,
+      "reason": "Addresses SQL skill, suitable for a senior data analyst role, and can be combined with Excel and Python tests to meet all requirements."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/microsoft-excel-365-new/",
+      "score": 0.75,
+      "reason": "Addresses Excel skill with simulation, suitable for a data analyst role, but needs to be combined with SQL and Python tests. Duration is within range."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/microsoft-excel-365-essentials-new/",
+      "score": 0.75,
+      "reason": "Addresses Excel skill with simulation, suitable for a data analyst role, but needs to be combined with SQL and Python tests. Duration is within range."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/microsoft-sql-server-2014-programming/",
+      "score": 0.7,
+      "reason": "Addresses SQL skill, suitable for a data analyst role, but needs to be combined with Excel and Python tests. Duration is within range."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sql-server-new/",
+      "score": 0.7,
+      "reason": "Addresses SQL skill, suitable for a data analyst role, but needs to be combined with Excel and Python tests."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/oracle-plsql-new/",
+      "score": 0.65,
+      "reason": "Addresses SQL skill, suitable for a data analyst role, but needs to be combined with Excel and Python tests."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/data-science-new/",
+      "score": 0.6,
+      "reason": "Related to data analysis, but doesn't directly address SQL or Excel. Needs to be combined with other tests."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/shl-verify-interactive-numerical-reasoning/",
+      "score": 0.55,
+      "reason": "Tests numerical reasoning, relevant for data analysis, but doesn't address specific skills like SQL, Excel, or Python. Duration is within range."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/verify-numerical-ability/",
+      "score": 0.5,
+      "reason": "Tests numerical ability, relevant for data analysis, but doesn't address specific skills like SQL, Excel, or Python. Duration is within range."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/shl-verify-interactive-deductive-reasoning/",
+      "score": 0.45,
+      "reason": "Tests deductive reasoning, which is useful for data analysis, but doesn't address specific skills like SQL, Excel, or Python. Duration is within range."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/verify-deductive-reasoning/",
+      "score": 0.4,
+      "reason": "Tests deductive reasoning, which is useful for data analysis, but doesn't address specific skills like SQL, Excel, or Python. Duration is within range."
+    }
+  ],
+  "69e3d9c51828ac99b87fbad76dab1c08a3b266e6": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sql-new/",
+      "score": 0.85,
+      "reason": "Addresses SQL skill, suitable for senior level, and duration can be combined with other tests"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/ms-excel-new/",
+      "score": 0.85,
+      "reason": "Addresses Excel skill, suitable for senior level, and duration can be combined with other tests"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/python-new/",
+      "score": 0.85,
+      "reason": "Addresses Python skill, suitable for senior level, and duration can be combined with other tests"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/verify-numerical-ability/",
+      "score": 0.75,
+      "reason": "Assesses numerical ability, suitable for senior data analyst role, and duration aligns well"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/shl-verify-interactive-numerical-reasoning/",
+      "score": 0.7,
+      "reason": "Assesses numerical reasoning, suitable for senior data analyst role, and duration aligns well"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/shl-verify-interactive-deductive-reasoning/",
+      "score": 0.65,
+      "reason": "Assesses deductive reasoning, suitable for senior data analyst role, and duration aligns well"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/shl-verify-interactive-g/",
+      "score": 0.6,
+      "reason": "Assesses general cognitive ability, suitable for senior data analyst role, and duration aligns well"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/microsoft-excel-365-new/",
+      "score": 0.6,
+      "reason": "Addresses Excel skill, but job level is more entry level"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/microsoft-sql-server-2014-programming/",
+      "score": 0.6,
+      "reason": "Addresses SQL skill, but duration needs to be combined with other tests"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/data-science-new/",
+      "score": 0.55,
+      "reason": "Related to data analysis, but doesn't cover the core skills requested"
+    }
+  ],
+  "95767f8f8b353c78fad26d63a491f9b8df43bca0": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/python-new/",
+      "score": 0.85,
+      "reason": "Addresses Python skill, suitable for a senior data analyst role, aligns with the knowledge and skills assessment type."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/ms-excel-new/",
+      "score": 0.85,
+      "reason": "Addresses Excel skill, suitable for a senior data analyst role, aligns with the knowledge and skills assessment type."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sql-new/",
+      "score": 0.85,
+      "reason": "Addresses SQL skill, suitable for a senior data analyst role, aligns with the knowledge and skills assessment type."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/microsoft-excel-365-new/",
+      "score": 0.75,
+      "reason": "Addresses Excel skill, suitable for a data analyst role, aligns with the knowledge and skills assessment type and simulations."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/microsoft-excel-365-essentials-new/",
+      "score": 0.75,
+      "reason": "Addresses Excel skill, suitable for a data analyst role, aligns with the knowledge and skills assessment type and simulations."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/shl-verify-interactive-numerical-reasoning/",
+      "score": 0.7,
+      "reason": "Measures numerical reasoning ability, suitable for a senior data analyst role, aligns with the ability and aptitude assessment type and simulations."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/verify-numerical-ability/",
+      "score": 0.7,
+      "reason": "Measures numerical ability, suitable for a senior data analyst role, aligns with the ability and aptitude assessment type."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/microsoft-sql-server-2014-programming/",
+      "score": 0.7,
+      "reason": "Addresses SQL skill, suitable for a data analyst role, aligns with the knowledge and skills assessment type."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sql-server-new/",
+      "score": 0.7,
+      "reason": "Addresses SQL skill, suitable for a data analyst role, aligns with the knowledge and skills assessment type."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/shl-verify-interactive-g/",
+      "score": 0.65,
+      "reason": "Measures general cognitive ability, suitable for a senior role, aligns with the ability and aptitude assessment type."
+    }
+  ],
+  "58f4ae57ed196da0d57a2e3a47cc02d4f63d64e3": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/python-new/",
+      "score": 0.85,
+      "reason": "Covers Python requirement, appropriate test type for knowledge and skills. Also covers SQL and Excel requirements."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/ms-excel-new/",
+      "score": 0.85,
+      "reason": "Covers Excel requirement, appropriate test type for knowledge and skills. Also covers SQL and Python requirements."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sql-new/",
+      "score": 0.85,
+      "reason": "Covers SQL requirement, appropriate test type for knowledge and skills. Also covers Excel and Python requirements."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/microsoft-excel-365-new/",
+      "score": 0.75,
+      "reason": "Covers Excel requirement, includes simulations, but job level is only entry-level."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/microsoft-excel-365-essentials-new/",
+      "score": 0.75,
+      "reason": "Covers Excel requirement, includes simulations, but job level is only entry-level."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/microsoft-sql-server-2014-programming/",
+      "score": 0.7,
+      "reason": "Covers SQL requirement, appropriate test type for knowledge and skills. Good duration alignment."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sql-server-new/",
+      "score": 0.7,
+      "reason": "Covers SQL requirement, appropriate test type for knowledge and skills. Good duration alignment."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/oracle-plsql-new/",
+      "score": 0.65,
+      "reason": "Covers SQL requirement, appropriate test type for knowledge and skills. Good duration alignment."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/programming-concepts/",
+      "score": 0.6,
+      "reason": "Covers programming concepts, which is related to Python. Good duration alignment."
+    }
+  ],
+  "400dac610a2060a54e1e9ae119d66ffb1bef7730": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/python-new/",
+      "score": 0.85,
+      "reason": "Addresses Python skill, aligns with mid-professional/professional levels, and contributes to overall skill assessment for a Senior Data Analyst."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sql-new/",
+      "score": 0.85,
+      "reason": "Addresses SQL skill, aligns with mid-professional/professional levels, and contributes to overall skill assessment for a Senior Data Analyst."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/ms-excel-new/",
+      "score": 0.85,
+      "reason": "Addresses Excel skill, aligns with mid-professional/professional levels, and contributes to overall skill assessment for a Senior Data Analyst."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/microsoft-excel-365-new/",
+      "score": 0.75,
+      "reason": "Addresses Excel skill, aligns with entry level, and contributes to overall skill assessment for a Data Analyst."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/microsoft-excel-365-essentials-new/",
+      "score": 0.75,
+      "reason": "Addresses Excel skill, aligns with entry level, and contributes to overall skill assessment for a Data Analyst."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/data-science-new/",
+      "score": 0.65,
+      "reason": "Addresses data analysis concepts, aligns with mid-professional/professional levels, and contributes to overall skill assessment for a Senior Data Analyst."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/verify-numerical-ability/",
+      "score": 0.6,
+      "reason": "Measures numerical ability, suitable for various job levels, and contributes to analytical skills assessment for a Senior Data Analyst."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/statistical-analysis-system-new/",
+      "score": 0.55,
+      "reason": "Addresses statistical analysis skills, aligns with mid-professional/professional levels, and contributes to overall skill assessment for a Senior Data Analyst."
+    }
+  ],
+  "618b30c60d3fffd4dde2d248b62d31de1dbe8364": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/python-new/",
+      "score": 0.85,
+      "reason": "Covers Python skill, suitable for a senior data analyst role, and can be combined with SQL and Excel assessments to meet all requirements."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/ms-excel-new/",
+      "score": 0.85,
+      "reason": "Covers Excel skill, suitable for a senior data analyst role, and can be combined with SQL and Python assessments to meet all requirements."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sql-new/",
+      "score": 0.85,
+      "reason": "Covers SQL skill, suitable for a senior data analyst role, and can be combined with Python and Excel assessments to meet all requirements."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/shl-verify-interactive-numerical-reasoning/",
+      "score": 0.7,
+      "reason": "Assesses numerical reasoning which is important for a data analyst. Can be combined with SQL, Excel and Python assessments."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/microsoft-excel-365-new/",
+      "score": 0.65,
+      "reason": "Covers Excel skills, simulation type, but needs to be combined with SQL and Python assessments."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/microsoft-excel-365-essentials-new/",
+      "score": 0.65,
+      "reason": "Covers Excel skills, simulation type, but needs to be combined with SQL and Python assessments."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/verify-numerical-ability/",
+      "score": 0.6,
+      "reason": "Assesses numerical ability, suitable for data analyst role, but needs to be combined with SQL, Excel and Python assessments."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/shl-verify-interactive-g/",
+      "score": 0.55,
+      "reason": "Assesses general cognitive ability, suitable for senior role, but does not directly assess SQL, Excel, or Python skills. Needs to be combined with other assessments."
+    }
+  ],
+  "fd259436f1674fa0f486b5f5958067ab305d5477": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/python-new/",
+      "score": 0.75,
+      "reason": "Covers Python skill, aligns with senior level due to its focus on knowledge and skills, and contributes to the overall assessment duration when combined with SQL and Excel tests."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/ms-excel-new/",
+      "score": 0.75,
+      "reason": "Covers Excel skill, aligns with senior level due to its focus on knowledge and skills, and contributes to the overall assessment duration when combined with SQL and Python tests."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sql-new/",
+      "score": 0.75,
+      "reason": "Covers SQL skill, aligns with senior level due to its focus on knowledge and skills, and contributes to the overall assessment duration when combined with Excel and Python tests."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/microsoft-excel-365-new/",
+      "score": 0.7,
+      "reason": "Covers Excel skill, aligns with senior level due to its focus on knowledge and skills, and contributes to the overall assessment duration when combined with SQL and Python tests."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/microsoft-excel-365-essentials-new/",
+      "score": 0.7,
+      "reason": "Covers Excel skill, aligns with senior level due to its focus on knowledge and skills, and contributes to the overall assessment duration when combined with SQL and Python tests."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sql-server-new/",
+      "score": 0.65,
+      "reason": "Covers SQL skill, aligns with senior level due to its focus on knowledge and skills, and contributes to the overall assessment duration when combined with Excel and Python tests."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/microsoft-sql-server-2014-programming/",
+      "score": 0.65,
+      "reason": "Covers SQL skill, aligns with senior level due to its focus on knowledge and skills, and contributes to the overall assessment duration when combined with Excel and Python tests."
+    }
   ]
 }
