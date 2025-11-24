@@ -120,7 +120,7 @@ export default function ResultsDisplay({ results }: ResultsDisplayProps) {
                                     </svg>
                                     <div>
                                         <p className="text-xs text-blue-600 font-medium">Job Level</p>
-                                        <p className="text-sm font-semibold text-gray-900">{assessment.job_level || 'Any'}</p>
+                                        <p className="text-sm font-semibold text-gray-900">{assessment.job_levels || 'Any'}</p>
                                     </div>
                                 </div>
                             )}
