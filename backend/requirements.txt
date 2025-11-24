@@ -2,6 +2,10 @@ fastapi
 uvicorn
 sentence-transformers
 numpy
+fastapi
+uvicorn
+sentence-transformers
+numpy
 pandas
 chromadb
 beautifulsoup4
@@ -10,3 +14,5 @@ python-dotenv
 lxml
 tqdm
 openpyxl
+scikit-learn
+google-generativeai
