@@ -2,10 +2,7 @@ fastapi
 uvicorn
 sentence-transformers
 numpy
-fastapi
-uvicorn
-sentence-transformers
-numpy
+asyncio
 pandas
 chromadb
 beautifulsoup4

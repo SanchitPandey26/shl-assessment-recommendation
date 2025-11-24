@@ -1,3 +1,4 @@
+import asyncio
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 
@@ -19,7 +20,7 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:3000",
         "http://localhost:3001",
-        "https://shl-assessment-recommendation.vercel.app"
+        "https://shl-assessment-recommendation-eight.vercel.app/"
     ],
     allow_credentials=True,
     allow_methods=["*"],
@@ -40,14 +41,16 @@ def health():
 # Main recommend endpoint
 # ---------------------------------------------------------
 @app.post("/recommend", response_model=RecommendationResponse)
-def recommend(payload: QueryRequest):
+async def recommend(payload: QueryRequest):
     try:
-        raw_results = retrieve_assessments(
+        raw_results = await asyncio.to_thread(
+            retrieve_assessments,
             payload.query,
             top_k=40
         )
 
-        final_results = rerank_results(
+        final_results = await asyncio.to_thread(
+            rerank_results,
             payload.query,
             raw_results,
             top_k=payload.top_k
