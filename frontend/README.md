@@ -164,7 +164,8 @@ const handleSearch = async (e: React.FormEvent) => {
   setResults(null);
 
   try {
-    const response = await fetch('http://localhost:8000/recommend', {
+    const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
+    const response = await fetch(`${apiUrl}/recommend`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ query, top_k: 10 }),

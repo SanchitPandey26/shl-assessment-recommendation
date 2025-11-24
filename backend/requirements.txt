@@ -15,4 +15,4 @@ lxml
 tqdm
 openpyxl
 scikit-learn
-google-generativeai
+google-genai
