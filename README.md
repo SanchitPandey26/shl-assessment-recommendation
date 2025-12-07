@@ -416,13 +416,22 @@ echo "GEMINI_API_KEY=your_key" > .env
 - [ ] Save search history (localStorage)
 - [ ] Add "Save to favorites" functionality
 
+---
+
 ## License
 
-[Add your license here]
+*This project is licensed under the [MIT License](./LICENSE) © 2025 Sanchit Pandey.*
+
+You are free to use, modify, and distribute this software with attribution.
+See the LICENSE file for details.
+
+---
 
 ## Contact
 
-[Add contact information]
+For questions or demo requests, contact [sanchit.pdy@gmail.com].
+
+---
 
 ## Acknowledgments
 
