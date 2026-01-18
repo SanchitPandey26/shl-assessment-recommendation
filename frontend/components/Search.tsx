@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import { useServerStatus } from './ServerStatusProvider';
 
 interface Assessment {
     url: string;
@@ -22,6 +23,7 @@ export default function Search() {
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState('');
     const [mounted, setMounted] = useState(false);
+    const { isReady, statusMessage } = useServerStatus();
 
     useEffect(() => {
         setMounted(true);
@@ -70,12 +72,13 @@ export default function Search() {
                         type="text"
                         value={query}
                         onChange={(e) => setQuery(e.target.value)}
-                        placeholder="Describe the role (e.g., 'Java developer with collaboration skills')..."
-                        className="flex-1 p-4 rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-900 dark:text-white focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none shadow-sm"
+                        placeholder={isReady ? "Describe the role (e.g., 'Java developer with collaboration skills')..." : statusMessage}
+                        disabled={!isReady || loading}
+                        className="flex-1 p-4 rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-900 dark:text-white focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none shadow-sm disabled:opacity-60 disabled:cursor-not-allowed"
                     />
                     <button
                         type="submit"
-                        disabled={loading}
+                        disabled={!isReady || loading}
                         className="px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg shadow-sm transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
                     >
                         {loading ? 'Searching...' : 'Search'}

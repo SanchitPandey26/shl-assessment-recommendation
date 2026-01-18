@@ -11,6 +11,20 @@ from llm.query_rewriter import llm_rewrite
 # Lazy-loaded retriever instance (RENDER SAFE)
 # ---------------------------------------------------------
 _retriever = None
+_is_loading = False
+
+def is_model_loaded():
+    return _retriever is not None
+
+def preload_model():
+    """Trigger eager loading of the model."""
+    global _is_loading
+    if _retriever is None and not _is_loading:
+        _is_loading = True
+        try:
+            get_retriever()
+        finally:
+            _is_loading = False
 
 def get_retriever():
     """

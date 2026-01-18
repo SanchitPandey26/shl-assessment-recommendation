@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import WakeUpServer from "@/components/WakeUpServer";
+import ServerStatusProvider from "@/components/ServerStatusProvider";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -29,8 +29,9 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         suppressHydrationWarning
       >
-        <WakeUpServer />
-        {children}
+        <ServerStatusProvider>
+          {children}
+        </ServerStatusProvider>
       </body>
     </html>
   );

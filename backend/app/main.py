@@ -1,5 +1,5 @@
 import asyncio
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, BackgroundTasks
 from fastapi.middleware.cors import CORSMiddleware
 
 from app.schemas import QueryRequest, RecommendationResponse
@@ -27,10 +27,19 @@ app.add_middleware(
 # Health check
 # ---------------------------------------------------------
 @app.get("/health")
-def health():
+def health(background_tasks: BackgroundTasks = None): # type: ignore
+    from app.retriever import is_model_loaded, preload_model
+
+    loaded = is_model_loaded()
+    
+    # If not loaded, trigger it in background
+    if not loaded and background_tasks:
+        background_tasks.add_task(preload_model)
+
     return {
         "status": "healthy",
-        "service": "SHL Assessment Recommender"
+        "service": "SHL Assessment Recommender",
+        "model_ready": loaded
     }
 
 # ---------------------------------------------------------
@@ -42,7 +51,7 @@ async def recommend(payload: QueryRequest):
         raw_results = await asyncio.to_thread(
             retrieve_assessments,
             payload.query,
-            top_k=40
+            top_k=20
         )
 
         final_results = await asyncio.to_thread(
