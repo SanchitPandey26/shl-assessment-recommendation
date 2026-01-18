@@ -8,7 +8,7 @@ An AI-powered recommendation system that helps match job roles to the most relev
 - 🤖 **LLM Reranking**: Uses Gemini to intelligently rank results based on requirement coverage
 - ⚡ **Fast Response**: ~2s end-to-end latency for top 10 recommendations
 - 🎯 **Adaptive Boosting**: Query-aware score adjustments for better precision
-- 📊 **Current Recall@10**: 0.49 (49% of correct tests in top 10 results)
+- 📊 **Current Recall@10**: 0.51 (51% of correct tests in top 10 results)
 - 🌐 **Modern UI**: Next.js 16 + React 19 + Tailwind CSS 4
 
 ## Architecture Overview
@@ -416,13 +416,22 @@ echo "GEMINI_API_KEY=your_key" > .env
 - [ ] Save search history (localStorage)
 - [ ] Add "Save to favorites" functionality
 
+---
+
 ## License
 
-[Add your license here]
+*This project is licensed under the [MIT License](./LICENSE) © 2025 Sanchit Pandey.*
+
+You are free to use, modify, and distribute this software with attribution.
+See the LICENSE file for details.
+
+---
 
 ## Contact
 
-[Add contact information]
+For questions or demo requests, contact [sanchit.pdy@gmail.com].
+
+---
 
 ## Acknowledgments
 
