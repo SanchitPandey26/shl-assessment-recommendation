@@ -27,19 +27,11 @@ app.add_middleware(
 # Health check
 # ---------------------------------------------------------
 @app.get("/health")
-def health(background_tasks: BackgroundTasks = None): # type: ignore
-    from app.retriever import is_model_loaded, preload_model
-
-    loaded = is_model_loaded()
-    
-    # If not loaded, trigger it in background
-    if not loaded and background_tasks:
-        background_tasks.add_task(preload_model)
-
+def health():
     return {
         "status": "healthy",
         "service": "SHL Assessment Recommender",
-        "model_ready": loaded
+        "model_ready": True # Always ready as clients are lightweight
     }
 
 # ---------------------------------------------------------

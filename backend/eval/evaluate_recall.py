@@ -1,10 +1,14 @@
 import pandas as pd
 import json
+import sys
 from pathlib import Path
 from datetime import datetime
-from embeddings.hybrid_retriever import HybridRetriever
 
+# Add backend to path so we can import app modules
 BASE_DIR = Path(__file__).resolve().parents[1]
+sys.path.append(str(BASE_DIR))
+
+from embeddings.hybrid_retriever import HybridRetriever
 EXCEL_PATH = BASE_DIR / "data" / "train_test" / "Gen_AI Dataset.xlsx"
 
 # Timestamped output paths

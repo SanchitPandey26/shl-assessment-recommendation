@@ -16847,5 +16847,3930 @@
       "score": 0.65,
       "reason": "Covers SQL skill, aligns with senior level due to its focus on knowledge and skills, and contributes to the overall assessment duration when combined with Excel and Python tests."
     }
+  ],
+  "dd64bfa762d9cc693c42614ee6febf0bf494c6e6": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-8-new/",
+      "score": 1.0,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/core-java-advanced-level-new/",
+      "score": 0.95,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/core-java-entry-level-new/",
+      "score": 0.9,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-web-services-new/",
+      "score": 0.85,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-frameworks-new/",
+      "score": 0.8,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-design-patterns-new/",
+      "score": 0.75,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/enterprise-java-beans-new/",
+      "score": 0.7,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-platform-enterprise-edition-7-java-ee-7/",
+      "score": 0.6499999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/swing-new/",
+      "score": 0.6,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-2-platform-enterprise-edition-1-4-fundamental/",
+      "score": 0.55,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/spring-new/",
+      "score": 0.5,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communication-adaptive/",
+      "score": 0.44999999999999996,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/software-business-analysis/",
+      "score": 0.3999999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communications/",
+      "score": 0.35,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/hibernate-new/",
+      "score": 0.29999999999999993,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/struts-new/",
+      "score": 0.25,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/interpersonal-communications/",
+      "score": 0.19999999999999996,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/entry-level-technical-support-solution/",
+      "score": 0.1499999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/android-development-new/",
+      "score": 0.09999999999999998,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/c-programming-new-4122/",
+      "score": 0.04999999999999993,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/c-programming-new-4039/",
+      "score": 0.0,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/prism-new/",
+      "score": -0.050000000000000044,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/computer-science-new/",
+      "score": -0.10000000000000009,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/git-new/",
+      "score": -0.15000000000000013,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/programming-concepts/",
+      "score": -0.20000000000000018,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/cobol-programming-new/",
+      "score": -0.25,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/net-mvvm-new/",
+      "score": -0.30000000000000004,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/reactjs-new/",
+      "score": -0.3500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/informatica-developer-new/",
+      "score": -0.40000000000000013,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/pega-development-new/",
+      "score": -0.4500000000000002,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/mulesoft-development-new/",
+      "score": -0.5,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/javascript-new/",
+      "score": -0.55,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/c-programming-new/",
+      "score": -0.6000000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/drupal-new/",
+      "score": -0.6500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/telecommunications-engineering-new/",
+      "score": -0.7000000000000002,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/microsoft-dynamics-development-new/",
+      "score": -0.75,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/uipath-rpa-development-new/",
+      "score": -0.8,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/jenkins-new/",
+      "score": -0.8500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/amazon-web-services-aws-development-new/",
+      "score": -0.9000000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/ruby-new/",
+      "score": -0.9500000000000002,
+      "reason": "fallback"
+    }
+  ],
+  "f7fc6a279924002beb1025c5d3029a3cc5310ee9": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-8-new/",
+      "score": 1.0,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/core-java-entry-level-new/",
+      "score": 0.95,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-web-services-new/",
+      "score": 0.9,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/core-java-advanced-level-new/",
+      "score": 0.85,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-frameworks-new/",
+      "score": 0.8,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-design-patterns-new/",
+      "score": 0.75,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/enterprise-java-beans-new/",
+      "score": 0.7,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-platform-enterprise-edition-7-java-ee-7/",
+      "score": 0.6499999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/swing-new/",
+      "score": 0.6,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-2-platform-enterprise-edition-1-4-fundamental/",
+      "score": 0.55,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/spring-new/",
+      "score": 0.5,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communication-adaptive/",
+      "score": 0.44999999999999996,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communications/",
+      "score": 0.3999999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/hibernate-new/",
+      "score": 0.35,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/software-business-analysis/",
+      "score": 0.29999999999999993,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/interpersonal-communications/",
+      "score": 0.25,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/struts-new/",
+      "score": 0.19999999999999996,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/c-programming-new-4039/",
+      "score": 0.1499999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/android-development-new/",
+      "score": 0.09999999999999998,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/c-programming-new-4122/",
+      "score": 0.04999999999999993,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/cobol-programming-new/",
+      "score": 0.0,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/prism-new/",
+      "score": -0.050000000000000044,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/net-mvvm-new/",
+      "score": -0.10000000000000009,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/mulesoft-development-new/",
+      "score": -0.15000000000000013,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/git-new/",
+      "score": -0.20000000000000018,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/informatica-developer-new/",
+      "score": -0.25,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/programming-concepts/",
+      "score": -0.30000000000000004,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/computer-science-new/",
+      "score": -0.3500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/c-programming-new/",
+      "score": -0.40000000000000013,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/conversational-multichat-simulation/",
+      "score": -0.4500000000000002,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/uipath-rpa-development-new/",
+      "score": -0.5,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/javascript-new/",
+      "score": -0.55,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/entry-level-technical-support-solution/",
+      "score": -0.6000000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/reactjs-new/",
+      "score": -0.6500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/amazon-web-services-aws-development-new/",
+      "score": -0.7000000000000002,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/jenkins-new/",
+      "score": -0.75,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/ruby-new/",
+      "score": -0.8,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/microsoft-dynamics-development-new/",
+      "score": -0.8500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/manual-testing-new/",
+      "score": -0.9000000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/siebel-development-new/",
+      "score": -0.9500000000000002,
+      "reason": "fallback"
+    }
+  ],
+  "7757ec909f7c4c420fc9cff6354e0eb513ddfab6": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-8-new/",
+      "score": 1.0,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-web-services-new/",
+      "score": 0.95,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/core-java-entry-level-new/",
+      "score": 0.9,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/core-java-advanced-level-new/",
+      "score": 0.85,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-frameworks-new/",
+      "score": 0.8,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/enterprise-java-beans-new/",
+      "score": 0.75,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-design-patterns-new/",
+      "score": 0.7,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-platform-enterprise-edition-7-java-ee-7/",
+      "score": 0.6499999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/swing-new/",
+      "score": 0.6,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-2-platform-enterprise-edition-1-4-fundamental/",
+      "score": 0.55,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/software-business-analysis/",
+      "score": 0.5,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communication-adaptive/",
+      "score": 0.44999999999999996,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communications/",
+      "score": 0.3999999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/spring-new/",
+      "score": 0.35,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/hibernate-new/",
+      "score": 0.29999999999999993,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/struts-new/",
+      "score": 0.25,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/android-development-new/",
+      "score": 0.19999999999999996,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/interpersonal-communications/",
+      "score": 0.1499999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/salesforce-development-new/",
+      "score": 0.09999999999999998,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/cobol-programming-new/",
+      "score": 0.04999999999999993,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/c-programming-new-4039/",
+      "score": 0.0,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/mulesoft-development-new/",
+      "score": -0.050000000000000044,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/informatica-developer-new/",
+      "score": -0.10000000000000009,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/net-mvvm-new/",
+      "score": -0.15000000000000013,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/siebel-development-new/",
+      "score": -0.20000000000000018,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/prism-new/",
+      "score": -0.25,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/c-programming-new-4122/",
+      "score": -0.30000000000000004,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/git-new/",
+      "score": -0.3500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/uipath-rpa-development-new/",
+      "score": -0.40000000000000013,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/amazon-web-services-aws-development-new/",
+      "score": -0.4500000000000002,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/microsoft-dynamics-development-new/",
+      "score": -0.5,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/remoteworkq/",
+      "score": -0.55,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/restful-web-services-new/",
+      "score": -0.6000000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/pega-development-new/",
+      "score": -0.6500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/biztalk-new/",
+      "score": -0.7000000000000002,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/programming-concepts/",
+      "score": -0.75,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/c-programming-new/",
+      "score": -0.8,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/ruby-new/",
+      "score": -0.8500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/php-new/",
+      "score": -0.9000000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/vb-net-new/",
+      "score": -0.9500000000000002,
+      "reason": "fallback"
+    }
+  ],
+  "9f1f6d2fcc8bfeb71fda051dd2fc9952d16878bc": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-8-new/",
+      "score": 1.0,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/core-java-advanced-level-new/",
+      "score": 0.95,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/core-java-entry-level-new/",
+      "score": 0.9,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-web-services-new/",
+      "score": 0.85,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-frameworks-new/",
+      "score": 0.8,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-design-patterns-new/",
+      "score": 0.75,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/enterprise-java-beans-new/",
+      "score": 0.7,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-platform-enterprise-edition-7-java-ee-7/",
+      "score": 0.6499999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/swing-new/",
+      "score": 0.6,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-2-platform-enterprise-edition-1-4-fundamental/",
+      "score": 0.55,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/software-business-analysis/",
+      "score": 0.5,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/spring-new/",
+      "score": 0.44999999999999996,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/hibernate-new/",
+      "score": 0.3999999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communication-adaptive/",
+      "score": 0.35,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communications/",
+      "score": 0.29999999999999993,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/struts-new/",
+      "score": 0.25,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/android-development-new/",
+      "score": 0.19999999999999996,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/c-programming-new-4039/",
+      "score": 0.1499999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/c-programming-new-4122/",
+      "score": 0.09999999999999998,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/cobol-programming-new/",
+      "score": 0.04999999999999993,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/git-new/",
+      "score": 0.0,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/prism-new/",
+      "score": -0.050000000000000044,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/programming-concepts/",
+      "score": -0.10000000000000009,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/pega-development-new/",
+      "score": -0.15000000000000013,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/informatica-developer-new/",
+      "score": -0.20000000000000018,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/computer-science-new/",
+      "score": -0.25,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/mulesoft-development-new/",
+      "score": -0.30000000000000004,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/interpersonal-communications/",
+      "score": -0.3500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/net-mvvm-new/",
+      "score": -0.40000000000000013,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/salesforce-development-new/",
+      "score": -0.4500000000000002,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/drupal-new/",
+      "score": -0.5,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/javascript-new/",
+      "score": -0.55,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/uipath-rpa-development-new/",
+      "score": -0.6000000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/microsoft-dynamics-development-new/",
+      "score": -0.6500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/c-programming-new/",
+      "score": -0.7000000000000002,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/jenkins-new/",
+      "score": -0.75,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/ruby-new/",
+      "score": -0.8,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/amazon-web-services-aws-development-new/",
+      "score": -0.8500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/siebel-development-new/",
+      "score": -0.9000000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/biztalk-new/",
+      "score": -0.9500000000000002,
+      "reason": "fallback"
+    }
+  ],
+  "766e118f58d3572c608a7770ae76700b529c95d0": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-8-new/",
+      "score": 1.0,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/core-java-advanced-level-new/",
+      "score": 0.95,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/core-java-entry-level-new/",
+      "score": 0.9,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-web-services-new/",
+      "score": 0.85,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-frameworks-new/",
+      "score": 0.8,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-design-patterns-new/",
+      "score": 0.75,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/enterprise-java-beans-new/",
+      "score": 0.7,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-platform-enterprise-edition-7-java-ee-7/",
+      "score": 0.6499999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/swing-new/",
+      "score": 0.6,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-2-platform-enterprise-edition-1-4-fundamental/",
+      "score": 0.55,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/software-business-analysis/",
+      "score": 0.5,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/spring-new/",
+      "score": 0.44999999999999996,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/hibernate-new/",
+      "score": 0.3999999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communication-adaptive/",
+      "score": 0.35,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communications/",
+      "score": 0.29999999999999993,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/struts-new/",
+      "score": 0.25,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/c-programming-new-4039/",
+      "score": 0.19999999999999996,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/android-development-new/",
+      "score": 0.1499999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/cobol-programming-new/",
+      "score": 0.09999999999999998,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/c-programming-new-4122/",
+      "score": 0.04999999999999993,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/git-new/",
+      "score": 0.0,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/prism-new/",
+      "score": -0.050000000000000044,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/informatica-developer-new/",
+      "score": -0.10000000000000009,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/programming-concepts/",
+      "score": -0.15000000000000013,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/pega-development-new/",
+      "score": -0.20000000000000018,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/drupal-new/",
+      "score": -0.25,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/mulesoft-development-new/",
+      "score": -0.30000000000000004,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/computer-science-new/",
+      "score": -0.3500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/c-programming-new/",
+      "score": -0.40000000000000013,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/net-mvvm-new/",
+      "score": -0.4500000000000002,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/salesforce-development-new/",
+      "score": -0.5,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/microsoft-dynamics-development-new/",
+      "score": -0.55,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/javascript-new/",
+      "score": -0.6000000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/uipath-rpa-development-new/",
+      "score": -0.6500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/ruby-new/",
+      "score": -0.7000000000000002,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/amazon-web-services-aws-development-new/",
+      "score": -0.75,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/jenkins-new/",
+      "score": -0.8,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/interpersonal-communications/",
+      "score": -0.8500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/biztalk-new/",
+      "score": -0.9000000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/siebel-development-new/",
+      "score": -0.9500000000000002,
+      "reason": "fallback"
+    }
+  ],
+  "503be442cb9c7b7c2c2e94299ac93bc31290ffea": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/entry-level-sales-solution/",
+      "score": 1.0,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sales-and-service-phone-solution/",
+      "score": 0.95,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/retail-sales-and-service-simulation/",
+      "score": 0.9,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sales-and-service-phone-simulation/",
+      "score": 0.85,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/writex-email-writing-sales-new/",
+      "score": 0.8,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sap-sd-sales-and-distribution-new/",
+      "score": 0.75,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/entry-level-customer-serv-retail-and-contact-center/",
+      "score": 0.7,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-mq-sales-report/",
+      "score": 0.6499999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/entry-level-customer-service-general-solution/",
+      "score": 0.6,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/customer-service-phone-solution/",
+      "score": 0.55,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/customer-service-phone-simulation/",
+      "score": 0.5,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/marketing-new/",
+      "score": 0.44999999999999996,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/writex-email-writing-customer-service-new/",
+      "score": 0.3999999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/contact-center-call-simulation-new/",
+      "score": 0.35,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/verify-general-ability-screen/",
+      "score": 0.29999999999999993,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/global-skills-assessment/",
+      "score": 0.25,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/entry-level-cashier-solution/",
+      "score": 0.19999999999999996,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/verify-inductive-reasoning-2014/",
+      "score": 0.1499999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/entry-level-technical-support-solution/",
+      "score": 0.09999999999999998,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/entry-level-hotel-front-desk-solution/",
+      "score": 0.04999999999999993,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/verify-working-with-information/",
+      "score": 0.0,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/shl-verify-interactive-deductive-reasoning/",
+      "score": -0.050000000000000044,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communication-adaptive/",
+      "score": -0.10000000000000009,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/verify-verbal-ability-next-generation/",
+      "score": -0.15000000000000013,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/shl-verify-interactive-numerical-calculation/",
+      "score": -0.20000000000000018,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/shl-verify-interactive-g/",
+      "score": -0.25,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/mechanical-focus-8-0/",
+      "score": -0.30000000000000004,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/shl-verify-interactive-numerical-reasoning/",
+      "score": -0.3500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/mechanical-and-vigilance-focus-8-0/",
+      "score": -0.40000000000000013,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/essential-focus-8-0/",
+      "score": -0.4500000000000002,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communications/",
+      "score": -0.5,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/verify-interactive-process-monitoring/",
+      "score": -0.55,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/conversational-multichat-simulation/",
+      "score": -0.6000000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/verify-g/",
+      "score": -0.6500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sales-transformation-report-sales-manager/",
+      "score": -0.7000000000000002,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sales-transformation-report-2-0-sales-manager/",
+      "score": -0.75,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sales-profiler-cards/",
+      "score": -0.8,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/remoteworkq/",
+      "score": -0.8500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/verify-deductive-reasoning/",
+      "score": -0.9000000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/shl-verify-interactive-inductive-reasoning/",
+      "score": -0.9500000000000002,
+      "reason": "fallback"
+    }
+  ],
+  "2bb6315ce4f05d64b24f15ec55869a11643f3b69": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/entry-level-sales-solution/",
+      "score": 1.0,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sales-and-service-phone-solution/",
+      "score": 0.95,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/retail-sales-and-service-simulation/",
+      "score": 0.9,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sales-and-service-phone-simulation/",
+      "score": 0.85,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/writex-email-writing-sales-new/",
+      "score": 0.8,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sap-sd-sales-and-distribution-new/",
+      "score": 0.75,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/entry-level-customer-serv-retail-and-contact-center/",
+      "score": 0.7,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/customer-service-phone-solution/",
+      "score": 0.6499999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communication-adaptive/",
+      "score": 0.6,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/entry-level-customer-service-general-solution/",
+      "score": 0.55,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-mq-sales-report/",
+      "score": 0.5,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communications/",
+      "score": 0.44999999999999996,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/interpersonal-communications/",
+      "score": 0.3999999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/customer-service-phone-simulation/",
+      "score": 0.35,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/writex-email-writing-customer-service-new/",
+      "score": 0.29999999999999993,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/contact-center-call-simulation-new/",
+      "score": 0.25,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/global-skills-assessment/",
+      "score": 0.19999999999999996,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/marketing-new/",
+      "score": 0.1499999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/verify-verbal-ability-next-generation/",
+      "score": 0.09999999999999998,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/mechanical-focus-8-0/",
+      "score": 0.04999999999999993,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/verify-general-ability-screen/",
+      "score": 0.0,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/shl-verify-interactive-deductive-reasoning/",
+      "score": -0.050000000000000044,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/entry-level-technical-support-solution/",
+      "score": -0.10000000000000009,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/verify-working-with-information/",
+      "score": -0.15000000000000013,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/shl-verify-interactive-numerical-calculation/",
+      "score": -0.20000000000000018,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/essential-focus-8-0/",
+      "score": -0.25,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/mechanical-and-vigilance-focus-8-0/",
+      "score": -0.30000000000000004,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/shl-verify-interactive-g/",
+      "score": -0.3500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/entry-level-cashier-solution/",
+      "score": -0.40000000000000013,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/verify-inductive-reasoning-2014/",
+      "score": -0.4500000000000002,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/shl-verify-interactive-numerical-reasoning/",
+      "score": -0.5,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/writex-email-writing-managerial-new/",
+      "score": -0.55,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/entry-level-hotel-front-desk-solution/",
+      "score": -0.6000000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/verify-interactive-process-monitoring/",
+      "score": -0.6500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/conversational-multichat-simulation/",
+      "score": -0.7000000000000002,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/ms-office-basic-computer-literacy-sim-new/",
+      "score": -0.75,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/safety-and-dependability-focus-8-0/",
+      "score": -0.8,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/verify-g/",
+      "score": -0.8500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/shl-verify-interactive-inductive-reasoning/",
+      "score": -0.9000000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/biotech-lab-techniques-new/",
+      "score": -0.9500000000000002,
+      "reason": "fallback"
+    }
+  ],
+  "6da85d1e69346ccab4c5e57557f97aa67941f2fd": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/entry-level-sales-solution/",
+      "score": 1.0,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/retail-sales-and-service-simulation/",
+      "score": 0.95,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sales-and-service-phone-simulation/",
+      "score": 0.9,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-mq-sales-report/",
+      "score": 0.85,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sales-and-service-phone-solution/",
+      "score": 0.8,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sales-transformation-report-sales-manager/",
+      "score": 0.75,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sales-transformation-report-2-0-sales-manager/",
+      "score": 0.7,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sales-profiler-cards/",
+      "score": 0.6499999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/writex-email-writing-sales-new/",
+      "score": 0.6,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sales-interview-guide/",
+      "score": 0.55,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sales-transformation-report-individual-contributor/",
+      "score": 0.5,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sap-sd-sales-and-distribution-new/",
+      "score": 0.44999999999999996,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/salestransformationreport2-0-individualcontributor/",
+      "score": 0.3999999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/marketing-new/",
+      "score": 0.35,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/data-entry-new/",
+      "score": 0.29999999999999993,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/contact-center-call-simulation-new/",
+      "score": 0.25,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/graduate-scenarios/",
+      "score": 0.19999999999999996,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/entry-level-customer-service-general-solution/",
+      "score": 0.1499999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/accounts-receivable-simulation-new/",
+      "score": 0.09999999999999998,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/entry-level-customer-serv-retail-and-contact-center/",
+      "score": 0.04999999999999993,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/entry-level-technical-support-solution/",
+      "score": 0.0,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/graduate-scenarios-narrative-report/",
+      "score": -0.050000000000000044,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/graduate-scenarios-profile-report/",
+      "score": -0.10000000000000009,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/typing-new/",
+      "score": -0.15000000000000013,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/entry-level-cashier-solution/",
+      "score": -0.20000000000000018,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/customer-service-phone-simulation/",
+      "score": -0.25,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/accounts-payable-simulation-new/",
+      "score": -0.30000000000000004,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/microsoft-dynamics-development-new/",
+      "score": -0.3500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/human-resources-new/",
+      "score": -0.40000000000000013,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/social-media-new/",
+      "score": -0.4500000000000002,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/digital-advertising-new/",
+      "score": -0.5,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/english-comprehension-new/",
+      "score": -0.55,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/ms-office-basic-computer-literacy-sim-new/",
+      "score": -0.6000000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/customer-service-phone-solution/",
+      "score": -0.6500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/basic-biology-new/",
+      "score": -0.7000000000000002,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/entry-level-hotel-front-desk-solution/",
+      "score": -0.75,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/economics-new/",
+      "score": -0.8,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/filing-names-r1/",
+      "score": -0.8500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/ms-office-basic-computer-literacy-new/",
+      "score": -0.9000000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/financial-and-banking-services-new/",
+      "score": -0.9500000000000002,
+      "reason": "fallback"
+    }
+  ],
+  "78a82e8859e740ca046e6c211d90cef8ad337a54": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/pjm-selection-report/",
+      "score": 1.0,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/managerial-scenarios-narrative-report/",
+      "score": 0.95,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/interviewing-and-hiring-concepts-u-s/",
+      "score": 0.9,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/management-scenarios/",
+      "score": 0.85,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/smart-interview-on-demand/",
+      "score": 0.8,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/occupational-personality-questionnaire-opq32r/",
+      "score": 0.75,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-universal-competency-report/",
+      "score": 0.7,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/mq-candidate-motivation-report/",
+      "score": 0.6499999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/mq-employee-motivation-report/",
+      "score": 0.6,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/hipo-assessment-report-1-0/",
+      "score": 0.55,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/essential-focus-8-0/",
+      "score": 0.5,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-leadership-report/",
+      "score": 0.44999999999999996,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/managerial-scenarios-candidate-report/",
+      "score": 0.3999999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-user-report/",
+      "score": 0.35,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/universal-competency-framework-profiler-cards-44/",
+      "score": 0.29999999999999993,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-universal-competency-report-2-0/",
+      "score": 0.25,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-premium-plus-report-2-0/",
+      "score": 0.19999999999999996,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/managerial-scenarios-profile-report/",
+      "score": 0.1499999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/virtual-assessment-and-development-centers/",
+      "score": 0.09999999999999998,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/entry-level-technical-support-solution/",
+      "score": 0.04999999999999993,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-manager-plus-report-2-0/",
+      "score": 0.0,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-profile-report/",
+      "score": -0.050000000000000044,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/dependability-and-safety-instrument-dsi/",
+      "score": -0.10000000000000009,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-premium-plus-report/",
+      "score": -0.15000000000000013,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/pjm-development-report/",
+      "score": -0.20000000000000018,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/human-resources-new/",
+      "score": -0.25,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-team-types-and-leadership-styles-profile/",
+      "score": -0.30000000000000004,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/entry-level-sales-solution/",
+      "score": -0.3500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-manager-plus-report/",
+      "score": -0.40000000000000013,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/mq-motivation-report-pack/",
+      "score": -0.4500000000000002,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/safety-and-dependability-focus-8-0/",
+      "score": -0.5,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-team-types-and-leadership-styles-report/",
+      "score": -0.55,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/smart-interview-live/",
+      "score": -0.6000000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/time-management-u-s/",
+      "score": -0.6500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-emotional-intelligence-report/",
+      "score": -0.7000000000000002,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/global-skills-assessment/",
+      "score": -0.75,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/entry-level-cashier-solution/",
+      "score": -0.8,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-candidate-plus-report/",
+      "score": -0.8500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/entry-level-customer-service-general-solution/",
+      "score": -0.9000000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-user-and-managers-report/",
+      "score": -0.9500000000000002,
+      "reason": "fallback"
+    }
+  ],
+  "5a5e4298ae9828d355e31300482b4a146454da82": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/marketing-new/",
+      "score": 1.0,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/ms-excel-new/",
+      "score": 0.95,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/microsoft-excel-365-new/",
+      "score": 0.9,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/microsoft-excel-365-essentials-new/",
+      "score": 0.85,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/entry-level-sales-solution/",
+      "score": 0.8,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sales-and-service-phone-simulation/",
+      "score": 0.75,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/retail-sales-and-service-simulation/",
+      "score": 0.7,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/interpersonal-communications/",
+      "score": 0.6499999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/digital-advertising-new/",
+      "score": 0.6,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sales-and-service-phone-solution/",
+      "score": 0.55,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communication-adaptive/",
+      "score": 0.5,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/social-media-new/",
+      "score": 0.44999999999999996,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/writex-email-writing-sales-new/",
+      "score": 0.3999999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communications/",
+      "score": 0.35,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/r-programming-new/",
+      "score": 0.29999999999999993,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/ms-office-basic-computer-literacy-new/",
+      "score": 0.25,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/search-engine-optimization-new/",
+      "score": 0.19999999999999996,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sap-sd-sales-and-distribution-new/",
+      "score": 0.1499999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/c-programming-new-4039/",
+      "score": 0.09999999999999998,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/telecommunications-engineering-new/",
+      "score": 0.04999999999999993,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/c-programming-new/",
+      "score": 0.0,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/verify-interactive-process-monitoring/",
+      "score": -0.050000000000000044,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/multitasking-ability/",
+      "score": -0.10000000000000009,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/programming-concepts/",
+      "score": -0.15000000000000013,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/c-programming-new-4122/",
+      "score": -0.20000000000000018,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/workplace-administration-skills-new/",
+      "score": -0.25,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/ms-office-basic-computer-literacy-sim-new/",
+      "score": -0.30000000000000004,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/cobol-programming-new/",
+      "score": -0.3500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/data-entry-ten-key-split-screen/",
+      "score": -0.40000000000000013,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/ms-access-new/",
+      "score": -0.4500000000000002,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/unix-new/",
+      "score": -0.5,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/front-office-management-new/",
+      "score": -0.55,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/entry-level-customer-serv-retail-and-contact-center/",
+      "score": -0.6000000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/linux-programming-general/",
+      "score": -0.6500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/instrumentation-engineering-new/",
+      "score": -0.7000000000000002,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/ms-powerpoint-new/",
+      "score": -0.75,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/htmlcss-new/",
+      "score": -0.8,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/contact-center-call-simulation-new/",
+      "score": -0.8500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/cardiology-and-diabetes-management-new/",
+      "score": -0.9000000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/financial-and-banking-services-new/",
+      "score": -0.9500000000000002,
+      "reason": "fallback"
+    }
+  ],
+  "4cd5083666dca2be1edec92c673609fce2c40fbb": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/search-engine-optimization-new/",
+      "score": 1.0,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/written-english-v1/",
+      "score": 0.95,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/english-comprehension-new/",
+      "score": 0.9,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/svar-spoken-english-us-new/",
+      "score": 0.85,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/svar-spoken-english-aus/",
+      "score": 0.8,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/svar-spoken-english-u-k/",
+      "score": 0.75,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/writex-email-writing-managerial-new/",
+      "score": 0.7,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/svar-spoken-english-indian-accent-new/",
+      "score": 0.6499999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/reading-comprehension-english-v1/",
+      "score": 0.6,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/writex-email-writing-customer-service-new/",
+      "score": 0.55,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/spelling-u-s-new/",
+      "score": 0.5,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/writex-email-writing-sales-new/",
+      "score": 0.44999999999999996,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/reading-comprehension-v2/",
+      "score": 0.3999999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/drupal-new/",
+      "score": 0.35,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/digital-advertising-new/",
+      "score": 0.29999999999999993,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/social-media-new/",
+      "score": 0.25,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/proofreading-v1/",
+      "score": 0.19999999999999996,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/smart-interview-live-coding/",
+      "score": 0.1499999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/filing-names-r1/",
+      "score": 0.09999999999999998,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/dermatology-new/",
+      "score": 0.04999999999999993,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/microsoft-word-365-essentials-new/",
+      "score": 0.0,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/geoscience-engineering-new/",
+      "score": -0.050000000000000044,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/css3-new/",
+      "score": -0.10000000000000009,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/written-spanish/",
+      "score": -0.15000000000000013,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/selenium-new/",
+      "score": -0.20000000000000018,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/microsoft-word-365-new/",
+      "score": -0.25,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/geoinformatics-engineering-new/",
+      "score": -0.30000000000000004,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/visual-comparison-us/",
+      "score": -0.3500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/software-business-analysis/",
+      "score": -0.40000000000000013,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/automata-selenium/",
+      "score": -0.4500000000000002,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/visual-comparison-uk/",
+      "score": -0.5,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/electronics-and-semiconductor-engineering-new/",
+      "score": -0.55,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/organic-chemistry-new/",
+      "score": -0.6000000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/typing-new/",
+      "score": -0.6500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/ceramic-engineering-new/",
+      "score": -0.7000000000000002,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/verify-verbal-ability-next-generation/",
+      "score": -0.75,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/nursing-new/",
+      "score": -0.8,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/global-skills-development-report/",
+      "score": -0.8500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/marketing-new/",
+      "score": -0.9000000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/electronics-and-telecommunications-engineering-new/",
+      "score": -0.9500000000000002,
+      "reason": "fallback"
+    }
+  ],
+  "fbc16101f38e352f92d7d66e11f4f04feaa288d5": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/selenium-new/",
+      "score": 1.0,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/automata-selenium/",
+      "score": 0.95,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-team-impact-selection-report/",
+      "score": 0.9,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sql-new/",
+      "score": 0.85,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/ms-excel-new/",
+      "score": 0.8,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-8-new/",
+      "score": 0.75,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/core-java-advanced-level-new/",
+      "score": 0.7,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-team-impact-individual-development-report/",
+      "score": 0.6499999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sql-server-new/",
+      "score": 0.6,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-team-impact-group-development-report/",
+      "score": 0.55,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/automata-sql-new/",
+      "score": 0.5,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/universal-competency-framework-job-profiling-guide/",
+      "score": 0.44999999999999996,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/microsoft-excel-365-new/",
+      "score": 0.3999999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/microsoft-excel-365-essentials-new/",
+      "score": 0.35,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/core-java-entry-level-new/",
+      "score": 0.29999999999999993,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-web-services-new/",
+      "score": 0.25,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/remoteworkq/",
+      "score": 0.19999999999999996,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/occupational-personality-questionnaire-opq32r/",
+      "score": 0.1499999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-design-patterns-new/",
+      "score": 0.09999999999999998,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-frameworks-new/",
+      "score": 0.04999999999999993,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/automata-fix-new/",
+      "score": 0.0,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-user-report/",
+      "score": -0.050000000000000044,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/oracle-plsql-new/",
+      "score": -0.10000000000000009,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/microsoft-sql-server-2014-programming/",
+      "score": -0.15000000000000013,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/hipo-assessment-report-2-0/",
+      "score": -0.20000000000000018,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/hipo-assessment-report-1-0/",
+      "score": -0.25,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-platform-enterprise-edition-7-java-ee-7/",
+      "score": -0.30000000000000004,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/enterprise-java-beans-new/",
+      "score": -0.3500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/virtual-assessment-and-development-centers/",
+      "score": -0.40000000000000013,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/assessment-and-development-center-exercises/",
+      "score": -0.4500000000000002,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-universal-competency-report-2-0/",
+      "score": -0.5,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/remoteworkq-manager-report/",
+      "score": -0.55,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/remoteworkq-participant-report/",
+      "score": -0.6000000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/manual-testing-new/",
+      "score": -0.6500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/swing-new/",
+      "score": -0.7000000000000002,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-team-types-and-leadership-styles-report/",
+      "score": -0.75,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communication-adaptive/",
+      "score": -0.8,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/global-skills-assessment/",
+      "score": -0.8500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/mq-candidate-motivation-report/",
+      "score": -0.9000000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-premium-plus-report/",
+      "score": -0.9500000000000002,
+      "reason": "fallback"
+    }
+  ],
+  "5152b12bae76e1279e27702134a66a33f8b50e91": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/linux-administration-new/",
+      "score": 1.0,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/workplace-administration-skills-new/",
+      "score": 0.95,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/adobe-experience-manager-new/",
+      "score": 0.9,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/typing-new/",
+      "score": 0.85,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/cisco-appdynamics-new/",
+      "score": 0.8,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/itil-it-infrastructure-library-new/",
+      "score": 0.75,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/financial-and-banking-services-new/",
+      "score": 0.7,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/automation-anywhere-rpa-development-new/",
+      "score": 0.6499999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/nursing-new/",
+      "score": 0.6,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/following-instructions-v1-us-r2/",
+      "score": 0.55,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/informatica-developer-new/",
+      "score": 0.5,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/filing-names-r1/",
+      "score": 0.44999999999999996,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/zabbix-new/",
+      "score": 0.3999999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/verify-g/",
+      "score": 0.35,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/english-comprehension-new/",
+      "score": 0.29999999999999993,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/multitasking-ability/",
+      "score": 0.25,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/filing-numbers/",
+      "score": 0.19999999999999996,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/following-instructions-v1-uk-r1/",
+      "score": 0.1499999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/informatica-architecture-new/",
+      "score": 0.09999999999999998,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/manual-testing-new/",
+      "score": 0.04999999999999993,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/reviewing-forms-us-r1/",
+      "score": 0.0,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/front-office-management-new/",
+      "score": -0.050000000000000044,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/conversational-multichat-simulation/",
+      "score": -0.10000000000000009,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/verify-numerical-ability/",
+      "score": -0.15000000000000013,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/job-control-language-new/",
+      "score": -0.20000000000000018,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sap-basis-new/",
+      "score": -0.25,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/interpersonal-communications/",
+      "score": -0.30000000000000004,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/aerospace-engineering-new/",
+      "score": -0.3500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/reading-comprehension-v2/",
+      "score": -0.40000000000000013,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/desktop-support-new/",
+      "score": -0.4500000000000002,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/jenkins-new/",
+      "score": -0.5,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/time-management-u-s/",
+      "score": -0.55,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/php-new/",
+      "score": -0.6000000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/verify-deductive-reasoning/",
+      "score": -0.6500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/load-runner-new/",
+      "score": -0.7000000000000002,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/aeronautical-engineering-new/",
+      "score": -0.75,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/ms-office-basic-computer-literacy-new/",
+      "score": -0.8,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/digital-advertising-new/",
+      "score": -0.8500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/cobol-programming-new/",
+      "score": -0.9000000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/biochemistry-new/",
+      "score": -0.9500000000000002,
+      "reason": "fallback"
+    }
+  ],
+  "a7e1f74fa6386224f7971c982be118047fba45d9": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/marketing-new/",
+      "score": 1.0,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sales-transformation-report-sales-manager/",
+      "score": 0.95,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sales-transformation-report-2-0-sales-manager/",
+      "score": 0.9,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/entry-level-sales-solution/",
+      "score": 0.85,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-team-impact-selection-report/",
+      "score": 0.8,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-mq-sales-report/",
+      "score": 0.75,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/enterprise-leadership-report/",
+      "score": 0.7,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communication-adaptive/",
+      "score": 0.6499999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/enterprise-leadership-report-2-0/",
+      "score": 0.6,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-team-types-and-leadership-styles-report/",
+      "score": 0.55,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-team-types-and-leadership-styles-profile/",
+      "score": 0.5,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/search-engine-optimization-new/",
+      "score": 0.44999999999999996,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sales-profiler-cards/",
+      "score": 0.3999999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/social-media-new/",
+      "score": 0.35,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/software-business-analysis/",
+      "score": 0.29999999999999993,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/digital-advertising-new/",
+      "score": 0.25,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-team-impact-individual-development-report/",
+      "score": 0.19999999999999996,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/writex-email-writing-sales-new/",
+      "score": 0.1499999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communications/",
+      "score": 0.09999999999999998,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-team-impact-group-development-report/",
+      "score": 0.04999999999999993,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sales-interview-guide/",
+      "score": 0.0,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sales-and-service-phone-simulation/",
+      "score": -0.050000000000000044,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-leadership-report/",
+      "score": -0.10000000000000009,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/retail-sales-and-service-simulation/",
+      "score": -0.15000000000000013,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/global-skills-development-report/",
+      "score": -0.20000000000000018,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/interpersonal-communications/",
+      "score": -0.25,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sales-and-service-phone-solution/",
+      "score": -0.30000000000000004,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/hipo-assessment-report-1-0/",
+      "score": -0.3500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/hipo-assessment-report-2-0/",
+      "score": -0.40000000000000013,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/hipo-unlocking-potential-report-2-0/",
+      "score": -0.4500000000000002,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/remoteworkq-manager-report/",
+      "score": -0.5,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/pjm-selection-report/",
+      "score": -0.55,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/universal-competency-framework-profiler-cards-44/",
+      "score": -0.6000000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/executive-scenarios-profile-report/",
+      "score": -0.6500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sales-transformation-report-individual-contributor/",
+      "score": -0.7000000000000002,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/executive-scenarios/",
+      "score": -0.75,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/digital-readiness-development-report-manager/",
+      "score": -0.8,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/universal-competency-framework-job-profiling-guide/",
+      "score": -0.8500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/salestransformationreport2-0-individualcontributor/",
+      "score": -0.9000000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/opq-premium-plus-report-2-0/",
+      "score": -0.9500000000000002,
+      "reason": "fallback"
+    }
+  ],
+  "944278d807b5e8c617a65cfaa22434caedb4e1d7": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/entry-level-sales-solution/",
+      "score": 1.0,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sales-and-service-phone-simulation/",
+      "score": 0.95,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sales-and-service-phone-solution/",
+      "score": 0.9,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/retail-sales-and-service-simulation/",
+      "score": 0.85,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/writex-email-writing-sales-new/",
+      "score": 0.8,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communication-adaptive/",
+      "score": 0.75,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/interpersonal-communications/",
+      "score": 0.7,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communications/",
+      "score": 0.6499999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/entry-level-customer-serv-retail-and-contact-center/",
+      "score": 0.6,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/entry-level-customer-service-general-solution/",
+      "score": 0.55,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/contact-center-call-simulation-new/",
+      "score": 0.5,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sap-sd-sales-and-distribution-new/",
+      "score": 0.44999999999999996,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/entry-level-technical-support-solution/",
+      "score": 0.3999999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/microsoft-dynamics-development-new/",
+      "score": 0.35,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/customer-service-phone-simulation/",
+      "score": 0.29999999999999993,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/marketing-new/",
+      "score": 0.25,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/global-skills-assessment/",
+      "score": 0.19999999999999996,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/conversational-multichat-simulation/",
+      "score": 0.1499999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/entry-level-hotel-front-desk-solution/",
+      "score": 0.09999999999999998,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/customer-service-phone-solution/",
+      "score": 0.04999999999999993,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/ms-word-new/",
+      "score": 0.0,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/ms-office-basic-computer-literacy-sim-new/",
+      "score": -0.050000000000000044,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/data-entry-ten-key-split-screen/",
+      "score": -0.10000000000000009,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/data-entry-numeric-split-screen-us/",
+      "score": -0.15000000000000013,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/entry-level-cashier-solution/",
+      "score": -0.20000000000000018,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/instrumentation-engineering-new/",
+      "score": -0.25,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/data-entry-alphanumeric-split-screen-us/",
+      "score": -0.30000000000000004,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/human-resources-new/",
+      "score": -0.3500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/essential-focus-8-0/",
+      "score": -0.40000000000000013,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/typing-new/",
+      "score": -0.4500000000000002,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/microsoft-powerpoint-365-essentials-new/",
+      "score": -0.5,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/basic-computer-literacy-windows-10-new/",
+      "score": -0.55,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/proofreading-v1/",
+      "score": -0.6000000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/telecommunications-engineering-new/",
+      "score": -0.6500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/remoteworkq/",
+      "score": -0.7000000000000002,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/ms-powerpoint-new/",
+      "score": -0.75,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/ms-office-basic-computer-literacy-new/",
+      "score": -0.8,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/microsoft-word-365-essentials-new/",
+      "score": -0.8500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/filing-names-r1/",
+      "score": -0.9000000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/financial-and-banking-services-new/",
+      "score": -0.9500000000000002,
+      "reason": "fallback"
+    }
+  ],
+  "0b0578303c17c5bc5f1d09201c3f7a54dfa08b8a": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/python-new/",
+      "score": 1.0,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/ms-excel-new/",
+      "score": 0.95,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sql-new/",
+      "score": 0.9,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sql-server-new/",
+      "score": 0.85,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/microsoft-excel-365-new/",
+      "score": 0.8,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/microsoft-excel-365-essentials-new/",
+      "score": 0.75,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/automata-sql-new/",
+      "score": 0.7,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/microsoft-sql-server-2014-programming/",
+      "score": 0.6499999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/oracle-plsql-new/",
+      "score": 0.6,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sql-server-analysis-services-%28ssas%29-%28new%29/",
+      "score": 0.55,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sql-server-integration-services-ssis-new/",
+      "score": 0.5,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/sql-server-reporting-services-ssrs-new/",
+      "score": 0.44999999999999996,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/software-business-analysis/",
+      "score": 0.3999999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/ms-office-basic-computer-literacy-new/",
+      "score": 0.35,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/automata-data-science-pro-new/",
+      "score": 0.29999999999999993,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/data-science-new/",
+      "score": 0.25,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/automata-data-science-new/",
+      "score": 0.19999999999999996,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/data-entry-new/",
+      "score": 0.1499999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/data-warehousing-concepts/",
+      "score": 0.09999999999999998,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/teradata-development-new/",
+      "score": 0.04999999999999993,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/etl-testing-new/",
+      "score": 0.0,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/tableau-new/",
+      "score": -0.050000000000000044,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/statistical-analysis-system-new/",
+      "score": -0.10000000000000009,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/hipo-assessment-report-1-0/",
+      "score": -0.15000000000000013,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/data-entry-numeric-split-screen-us/",
+      "score": -0.20000000000000018,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/ms-office-basic-computer-literacy-sim-new/",
+      "score": -0.25,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/manual-testing-new/",
+      "score": -0.30000000000000004,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/data-entry-ten-key-split-screen/",
+      "score": -0.3500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/apache-pig-new/",
+      "score": -0.40000000000000013,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/apache-hadoop-extensions-new/",
+      "score": -0.4500000000000002,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/oracle-dba-advanced-level-new/",
+      "score": -0.5,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/data-entry-alphanumeric-split-screen-us/",
+      "score": -0.55,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/r-programming-new/",
+      "score": -0.6000000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/ms-access-new/",
+      "score": -0.6500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/ibm-datastage-new/",
+      "score": -0.7000000000000002,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/hipo-assessment-report-2-0/",
+      "score": -0.75,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/apache-hive-new/",
+      "score": -0.8,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/asp-net-4-5/",
+      "score": -0.8500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/oracle-dba-entry-level-new/",
+      "score": -0.9000000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/c-programming-new/",
+      "score": -0.9500000000000002,
+      "reason": "fallback"
+    }
+  ],
+  "7bda56f601a1659f25cf1600c405fb449a8ff742": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-8-new/",
+      "score": 1.0,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/core-java-advanced-level-new/",
+      "score": 0.95,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/core-java-entry-level-new/",
+      "score": 0.9,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-web-services-new/",
+      "score": 0.85,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-frameworks-new/",
+      "score": 0.8,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-design-patterns-new/",
+      "score": 0.75,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/enterprise-java-beans-new/",
+      "score": 0.7,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-platform-enterprise-edition-7-java-ee-7/",
+      "score": 0.6499999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/swing-new/",
+      "score": 0.6,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-2-platform-enterprise-edition-1-4-fundamental/",
+      "score": 0.55,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/software-business-analysis/",
+      "score": 0.5,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/spring-new/",
+      "score": 0.44999999999999996,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/hibernate-new/",
+      "score": 0.3999999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/struts-new/",
+      "score": 0.35,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communication-adaptive/",
+      "score": 0.29999999999999993,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communications/",
+      "score": 0.25,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/cobol-programming-new/",
+      "score": 0.19999999999999996,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/android-development-new/",
+      "score": 0.1499999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/git-new/",
+      "score": 0.09999999999999998,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/c-programming-new-4039/",
+      "score": 0.04999999999999993,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/c-programming-new-4122/",
+      "score": 0.0,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/remoteworkq/",
+      "score": -0.050000000000000044,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/manual-testing-new/",
+      "score": -0.10000000000000009,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/programming-concepts/",
+      "score": -0.15000000000000013,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/apache-hbase-new/",
+      "score": -0.20000000000000018,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/microsoft-dynamics-development-new/",
+      "score": -0.25,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/prism-new/",
+      "score": -0.30000000000000004,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/ruby-new/",
+      "score": -0.3500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/javascript-new/",
+      "score": -0.40000000000000013,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/salesforce-development-new/",
+      "score": -0.4500000000000002,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/jenkins-new/",
+      "score": -0.5,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/php-new/",
+      "score": -0.55,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/informatica-developer-new/",
+      "score": -0.6000000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/restful-web-services-new/",
+      "score": -0.6500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/amazon-web-services-aws-development-new/",
+      "score": -0.7000000000000002,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/python-new/",
+      "score": -0.75,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/selenium-new/",
+      "score": -0.8,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/computer-science-new/",
+      "score": -0.8500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/net-mvvm-new/",
+      "score": -0.9000000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/mulesoft-development-new/",
+      "score": -0.9500000000000002,
+      "reason": "fallback"
+    }
+  ],
+  "c3fa72b999c8f713227e995eeb6d8197a6c0164b": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-8-new/",
+      "score": 1.0,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-web-services-new/",
+      "score": 0.95,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/core-java-entry-level-new/",
+      "score": 0.9,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/core-java-advanced-level-new/",
+      "score": 0.85,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-frameworks-new/",
+      "score": 0.8,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/enterprise-java-beans-new/",
+      "score": 0.75,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-design-patterns-new/",
+      "score": 0.7,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-platform-enterprise-edition-7-java-ee-7/",
+      "score": 0.6499999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/swing-new/",
+      "score": 0.6,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-2-platform-enterprise-edition-1-4-fundamental/",
+      "score": 0.55,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/spring-new/",
+      "score": 0.5,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/hibernate-new/",
+      "score": 0.44999999999999996,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communication-adaptive/",
+      "score": 0.3999999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/struts-new/",
+      "score": 0.35,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communications/",
+      "score": 0.29999999999999993,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/software-business-analysis/",
+      "score": 0.25,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/android-development-new/",
+      "score": 0.19999999999999996,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/interpersonal-communications/",
+      "score": 0.1499999999999999,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/c-programming-new-4039/",
+      "score": 0.09999999999999998,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/cobol-programming-new/",
+      "score": 0.04999999999999993,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/git-new/",
+      "score": 0.0,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/mulesoft-development-new/",
+      "score": -0.050000000000000044,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/c-programming-new-4122/",
+      "score": -0.10000000000000009,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/informatica-developer-new/",
+      "score": -0.15000000000000013,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/net-mvvm-new/",
+      "score": -0.20000000000000018,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/prism-new/",
+      "score": -0.25,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/siebel-development-new/",
+      "score": -0.30000000000000004,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/amazon-web-services-aws-development-new/",
+      "score": -0.3500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/uipath-rpa-development-new/",
+      "score": -0.40000000000000013,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/c-programming-new/",
+      "score": -0.4500000000000002,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/microsoft-dynamics-development-new/",
+      "score": -0.5,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/programming-concepts/",
+      "score": -0.55,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/ruby-new/",
+      "score": -0.6000000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/salesforce-development-new/",
+      "score": -0.6500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/javascript-new/",
+      "score": -0.7000000000000002,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/pega-development-new/",
+      "score": -0.75,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/restful-web-services-new/",
+      "score": -0.8,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/php-new/",
+      "score": -0.8500000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/vb-net-new/",
+      "score": -0.9000000000000001,
+      "reason": "fallback"
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/jenkins-new/",
+      "score": -0.9500000000000002,
+      "reason": "fallback"
+    }
+  ],
+  "0021131f9996f0fd47c5c032b5ed345a60a1b2e3": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-platform-enterprise-edition-7-java-ee-7/",
+      "score": 0.78,
+      "reason": "This test directly assesses Java skills (Java EE 7) and its 30-minute duration allows for pairing with a communication assessment to meet the 40-minute total. It covers a significant technical requirement."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-2-platform-enterprise-edition-1-4-fundamental/",
+      "score": 0.77,
+      "reason": "This test measures fundamental Java skills (J2EE 1.4) and its 30-minute duration is suitable for combining with a shorter communication test to fit the 40-minute total. It addresses a core technical requirement."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/software-business-analysis/",
+      "score": 0.75,
+      "reason": "While not a direct Java test, this assessment measures the ability to acquire and understand business requirements for IT projects, which is highly relevant to 'collaboration with business teams'. Its 30-minute duration allows for a short Java test to be added."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communication-adaptive/",
+      "score": 0.72,
+      "reason": "This adaptive test directly measures knowledge of communicating in the workplace, which is crucial for 'collaboration with business teams'. Its 24-minute duration leaves ample time for a Java technical assessment to meet the 40-minute target."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-8-new/",
+      "score": 0.68,
+      "reason": "This test directly assesses Java 8 knowledge, a core technical skill. Its 18-minute duration is excellent for combining with a communication assessment to stay within the 40-minute limit, addressing both key requirements."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/interpersonal-communications/",
+      "score": 0.67,
+      "reason": "This adaptive test directly measures interpersonal communication skills, which are vital for 'collaboration with business teams'. Its 15-minute duration is ideal for pairing with a Java technical test to meet the 40-minute total."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/core-java-advanced-level-new/",
+      "score": 0.65,
+      "reason": "This test measures advanced Core Java knowledge, a primary technical skill. Its short 13-minute duration makes it highly suitable for combining with a longer communication/collaboration assessment to fit the 40-minute requirement."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/core-java-entry-level-new/",
+      "score": 0.64,
+      "reason": "This test measures entry-level Core Java knowledge, a primary technical skill. Its short 13-minute duration makes it highly suitable for combining with a longer communication/collaboration assessment to fit the 40-minute requirement."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-frameworks-new/",
+      "score": 0.63,
+      "reason": "This test assesses knowledge of Java frameworks, a relevant technical skill. Its 17-minute duration allows for combination with a communication test to meet the overall time limit, addressing both technical and soft skill needs."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/programming-concepts/",
+      "score": 0.62,
+      "reason": "This test measures core programming concepts, which are foundational for a Java developer. Its 25-minute duration leaves enough room for a shorter communication assessment to meet the 40-minute target."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communications/",
+      "score": 0.6,
+      "reason": "This test measures knowledge of communicating in the workplace, directly addressing the 'collaboration with business teams' requirement. Its 35-minute duration is close to the limit, leaving little room for a separate Java test, but it strongly covers the soft skill."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-web-services-new/",
+      "score": 0.58,
+      "reason": "This test measures Java Web Services knowledge, a specific technical skill. Its very short 8-minute duration makes it highly flexible for combining with a more comprehensive communication/collaboration assessment to meet the 40-minute total."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-design-patterns-new/",
+      "score": 0.57,
+      "reason": "This test measures knowledge of Java Design Patterns, a relevant technical skill. Its very short 5-minute duration makes it highly flexible for combining with a more comprehensive communication/collaboration assessment to meet the 40-minute total."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/enterprise-java-beans-new/",
+      "score": 0.56,
+      "reason": "This test measures knowledge of Enterprise Java Beans, a specific technical skill. Its very short 4-minute duration makes it highly flexible for combining with a more comprehensive communication/collaboration assessment to meet the 40-minute total."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/spring-new/",
+      "score": 0.55,
+      "reason": "This test measures knowledge of the Spring framework, a common Java skill. Its 9-minute duration is good for combining with a communication test to stay within the 40-minute limit."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/hibernate-new/",
+      "score": 0.54,
+      "reason": "This test measures knowledge of Hibernate, a common Java skill. Its 5-minute duration is excellent for combining with a communication test to stay within the 40-minute limit."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/struts-new/",
+      "score": 0.53,
+      "reason": "This test measures knowledge of the Struts framework, a relevant Java skill. Its 5-minute duration is excellent for combining with a communication test to stay within the 40-minute limit."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/swing-new/",
+      "score": 0.52,
+      "reason": "This test measures knowledge of Swing, a Java UI toolkit. Its very short 4-minute duration makes it highly flexible for combining with a more comprehensive communication/collaboration assessment to meet the 40-minute total."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/git-new/",
+      "score": 0.4,
+      "reason": "While Git is a relevant tool for developers, it's not a core Java skill. Its 13-minute duration could fit, but it doesn't directly address the primary technical requirement as strongly as other Java-specific tests."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/computer-science-new/",
+      "score": 0.38,
+      "reason": "This test covers general computer science basics, which are foundational but not specific to Java. Its 12-minute duration is good for combination, but the skill match for 'Java developer' is less direct."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/javascript-new/",
+      "score": 0.25,
+      "reason": "This test measures JavaScript knowledge, which is a different programming language than Java. While web development often involves both, it's not the primary 'Java' skill requested."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/c-programming-new-4039/",
+      "score": 0.2,
+      "reason": "This test measures C# programming, which is a different language than Java. It does not meet the primary 'Java' skill requirement."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/c-programming-new-4122/",
+      "score": 0.19,
+      "reason": "This test measures C++ programming, which is a different language than Java. It does not meet the primary 'Java' skill requirement."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/c-programming-new/",
+      "score": 0.18,
+      "reason": "This test measures C programming, which is a different language than Java. It does not meet the primary 'Java' skill requirement."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/ruby-new/",
+      "score": 0.15,
+      "reason": "This test measures Ruby programming, which is a different language than Java. It does not meet the primary 'Java' skill requirement."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/php-new/",
+      "score": 0.14,
+      "reason": "This test measures PHP programming, which is a different language than Java. It does not meet the primary 'Java' skill requirement."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/cobol-programming-new/",
+      "score": 0.1,
+      "reason": "This test measures COBOL programming, which is a different and less commonly used language for modern development compared to Java. It does not meet the primary 'Java' skill requirement."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/android-development-new/",
+      "score": 0.08,
+      "reason": "While Android development often uses Java, this test focuses specifically on Android UI and components, not core Java language skills. It's a secondary match for 'Java developer'."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/pega-development-new/",
+      "score": 0.05,
+      "reason": "This test measures Pega development, which is a specific platform and not directly 'Java developer' skills, although Pega can be built on Java. It's a weak match for the primary skill."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/mulesoft-development-new/",
+      "score": 0.04,
+      "reason": "This test measures MuleSoft development, which is an integration platform. While it might involve Java, it's not a direct assessment of 'Java developer' skills."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/informatica-developer-new/",
+      "score": 0.03,
+      "reason": "This test measures Informatica skills, which is a data integration tool and not directly 'Java developer' skills."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/net-mvvm-new/",
+      "score": 0.02,
+      "reason": "This test measures .NET MVVM, which is a Microsoft technology and not related to Java development."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/salesforce-development-new/",
+      "score": 0.02,
+      "reason": "This test measures Salesforce development, which uses Apex (a Java-like language) but is a distinct platform and not directly 'Java developer' skills."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/uipath-rpa-development-new/",
+      "score": 0.01,
+      "reason": "This test measures UiPath RPA development, which is a robotic process automation platform and not directly 'Java developer' skills."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/microsoft-dynamics-development-new/",
+      "score": 0.01,
+      "reason": "This test measures Microsoft Dynamics development, which is a Microsoft business application platform and not directly 'Java developer' skills."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/drupal-new/",
+      "score": 0.01,
+      "reason": "This test measures Drupal knowledge, which is a PHP-based content management system and not related to Java development."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/jenkins-new/",
+      "score": 0.01,
+      "reason": "This test measures Jenkins knowledge, which is a CI/CD tool. While relevant for developers, it's not a core 'Java' skill assessment."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/siebel-development-new/",
+      "score": 0.01,
+      "reason": "This test measures Siebel development, which is a CRM platform and not directly 'Java developer' skills."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/amazon-web-services-aws-development-new/",
+      "score": 0.01,
+      "reason": "This test measures AWS development, which is cloud services. While Java can be used on AWS, this test is not a direct assessment of 'Java developer' skills."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/prism-new/",
+      "score": 0.0,
+      "reason": "This test measures Prism library knowledge, which is a .NET framework and not related to Java development."
+    }
+  ],
+  "2b1450f078620c77ca4f4a0520f2700ec183fc09": [
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-8-new/",
+      "score": 0.78,
+      "reason": "Strong match for Java skill (0.45 coverage for Java, 0.25 skill match). Duration (18 min) is well within the 40-minute limit (0.10 duration alignment). Job level is appropriate (0.05). This test would need to be combined with a collaboration test to fully meet the query's requirements."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/core-java-entry-level-new/",
+      "score": 0.78,
+      "reason": "Strong match for Java skill (0.45 coverage for Java, 0.25 skill match). Duration (13 min) is well within the 40-minute limit (0.10 duration alignment). Job level is appropriate (0.05). This test would need to be combined with a collaboration test to fully meet the query's requirements."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/core-java-advanced-level-new/",
+      "score": 0.78,
+      "reason": "Strong match for Java skill (0.45 coverage for Java, 0.25 skill match). Duration (13 min) is well within the 40-minute limit (0.10 duration alignment). Job level is appropriate (0.05). This test would need to be combined with a collaboration test to fully meet the query's requirements."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-frameworks-new/",
+      "score": 0.78,
+      "reason": "Strong match for Java skill (0.45 coverage for Java, 0.25 skill match). Duration (17 min) is well within the 40-minute limit (0.10 duration alignment). Job level is appropriate (0.05). This test would need to be combined with a collaboration test to fully meet the query's requirements."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-web-services-new/",
+      "score": 0.78,
+      "reason": "Strong match for Java skill (0.45 coverage for Java, 0.25 skill match). Duration (8 min) is well within the 40-minute limit (0.10 duration alignment). Job level is appropriate (0.05). This test would need to be combined with a collaboration test to fully meet the query's requirements."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-platform-enterprise-edition-7-java-ee-7/",
+      "score": 0.78,
+      "reason": "Strong match for Java skill (0.45 coverage for Java, 0.25 skill match). Duration (30 min) is well within the 40-minute limit (0.10 duration alignment). Job level is appropriate (0.05). This test would need to be combined with a collaboration test to fully meet the query's requirements."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-2-platform-enterprise-edition-1-4-fundamental/",
+      "score": 0.78,
+      "reason": "Strong match for Java skill (0.45 coverage for Java, 0.25 skill match). Duration (30 min) is well within the 40-minute limit (0.10 duration alignment). Job level is appropriate (0.05). This test would need to be combined with a collaboration test to fully meet the query's requirements."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/java-design-patterns-new/",
+      "score": 0.78,
+      "reason": "Strong match for Java skill (0.45 coverage for Java, 0.25 skill match). Duration (5 min) is well within the 40-minute limit (0.10 duration alignment). Job level is appropriate (0.05). This test would need to be combined with a collaboration test to fully meet the query's requirements."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/enterprise-java-beans-new/",
+      "score": 0.78,
+      "reason": "Strong match for Java skill (0.45 coverage for Java, 0.25 skill match). Duration (4 min) is well within the 40-minute limit (0.10 duration alignment). Job level is appropriate (0.05). This test would need to be combined with a collaboration test to fully meet the query's requirements."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/spring-new/",
+      "score": 0.78,
+      "reason": "Strong match for Java skill (0.45 coverage for Java, 0.25 skill match). Duration (9 min) is well within the 40-minute limit (0.10 duration alignment). Job level is appropriate (0.05). This test would need to be combined with a collaboration test to fully meet the query's requirements."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/hibernate-new/",
+      "score": 0.78,
+      "reason": "Strong match for Java skill (0.45 coverage for Java, 0.25 skill match). Duration (5 min) is well within the 40-minute limit (0.10 duration alignment). Job level is appropriate (0.05). This test would need to be combined with a collaboration test to fully meet the query's requirements."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/struts-new/",
+      "score": 0.78,
+      "reason": "Strong match for Java skill (0.45 coverage for Java, 0.25 skill match). Duration (5 min) is well within the 40-minute limit (0.10 duration alignment). Job level is appropriate (0.05). This test would need to be combined with a collaboration test to fully meet the query's requirements."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communication-adaptive/",
+      "score": 0.48,
+      "reason": "Addresses the collaboration/communication requirement (0.45 coverage for collaboration, 0.15 test type appropriateness). Duration (24 min) is well within the 40-minute limit (0.10 duration alignment). Job level is appropriate (0.05). This test would need to be combined with a Java test to fully meet the query's requirements."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/interpersonal-communications/",
+      "score": 0.48,
+      "reason": "Addresses the collaboration/communication requirement (0.45 coverage for collaboration, 0.15 test type appropriateness). Duration (15 min) is well within the 40-minute limit (0.10 duration alignment). Job level is appropriate (0.05). This test would need to be combined with a Java test to fully meet the query's requirements."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/business-communications/",
+      "score": 0.48,
+      "reason": "Addresses the collaboration/communication requirement (0.45 coverage for collaboration, 0.15 test type appropriateness). Duration (35 min) is well within the 40-minute limit (0.10 duration alignment). Job level is appropriate (0.05). This test would need to be combined with a Java test to fully meet the query's requirements."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/software-business-analysis/",
+      "score": 0.15,
+      "reason": "Indirectly related to collaboration with business teams, but not a direct measure of Java or communication skills. Duration (30 min) is acceptable. Low relevance for primary skills."
+    },
+    {
+      "url": "https://www.shl.com/products/product-catalog/view/programming-concepts/",
+      "score": 0.15,
+      "reason": "General programming concepts, not specific to Java. Does not address collaboration. Duration (25 min) is acceptable."
+    }
   ]
 }

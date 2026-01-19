@@ -4,6 +4,14 @@ from pathlib import Path
 from datetime import datetime
 import hashlib
 import time
+import sys
+
+# -----------------------------------------------------------
+# Paths
+# -----------------------------------------------------------
+
+BASE_DIR = Path(__file__).resolve().parents[1]
+sys.path.append(str(BASE_DIR))
 
 from embeddings.hybrid_retriever import HybridRetriever
 from llm.query_rewriter import llm_rewrite
@@ -79,6 +87,55 @@ def save_cache():
 # Main Evaluation
 # -----------------------------------------------------------
 
+import os
+import random
+from google import genai
+from dotenv import load_dotenv
+
+load_dotenv()
+
+# -----------------------------------------------------------
+# KEY MANAGER
+# -----------------------------------------------------------
+class KeyManager:
+    def __init__(self):
+        # Load keys from GEMINI_API_KEY_1, _2, _3 (no fallback to unsuffixed)
+        self.keys = []
+        
+        for i in range(1, 4):
+            k = os.environ.get(f"GEMINI_API_KEY_{i}")
+            if k:
+                self.keys.append(k)
+        
+        if not self.keys:
+            raise ValueError("ERROR: No GEMINI_API_KEY_1/2/3 found in environment! Set at least one.")
+            
+        print(f"Loaded {len(self.keys)} API keys for rotation.")
+        self.clients = [genai.Client(api_key=k) for k in self.keys]
+        self.current_idx = 0
+        self.call_count = 0  # Track calls for proactive rotation
+
+    def get_client(self):
+        return self.clients[self.current_idx]
+
+    def rotate(self):
+        old_idx = self.current_idx
+        self.current_idx = (self.current_idx + 1) % len(self.clients)
+        print(f"🔄 Rotating key (Index {old_idx} -> {self.current_idx})")
+        return self.get_client()
+    
+    def get_client_and_rotate(self):
+        """Get current client and PROACTIVELY rotate to next key for next call.
+        This distributes load across all keys evenly."""
+        client = self.get_client()
+        self.call_count += 1
+        self.rotate()  # Proactive rotation after each call
+        return client
+
+# -----------------------------------------------------------
+# Main Evaluation with Rotation
+# -----------------------------------------------------------
+
 def run_evaluation():
     print("Loading Excel train/test dataset...")
     df = pd.read_excel(EXCEL_PATH)
@@ -87,6 +144,7 @@ def run_evaluation():
     url_cols = [c for c in df.columns if c != query_col]
 
     retriever = HybridRetriever()
+    key_manager = KeyManager()
 
     results = []
     recall_scores = []
@@ -105,34 +163,75 @@ def run_evaluation():
 
         print(f"\n==============================")
         print(f"Query {idx+1}: {query}")
-        print("Ground truth:", gt_urls)
-
+        
         # ------------------------------------------------------------
-        # STEP 1: LLM REWRITE (Gemini)
+        # STEP 1: LLM REWRITE (Gemini) - WITH RETRY / ROTATION
         # ------------------------------------------------------------
-        try:
-            parsed = llm_rewrite(query, fallback=True)
-            rewritten_query = parsed["rewrite"]
-        except Exception as e:
-            print("Rewrite failed, using raw query:", e)
-            parsed = {"rewrite": query}
-            rewritten_query = query
-
+        rewritten_query = query
+        parsed = {"rewrite": query}
+        
+        max_retries = len(key_manager.keys) * 2
+        for attempt in range(max_retries):
+            client = key_manager.get_client_and_rotate()  # Proactive rotation
+            try:
+                parsed = llm_rewrite(query, fallback=True, client=client)
+                rewritten_query = parsed["rewrite"]
+                
+                # With 3 keys at 5 RPM each = 15 RPM total = 4s between calls
+                # Adding small buffer for safety
+                print(f"Rewrite success (Key {key_manager.current_idx}). Sleeping 5s...")
+                time.sleep(5) 
+                break
+                
+            except Exception as e:
+                print(f"Rewrite failed with Key {key_manager.current_idx}: {e}")
+                if "429" in str(e) or "quota" in str(e).lower():
+                    print("Hit Rate Limit (429). Sleeping 60s and rotating...")
+                    time.sleep(60)
+                    key_manager.rotate()
+                else:
+                    # Non-rate limit error? maybe fallback immediately
+                    print("Non-429 error, sticking to query.")
+                    break
+        
+        
         print("\nRewritten Query:")
         print(rewritten_query)
 
 
         # ------------------------------------------------------------
-        # STEP 2: HYBRID RETRIEVAL (40 candidates for reranking)
+        # STEP 2: HYBRID RETRIEVAL
         # ------------------------------------------------------------
-        candidates = retriever.retrieve(rewritten_query, top_k=40)
+        # Use the same client (or rotated) for retrieval embedding
+        # We should use retry/rotate logic here too strictly speaking, 
+        # but retrieval embedding is cheaper/less likely to 429 than generation usually.
+        # However, to be safe, let's wrap it or just use the current valid client.
+        
+        candidates = []
+        for attempt in range(max_retries):
+             client = key_manager.get_client_and_rotate()  # Proactive rotation
+             try:
+                 candidates = retriever.retrieve(rewritten_query, top_k=40, client=client)
+                 if not candidates:
+                     print("Warning: Retrieved 0 candidates.")
+                 
+                 # Embedding calls are lighter, shorter sleep
+                 time.sleep(2) 
+                 break
+             except Exception as e:
+                 print(f"Retrieval embedding failed with Key {key_manager.current_idx}: {e}")
+                 if "429" in str(e) or "quota" in str(e).lower():
+                    print("Hit Rate Limit (429) in retrieval. Sleeping 60s and rotating...")
+                    time.sleep(60)
+                    key_manager.rotate()
+                 else:
+                    break
 
         formatted_candidates = []
         for c in candidates:
             meta = c["meta"]
-
             desc = meta.get("description") or meta.get("embed_text") or ""
-            desc = desc.split(".")[0][:200]  # tiny, safe truncation
+            desc = desc.split(".")[0][:200]
 
             formatted_candidates.append({
                 "url": c["url"],
@@ -148,7 +247,7 @@ def run_evaluation():
 
 
         # ------------------------------------------------------------
-        # STEP 3: LLM RERANKING (Gemini 2.5 Flash)
+        # STEP 3: LLM RERANKING - WITH RETRY / ROTATION
         # ------------------------------------------------------------
         ck = cache_key(query, formatted_candidates)
 
@@ -157,16 +256,34 @@ def run_evaluation():
             reranked = LLM_CACHE[ck]
         else:
             print("Calling LLM reranker...")
-            try:
-                reranked = llm_rerank(
-                    query=query,
-                    rewritten=rewritten_query,
-                    candidates=formatted_candidates
-                )
-            except Exception as e:
-                print("⚠ Reranker failed, falling back:", e)
-                # fallback: hybrid order only
-                reranked = [
+            reranked = None
+            
+            for attempt in range(max_retries):
+                client = key_manager.get_client_and_rotate()  # Proactive rotation
+                try:
+                    reranked = llm_rerank(
+                        query=query,
+                        rewritten=rewritten_query,
+                        candidates=formatted_candidates,
+                        client=client
+                    )
+                    
+                    print(f"Rerank success (Key {key_manager.current_idx}). Sleeping 5s...")
+                    time.sleep(5)
+                    break
+                    
+                except Exception as e:
+                    print(f"Rerank failed with Key {key_manager.current_idx}: {e}")
+                    if "429" in str(e) or "quota" in str(e).lower():
+                        print("Hit Rate Limit (429). Sleeping 60s and rotating...")
+                        time.sleep(60)
+                        key_manager.rotate()
+                    else:
+                         break # Non-retriable error
+
+            if reranked is None:
+                 print("⚠ Reranker failed all attempts, falling back to hybrid order.")
+                 reranked = [
                     {"url": c["url"], "score": 1 - 0.05 * i, "reason": "fallback"}
                     for i, c in enumerate(formatted_candidates[:10])
                 ]
@@ -177,11 +294,7 @@ def run_evaluation():
 
         # Take top 10 *after reranking*
         final_urls = [normalize_url(x["url"]) for x in reranked[:10]]
-        print("\nTop 10 After Reranker:")
-        for u in final_urls:
-            print(" -", u)
-
-
+        
         # ------------------------------------------------------------
         # STEP 4: Recall@10
         # ------------------------------------------------------------
@@ -189,8 +302,9 @@ def run_evaluation():
         recall_scores.append(recall10)
 
         print("Recall@10 =", recall10)
+        print(f"Completed {idx+1}/{len(df)} queries.")
 
-        # Store full results
+        # Store full results immediately (safety)
         results.append({
             "query": query,
             "rewrite": rewritten_query,
@@ -204,6 +318,10 @@ def run_evaluation():
     # ------------------------------------------------------------
     # FINAL METRICS
     # ------------------------------------------------------------
+    if not recall_scores:
+        print("No results generated.")
+        return
+
     mean_recall = sum(recall_scores) / len(recall_scores)
 
     # Save JSON

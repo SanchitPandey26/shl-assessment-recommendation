@@ -5,6 +5,7 @@ from pathlib import Path
 sys.path.append(str(Path(__file__).resolve().parents[1]))
 
 from llm.llm_reranker import llm_rerank
+from app.key_manager import get_key_manager, rate_limit_sleep
 
 # ---------------------------------------------------------
 # Lazy loading reranker (lightweight but consistent)
@@ -24,13 +25,18 @@ def rerank_results(query: str, retrieval_results: dict, top_k: int = 10):
     try:
         candidates = retrieval_results["candidates"]
         rewritten_query = retrieval_results["rewritten_query"]
+        
+        key_manager = get_key_manager()
 
-        # Step 1 — use LLM reranker
+        # Step 1 — use LLM reranker (with key rotation)
+        client = key_manager.get_client_and_rotate()
         reranked = llm_rerank(
             query=query,
             rewritten=rewritten_query,
-            candidates=candidates
+            candidates=candidates,
+            client=client
         )
+        rate_limit_sleep(1)  # Short sleep after reranking
 
         top_results = reranked[:top_k]
 

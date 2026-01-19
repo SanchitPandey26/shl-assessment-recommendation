@@ -60,16 +60,31 @@ def regex_parse(query: str) -> dict:
     }
 
 
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY_1")  # Use first key if available for non-eval flows
 
-client = genai.Client(api_key=GEMINI_API_KEY)
+# Default global client (only if key exists)
+if GEMINI_API_KEY:
+    client = genai.Client(api_key=GEMINI_API_KEY)
+else:
+    client = None
+    print("WARNING: No GEMINI_API_KEY_1 found. llm_rewrite requires client injection.")
 
-# Use a standard model that is widely available if 2.5 is not accessible
-# or stick to your specific model if you have access.
-MODEL_REWRITER = "gemini-2.5-flash"
+# Use env var for model - NO FALLBACK
+MODEL_REWRITER = os.environ.get("REWRITE_MODEL")
+if not MODEL_REWRITER:
+    print("ERROR: REWRITE_MODEL not set in environment!")
 
 
-def llm_rewrite(query: str, fallback: bool = False):
+def llm_rewrite(query: str, fallback: bool = False, client=None):
+    # Use injected client if provided (for key rotation), else global
+    active_client = client if client else globals().get('client')
+    
+    if not active_client:
+        # If no client avail (no env key and no injected key), fail or regex
+        if fallback:
+             return regex_parse(query)
+        raise ValueError("No Gemini API Key available and no client injected.")
+
     # Enforce the prompt to generate optimized search queries
     prompt_text = f"""
     Analyze this user query for SHL assessments: "{query}"
@@ -129,7 +144,7 @@ def llm_rewrite(query: str, fallback: bool = False):
     )
 
     try:
-        response = client.models.generate_content(
+        response = active_client.models.generate_content(
             model=MODEL_REWRITER,
             contents=contents,
             config=config

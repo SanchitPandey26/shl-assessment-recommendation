@@ -1,10 +1,7 @@
 fastapi
 uvicorn
-sentence-transformers
 numpy
 asyncio
-pandas
-chromadb
 beautifulsoup4
 requests
 python-dotenv

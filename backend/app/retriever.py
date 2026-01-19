@@ -1,3 +1,4 @@
+# backend/app/retriever.py
 import sys
 from pathlib import Path
 
@@ -6,34 +7,22 @@ sys.path.append(str(Path(__file__).resolve().parents[1]))
 
 from embeddings.hybrid_retriever import HybridRetriever
 from llm.query_rewriter import llm_rewrite
+from app.key_manager import get_key_manager, rate_limit_sleep
 
 # ---------------------------------------------------------
-# Lazy-loaded retriever instance (RENDER SAFE)
+# Singleton retriever instance
 # ---------------------------------------------------------
 _retriever = None
-_is_loading = False
-
-def is_model_loaded():
-    return _retriever is not None
-
-def preload_model():
-    """Trigger eager loading of the model."""
-    global _is_loading
-    if _retriever is None and not _is_loading:
-        _is_loading = True
-        try:
-            get_retriever()
-        finally:
-            _is_loading = False
 
 def get_retriever():
     """
-    Lazy-load HybridRetriever to avoid heavy initialization
-    when the module is imported. Critical for Render 512MB.
+    Singleton accessor for HybridRetriever.
+    Init is now lightweight (API client + NPY load), so we don't need
+    complex background loading logic anymore.
     """
     global _retriever
     if _retriever is None:
-        print("⚡ Initializing HybridRetriever (cold start)...")
+        print("⚡ Initializing HybridRetriever (Google GenAI)...")
         _retriever = HybridRetriever()
     return _retriever
 
@@ -44,17 +33,23 @@ def get_retriever():
 def retrieve_assessments(query: str, top_k: int = 40):
     """
     Full retrieval pipeline:
-    1. LLM-based query rewrite
-    2. Hybrid retrieval using vector + lexical + boosting
+    1. LLM-based query rewrite (with key rotation)
+    2. Hybrid retrieval using vector + lexical + boosting (with key rotation)
     """
     try:
-        # Step 1 — Rewrite using LLM (fallback regex enabled)
-        parsed = llm_rewrite(query, fallback=True)
+        key_manager = get_key_manager()
+        
+        # Step 1 — Rewrite using LLM (with key rotation)
+        client = key_manager.get_client_and_rotate()
+        parsed = llm_rewrite(query, fallback=True, client=client)
         rewritten_query = parsed["rewrite"]
-
-        # Step 2 — Retrieve from hybrid retriever
+        rate_limit_sleep(1)  # Short sleep between calls
+        
+        # Step 2 — Retrieve from hybrid retriever (with key rotation)
         retriever = get_retriever()
-        candidates = retriever.retrieve(rewritten_query, top_k=top_k)
+        client = key_manager.get_client_and_rotate()
+        candidates = retriever.retrieve(rewritten_query, top_k=top_k, client=client)
+        rate_limit_sleep(1)  # Short sleep for embedding calls
 
         # Step 3 — Prepare candidates for reranker
         formatted_candidates = []

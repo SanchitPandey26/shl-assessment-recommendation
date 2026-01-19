@@ -5,13 +5,26 @@ from google.genai import types
 from dotenv import load_dotenv
 
 load_dotenv()
-GEMINI_API_KEY = os.environ["GEMINI_API_KEY"]
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY_1")  # Use first key if available
 
-client = genai.Client(api_key=GEMINI_API_KEY)
-MODEL_RERANK = "gemini-2.5-flash"
+if GEMINI_API_KEY:
+    client = genai.Client(api_key=GEMINI_API_KEY)
+else:
+    client = None
+    print("WARNING: No GEMINI_API_KEY_1 found. llm_rerank requires client injection.")
+
+# Use env var for model - NO FALLBACK
+MODEL_RERANK = os.environ.get("RERANK_MODEL")
+if not MODEL_RERANK:
+    print("ERROR: RERANK_MODEL not set in environment!") 
 
 
-def llm_rerank(query: str, rewritten: str, candidates: list):
+def llm_rerank(query: str, rewritten: str, candidates: list, client=None):
+    # Use injected client if provided, else global
+    active_client = client if client else globals().get('client')
+
+    if not active_client:
+        raise ValueError("No Gemini API Key available and no client injected.")
     """
     candidates = [
         {
@@ -194,7 +207,7 @@ Rank by descending score. Begin now.
 
     # --- Gemini LLM Call ---
     try:
-        response = client.models.generate_content(
+        response = active_client.models.generate_content(
             model=MODEL_RERANK,
             contents=contents,
             config=config,
