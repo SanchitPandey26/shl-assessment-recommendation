@@ -1,12 +1,10 @@
 fastapi
 uvicorn
 numpy
-asyncio
 beautifulsoup4
 requests
 python-dotenv
 lxml
 tqdm
-openpyxl
 scikit-learn
 google-genai

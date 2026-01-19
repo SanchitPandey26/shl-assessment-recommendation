@@ -1,9 +1,3 @@
-import sys
-from pathlib import Path
-
-# Add parent directory to Python path
-sys.path.append(str(Path(__file__).resolve().parents[1]))
-
 from llm.llm_reranker import llm_rerank
 from app.key_manager import get_key_manager, rate_limit_sleep
 

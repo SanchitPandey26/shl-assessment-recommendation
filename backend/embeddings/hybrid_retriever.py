@@ -7,9 +7,7 @@ from google import genai
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import re
-from dotenv import load_dotenv
-
-load_dotenv()
+from app.config import Settings
 
 BASE_DIR = Path(__file__).resolve().parents[1]
 
@@ -17,21 +15,17 @@ BASE_DIR = Path(__file__).resolve().parents[1]
 EMB_PATH = BASE_DIR / "data" / "embeddings_gemini.npy"
 META_PATH = BASE_DIR / "data" / "meta_gemini.json"
 
-# Config - NO FALLBACKS
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY_1")  # Use first key if available for non-eval flows
-EMBEDDING_MODEL = os.environ.get("EMBEDDING_MODEL")
-if not EMBEDDING_MODEL:
-    print("ERROR: EMBEDDING_MODEL not set in environment!")
+# Config - STRICTLY FROM SETTINGS
+EMBEDDING_MODEL = Settings.EMBEDDING_MODEL
 
 class HybridRetriever:
     def __init__(self):
         print(f"Initializing HybridRetriever (Google GenAI: {EMBEDDING_MODEL})...")
         
-        if GEMINI_API_KEY:
-            self.client = genai.Client(api_key=GEMINI_API_KEY)
-        else:
-            print("Warning: GEMINI_API_KEY not found in env. HybridRetriever will fail unless client is injected in retrieve().")
-            self.client = None
+        # Use first key as default for non-rotated retrieval (deprecated flow)
+        # Ideally, client should ALWAYS be injected.
+        self.client = genai.Client(api_key=Settings.GEMINI_API_KEY_1)
+        
         
         # Load embeddings
         if not os.path.exists(EMB_PATH):

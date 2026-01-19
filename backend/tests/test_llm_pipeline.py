@@ -1,4 +1,7 @@
-# backend/test_llm_pipeline.py
+import sys
+from pathlib import Path
+sys.path.append(str(Path(__file__).resolve().parents[1]))
+
 import json
 from llm.query_rewriter import llm_rewrite
 from llm.llm_reranker import llm_rerank

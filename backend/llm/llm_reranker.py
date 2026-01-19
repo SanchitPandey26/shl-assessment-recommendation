@@ -1,22 +1,10 @@
 import json
-import os
 from google import genai
 from google.genai import types
-from dotenv import load_dotenv
+from app.config import Settings
 
-load_dotenv()
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY_1")  # Use first key if available
-
-if GEMINI_API_KEY:
-    client = genai.Client(api_key=GEMINI_API_KEY)
-else:
-    client = None
-    print("WARNING: No GEMINI_API_KEY_1 found. llm_rerank requires client injection.")
-
-# Use env var for model - NO FALLBACK
-MODEL_RERANK = os.environ.get("RERANK_MODEL")
-if not MODEL_RERANK:
-    print("ERROR: RERANK_MODEL not set in environment!") 
+# Use env var for model - STRICTLY FROM SETTINGS
+MODEL_RERANK = Settings.RERANK_MODEL
 
 
 def llm_rerank(query: str, rewritten: str, candidates: list, client=None):

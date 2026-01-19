@@ -1,10 +1,3 @@
-# backend/app/retriever.py
-import sys
-from pathlib import Path
-
-# Ensure import paths
-sys.path.append(str(Path(__file__).resolve().parents[1]))
-
 from embeddings.hybrid_retriever import HybridRetriever
 from llm.query_rewriter import llm_rewrite
 from app.key_manager import get_key_manager, rate_limit_sleep

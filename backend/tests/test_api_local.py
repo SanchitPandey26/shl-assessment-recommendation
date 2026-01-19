@@ -18,10 +18,10 @@ def test_api():
         print("\nResponse received!")
         print(json.dumps(data, indent=2))
         
-        if len(data["results"]) > 0:
+        if len(data.get("recommended_assessments", [])) > 0:
             print("\n✅ API Test Passed: Results returned.")
         else:
-            print("\n❌ API Test Failed: No results returned.")
+            print(f"\n❌ API Test Failed: No results returned. Keys: {data.keys()}")
             
     except Exception as e:
         print(f"\n❌ API Test Failed: {e}")

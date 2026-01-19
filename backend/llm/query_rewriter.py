@@ -1,10 +1,7 @@
-import os
 import json
 from google import genai
 from google.genai import types
-from dotenv import load_dotenv
-
-load_dotenv()
+from app.config import Settings
 
 
 # ---------------------------------------------------------------------
@@ -60,19 +57,8 @@ def regex_parse(query: str) -> dict:
     }
 
 
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY_1")  # Use first key if available for non-eval flows
-
-# Default global client (only if key exists)
-if GEMINI_API_KEY:
-    client = genai.Client(api_key=GEMINI_API_KEY)
-else:
-    client = None
-    print("WARNING: No GEMINI_API_KEY_1 found. llm_rewrite requires client injection.")
-
-# Use env var for model - NO FALLBACK
-MODEL_REWRITER = os.environ.get("REWRITE_MODEL")
-if not MODEL_REWRITER:
-    print("ERROR: REWRITE_MODEL not set in environment!")
+# Use env var for model - STRICTLY FROM SETTINGS
+MODEL_REWRITER = Settings.REWRITE_MODEL
 
 
 def llm_rewrite(query: str, fallback: bool = False, client=None):

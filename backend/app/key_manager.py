@@ -3,13 +3,9 @@
 Simple API Key Manager for rotating Gemini API keys.
 Designed for single-user/low-traffic scenarios.
 """
-import os
 import time
 from google import genai
-from dotenv import load_dotenv
-
-load_dotenv()
-
+from app.config import Settings
 
 class KeyManager:
     """Simple key rotation manager - rotates after each call."""
@@ -26,16 +22,13 @@ class KeyManager:
         if self._initialized:
             return
             
-        # Load keys from GEMINI_API_KEY_1, _2, _3
-        self.keys = []
-        for i in range(1, 4):
-            k = os.environ.get(f"GEMINI_API_KEY_{i}")
-            if k:
-                self.keys.append(k)
+        # Load keys from Settings (Strictly validated already)
+        self.keys = [
+            Settings.GEMINI_API_KEY_1,
+            Settings.GEMINI_API_KEY_2,
+            Settings.GEMINI_API_KEY_3
+        ]
         
-        if not self.keys:
-            raise ValueError("ERROR: No GEMINI_API_KEY_1/2/3 found in environment!")
-            
         print(f"🔑 KeyManager: Loaded {len(self.keys)} API keys for rotation.")
         self.clients = [genai.Client(api_key=k) for k in self.keys]
         self.current_idx = 0
