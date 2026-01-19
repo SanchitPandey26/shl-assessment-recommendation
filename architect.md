@@ -1,114 +1,111 @@
-# Backend Architecture
+# System Architecture: SHL Assessment Recommender
 
-This document outlines the architecture of the SHL Assessment Recommendation backend. The system is designed to provide high-relevance assessment recommendations by combining efficient hybrid retrieval with intelligent LLM-based reranking.
+## 1. High-Level Design
 
-## System Overview
-
-The backend follows a **"Retrieve & Rerank"** pattern. It first retrieves a broad set of candidates using a lightweight hybrid search (Vector + Lexical) and then refines the results using a powerful Large Language Model (LLM) to ensure the recommendations align perfectly with the user's specific requirements.
+The system is a **Retrieval-Augmented Generation (RAG)** pipeline specialized for recommendation. It does not generate text answers but rather *ranks and selects* structured items (assessments) using LLM reasoning.
 
 ```mermaid
 graph TD
-    Client[Frontend / Client] -->|POST /recommend| API[FastAPI Layer]
+    User[User Query] --> Frontend[Next.js Frontend]
+    Frontend --> API[FastAPI Backend]
     
-    subgraph "Retrieval Engine (Hybrid)"
-        API -->|1. Rewrite Query| Rewriter[LLM Query Rewriter]
-        Rewriter -->|2. Search| Hybrid[Hybrid Retriever]
-        Hybrid -->|Vector Search| Vector[Numpy Vector Store]
-        Hybrid -->|Lexical Search| Lexical[TF-IDF Index]
-        Vector & Lexical -->|Top-K Candidates| Reranker
+    subgraph "Backend Processing"
+        API --> KeyMgr{Key Manager}
+        KeyMgr -->|Rotate Key| Rewrite[LLM Query Rewriter]
+        Rewrite --> Hybrid[Hybrid Retriever]
+        
+        subgraph "Hybrid Search Engine"
+            Hybrid -->|Vector Search| Model[Gemini Embeddings]
+            Hybrid -->|Keyword Search| TFIDF[TF-IDF Index]
+            Model -->|Cosine Sim| NPY[(Embeddings.npy)]
+            TFIDF -->|Lexical Sim| JSON[(Metadata.json)]
+        end
+        
+        Hybrid -->|Top 20 Candidates| Rerank[LLM Reranker]
+        Rerank -->|Reasoning & Filtering| Final[Top 10 Results]
     end
     
-    subgraph "Reranking Engine"
-        Reranker[LLM Reranker] -->|3. Score & Reason| Gemini[Google Gemini 2.5 Flash]
-        Gemini -->|Ranked Results| API
-    end
-    
-    API -->|JSON Response| Client
+    Final --> API
+    API --> Frontend
 ```
 
-### Request Lifecycle (Sequence Diagram)
+---
 
-```mermaid
-sequenceDiagram
-    participant C as Client (Frontend)
-    participant API as FastAPI Backend
-    participant R as Hybrid Retriever
-    participant LLM as Gemini 2.5 Flash
+## 2. Core Components
 
-    C->>API: POST /recommend (Query)
-    activate API
-    
-    Note over API: 1. Query Rewrite
-    API->>LLM: Rewrite Query for Search
-    LLM-->>API: Rewritten Query
-    
-    Note over API: 2. Retrieval
-    API->>R: retrieve(rewritten_query)
-    par Vector Search
-        R->>R: Cosine Similarity (Numpy)
-    and Lexical Search
-        R->>R: TF-IDF Scoring
-    end
-    R-->>API: Top-40 Candidates
-    
-    Note over API: 3. Reranking
-    API->>LLM: Rerank(Query, Candidates)
-    LLM-->>API: Ranked Results + Reasoning
-    
-    API-->>C: JSON Response (Recommended Assessments)
-    deactivate API
-```
+### A. Key Manager (`app/key_manager.py`)
 
-## Core Components
+* **Purpose**: Overcome Google Gemini Free Tier rate limits (5 RPM).
+* **Mechanism**: Singleton class managing a pool of API keys (`GEMINI_API_KEY_1`...`3`).
+* **Strategy**: **Proactive Rotation**. The key index increments after *every* successful call.
+* **Latency Control**: Implements `sleep()` intervals (1s-2s) to prevent 429 bursts.
 
-### 1. API Layer
+### B. Query Rewriter (`llm/query_rewriter.py`)
 
-- **Framework**: **FastAPI** is used for its high performance and native support for asynchronous operations.
-- **Concurrency**: The `/recommend` endpoint is fully `async`, allowing the server to handle multiple concurrent requests without blocking, which is crucial for the I/O-bound operations involved in calling the LLM.
-- **CORS**: Configured to allow cross-origin requests, enabling seamless integration with the Next.js frontend.
+* **Model**: `gemini-2.5-flash`
+* **Goal**: Transform vague user intent into specific search terms.
+* **Technique**: Zero-shot prompting with JSON output.
+* **Extraction**:
+  * Skills ("Java", "Python")
+  * Job Level ("Senior", "Entry")
+  * Duration constraints ("< 40 mins")
+  * **HyDE** (Hypothetical Document Embeddings): Generates "synthetic" search queries to improved vector matching.
 
-### 2. Retrieval Engine (Hybrid)
+### C. Hybrid Retriever (`embeddings/hybrid_retriever.py`)
 
-The retrieval layer is designed for speed and recall. It combines two search strategies to ensure no relevant candidates are missed.
+* **Why Hybrid?**: Vector search misses exact keyword matches (e.g., specific acronyms). Keyword search misses semantic meaning (e.g., "coding test" vs "automata").
+* **Algorithm**:
 
-- **Vector Search (Semantic)**:
-  - **Model**: `BAAI/bge-small-en-v1.5` (384 dimensions).
-  - **Storage**: **ChromaDB** is used during the build process to generate and manage embeddings.
-  - **Runtime**: For the active deployment, embeddings are exported to **Numpy arrays**. This allows for extremely fast, lightweight cosine similarity calculations without the overhead of running a full vector database instance in memory.
-- **Lexical Search (Keyword)**:
-  - **Method**: TF-IDF (Term Frequency-Inverse Document Frequency) using `scikit-learn`.
-  - **Purpose**: Captures exact keyword matches (e.g., "Java", "Excel") that semantic search might sometimes miss or dilute.
-- **Scoring**:
-  - Final Score = `0.75 * Vector_Score + 0.25 * Lexical_Score`.
-  - **Metadata Boosting**: Additional boosts are applied for matches in `duration`, `job_level`, and `test_type`.
+    ```python
+    Score = (alpha * Vector_Score) + ((1-alpha) * Lexical_Score) + Metadata_Boosts
+    ```
 
-### 3. Reranking Engine (LLM)
+  * `alpha`: 0.75 (favoring vector)
+  * `Metadata_Boosts`: Bonus points for duration match (+0.12), job level (+0.08).
+* **Storage**:
+  * `embeddings_gemini.npy`: Dense vector array (NumPy). Lightweight, fast load.
+  * `meta_gemini.json`: Full catalog metadata.
 
-The reranking layer provides the "intelligence" of the system.
+### D. LLM Reranker (`llm/llm_reranker.py`)
 
-- **Model**: **Google Gemini 2.5 Flash** (`gemini-2.5-flash`).
-- **Logic**: The LLM evaluates the top retrieved candidates against the user's query. It assigns a relevance score (0-1) and provides a reasoning string for *why* a test was recommended.
-- **Prompt Strategy**: The prompt enforces a weighted scoring system:
-  - **Requirement Coverage (45%)**: Does the test meet all user needs?
-  - **Skill Match (25%)**: Is the primary skill measured?
-  - **Test Type (15%)**: Is the format appropriate (e.g., Coding vs. Personality)?
-  - **Duration (10%)**: Is it within the time limit?
-  - **Job Level (5%)**: Is it suitable for the seniority?
+* **Model**: `gemini-2.5-flash`
+* **Input**: Original Query + Top 20 retrieved candidates (JSON).
+* **Logic**:
+  * Evaluates "Requirement Coverage" (45% weight).
+  * Checks "Test Type Appropriateness" (e.g., coding vs personality).
+  * Filters out hallucinations or irrelevant vector matches.
+* **Output**: Re-ordered list with `reason` field explaining the match.
 
-## Implementation Details
+---
 
-### Lazy Loading for Deployment
+## 3. Data Flow
 
-To optimize for deployment on **Render** (which often has strict memory limits on free/starter tiers), the `HybridRetriever` and other heavy components are **lazy-loaded**.
+1. **Ingestion**:
+    * Raw catalog -> CSV/JSON.
+    * `generate_embeddings.py` -> Batches texts -> Calls Gemini API -> Saves `.npy`.
 
-- They are not initialized at module import time.
-- Instead, they are loaded into memory only upon the first request.
-- This prevents the application from timing out during the boot phase ("Cold Start") and keeps memory usage low when the API is idle.
+2. **Runtime**:
+    * App starts -> Loads `.npy` and TF-IDF matrix into RAM.
+    * Request `POST /recommend` -> `retrieve()` -> `rerank()` -> Response.
 
-### Data Flow
+---
 
-1. **Request**: User sends a query (e.g., "Java developer test under 60 mins").
-2. **Rewrite**: The LLM rewrites the query to be more search-friendly (e.g., "Java programming software engineering assessment duration:60m").
-3. **Retrieve**: The Hybrid Retriever fetches the top 40 candidates based on vector and keyword similarity.
-4. **Rerank**: The LLM analyzes these 40 candidates, scores them based on the weighted criteria, and selects the top matches.
-5. **Response**: The API returns the ranked list with metadata, scores, and AI-generated reasoning.
+## 4. Deployment Considerations
+
+### Performance
+
+* **Latency**: ~3-6 seconds.
+  * Embedding calc: ~0.5s
+  * Rewrite: ~1.5s
+  * Rerank: ~2-3s
+* **Memory**: Extremely low (< 500MB). No heavyweight ML frameworks (`torch`/`transformers`) loaded at runtime.
+* **Scalability**: Stateless. Can scale horizontally if API quotas allow.
+
+### Security
+
+* **API Keys**: Stored in `.env` only. Not committed to git.
+
+### Future Improvements
+
+* **Caching**: Implement Redis/InMemory cache for identical queries to save API coins/time.
+* **Async Batching**: Parallelize embedding generation for catalog updates.
